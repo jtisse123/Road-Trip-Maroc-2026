@@ -201,13 +201,11 @@ function placeMatches(p) {
     const hay = norm(p.name + " " + (p.region || "") + " " + (p.categoryLabel || ""));
     if (!hay.includes(filters.query)) return false;
   }
-  const isOptionB = p.days && p.days.length && p.days.every(x => x >= 100);
-  if (currentDay === "all") {
-    if (isOptionB) return false;         // l'Option B ne s'affiche que via ses propres onglets
-  } else {
+  if (currentDay !== "all") {
     const d = Number(currentDay);
     if (!(p.days && p.days.includes(d))) return false;
   }
+  // en vue "Tous", l'Option B est aussi affichée (comme l'itinéraire d'origine)
   if (filters.cats && !filters.cats.has(p.category)) return false;
   if (filters.minInterest && !(p.interest >= filters.minInterest)) return false;
   if (filters.detour !== "all") {
@@ -243,7 +241,7 @@ function refresh() {
   const fc = { type: "FeatureCollection", features: vis.map(placeFeature) };
   const src = map.getSource("places"); if (src) src.setData(fc);
   // routes : filtre par jour
-  const rf = DATA.routes.features.filter(f => currentDay === "all" ? f.properties.day < 100 : f.properties.day === Number(currentDay));
+  const rf = DATA.routes.features.filter(f => currentDay === "all" ? true : f.properties.day === Number(currentDay));
   const rsrc = map.getSource("routes"); if (rsrc) rsrc.setData({ type: "FeatureCollection", features: rf });
   renderList(vis);
   renderTimeline();
@@ -333,7 +331,7 @@ function renderTimeline() {
   daysToShow.forEach(num => {
     const d = DATA.days.find(x => x.num === num); if (!d) return;
     const wrap = el("div", "tl-day");
-    wrap.appendChild(el("h4", null, `<span class="dot" style="width:10px;height:10px;border-radius:50%;display:inline-block;background:${d.color}"></span> Jour ${d.num} — ${esc(d.label)}`));
+    wrap.appendChild(el("h4", null, `<span class="dot" style="width:10px;height:10px;border-radius:50%;display:inline-block;background:${d.color}"></span> ${d.optionB ? esc(d.label) : "Jour " + d.num + " — " + esc(d.label)}`));
     // étapes = villes traversées (depuis le tracé) + lieux clés
     const stops = routeStopNames(num);
     stops.forEach(s => {
@@ -502,7 +500,7 @@ function selectDay(day) {
 function fitToDay(day) {
   let coords = [];
   if (day === "all") {
-    PLACES.forEach(p => { if (p.lat != null && !(p.days && p.days.length && p.days.every(x=>x>=100))) coords.push([p.lon, p.lat]); });
+    PLACES.forEach(p => { if (p.lat != null) coords.push([p.lon, p.lat]); });
   } else {
     const route = DATA.routes.features.find(f => f.properties.day === Number(day));
     if (route) coords = coords.concat(route.geometry.coordinates);
@@ -1010,7 +1008,7 @@ function buildLegend() {
 
 /* ---------- Vraies routes (routage à la volée + cache hors ligne) ---------- */
 function updateRoutesSource() {
-  const rf = DATA.routes.features.filter(f => currentDay === "all" ? f.properties.day < 100 : f.properties.day === Number(currentDay));
+  const rf = DATA.routes.features.filter(f => currentDay === "all" ? true : f.properties.day === Number(currentDay));
   const rsrc = map.getSource("routes"); if (rsrc) rsrc.setData({ type: "FeatureCollection", features: rf });
 }
 function captureWaypoints() {
