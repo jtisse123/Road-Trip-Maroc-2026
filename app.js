@@ -408,17 +408,22 @@ function openCard(id, fromList) {
     facts += fact("👤 Encadrement", esc(p.guide));
   }
   if (p.days && p.days.length) facts += fact("🗓️ Journée(s)", p.days.map(x => x >= 100 ? ("Jour " + (x - 100) + " — Option B") : ("Jour " + x)).join(", "));
-  const q = encodeURIComponent((p.mapsQuery || p.name) + " Maroc");
+  let baseq = p.mapsQuery || p.name;
+  if (!/maroc|morocco/i.test(baseq)) baseq += " Maroc";
+  const q = encodeURIComponent(baseq);
   let gmaps, nav;
   if (p.placeId) {
+    // repère officiel exact (identifiant Google du lieu)
     gmaps = `https://www.google.com/maps/search/?api=1&query=${q}&query_place_id=${p.placeId}`;
     nav = `https://www.google.com/maps/dir/?api=1&destination=${q}&destination_place_id=${p.placeId}`;
-  } else if (p.coordPrecision === "precise" && p.lat != null) {
+  } else if (p.userAdded && p.lat != null) {
+    // lieu ajouté par l'utilisateur : on utilise son point exact
     gmaps = `https://www.google.com/maps/search/?api=1&query=${p.lat},${p.lon}`;
     nav = `https://www.google.com/maps/dir/?api=1&destination=${p.lat},${p.lon}`;
   } else {
-    gmaps = p.mapsUrl || `https://www.google.com/maps/search/?api=1&query=${q}`;
-    nav = gmaps;
+    // recherche par NOM -> Google ouvre le lieu officiel (pas une épingle brute)
+    gmaps = `https://www.google.com/maps/search/?api=1&query=${q}`;
+    nav = `https://www.google.com/maps/dir/?api=1&destination=${q}`;
   }
   const userEditable = String(id).startsWith("U");
   $("#cardBody").innerHTML =

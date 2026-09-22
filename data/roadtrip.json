@@ -303,19 +303,20 @@
    "days": [
     1
    ],
-   "lat": 31.6238,
-   "lon": -7.9934,
+   "lat": 31.6237205,
+   "lon": -7.9936196,
    "coordPrecision": "precise",
    "interest": 5,
    "duree": "20–40 min",
    "detour": "sur place",
    "detourClass": "sur_la_route",
    "desc": "Minaret et jardins ; visite extérieure, ne pas présumer l’accès à la salle de prière.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Koutoubia+Marrakech+Maroc",
-   "mapsQuery": "Koutoubia Marrakech Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Koutoubia%20Maroc&query_place_id=ChIJ313XmVzurw0Rwm9umhM4zdg",
+   "mapsQuery": "Koutoubia",
    "status": "verifie",
    "statusLabel": "✅ existence/information documentée ; ouverture à reconfirmer",
-   "sourceUrl": "https://visitmarrakech.com/a-vivre-absolument/histoire-et-patrimoine/"
+   "sourceUrl": "https://visitmarrakech.com/a-vivre-absolument/histoire-et-patrimoine/",
+   "placeId": "ChIJ313XmVzurw0Rwm9umhM4zdg"
   },
   {
    "id": "L002",
@@ -327,19 +328,20 @@
    "days": [
     1
    ],
-   "lat": 31.6218,
-   "lon": -7.9836,
+   "lat": 31.6217067,
+   "lon": -7.9819688,
    "coordPrecision": "precise",
    "interest": 5,
    "duree": "1–1 h 30",
    "detour": "sur place",
    "detourClass": "sur_la_route",
    "desc": "Patios, plafonds et architecture palatiale ; portions accessibles à reconfirmer.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Palais+Bahia+Marrakech+Maroc",
-   "mapsQuery": "Palais Bahia Marrakech Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Palais%20Bahia%20Maroc&query_place_id=ChIJq0vBckfurw0R23-BRUdfmII",
+   "mapsQuery": "Palais Bahia",
    "status": "verifie",
    "statusLabel": "✅ existence/information documentée ; ouverture à reconfirmer",
-   "sourceUrl": "https://visitmarrakech.com/a-vivre-absolument/histoire-et-patrimoine/"
+   "sourceUrl": "https://visitmarrakech.com/a-vivre-absolument/histoire-et-patrimoine/",
+   "placeId": "ChIJq0vBckfurw0R23-BRUdfmII"
   },
   {
    "id": "L003",
@@ -351,19 +353,20 @@
    "days": [
     1
    ],
-   "lat": 31.6178,
-   "lon": -7.9862,
+   "lat": 31.6182364,
+   "lon": -7.9858623,
    "coordPrecision": "precise",
    "interest": 4,
    "duree": "1 h",
    "detour": "sur place, accès pédestre",
    "detourClass": "sur_la_route",
    "desc": "Grandes cours et vestiges saadiens ; belle lecture des volumes.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Palais+El+Badi+Marrakech+Maroc",
-   "mapsQuery": "Palais El Badi Marrakech Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Palais%20El%20Badi%20Maroc&query_place_id=ChIJlWHOBEburw0RYVoOelKFmuo",
+   "mapsQuery": "Palais El Badi",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJlWHOBEburw0RYVoOelKFmuo"
   },
   {
    "id": "L004",
@@ -375,19 +378,20 @@
    "days": [
     1
    ],
-   "lat": 31.6178,
-   "lon": -7.9892,
+   "lat": 31.6173553,
+   "lon": -7.9887607,
    "coordPrecision": "precise",
    "interest": 4,
    "duree": "45–60 min",
    "detour": "sur place, accès pédestre",
    "detourClass": "sur_la_route",
    "desc": "Décor funéraire et marbre ; attente possible.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tombeaux+saadiens+Marrakech+Maroc",
-   "mapsQuery": "Tombeaux saadiens Marrakech Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tombeaux%20saadiens%20Maroc&query_place_id=ChIJCzIsG0_urw0Rzm6eg-9qx_0",
+   "mapsQuery": "Tombeaux saadiens",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJCzIsG0_urw0Rzm6eg-9qx_0"
   },
   {
    "id": "L005",
@@ -399,19 +403,20 @@
    "days": [
     1
    ],
-   "lat": 31.6317,
-   "lon": -7.9866,
+   "lat": 31.6320537,
+   "lon": -7.9862761,
    "coordPrecision": "precise",
    "interest": 5,
    "duree": "1 h",
    "detour": "sur place",
    "detourClass": "sur_la_route",
    "desc": "Cour et anciennes cellules d’étudiants ; visite libre.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=M%C3%A9dersa+Ben+Youssef+Marrakech+Maroc",
-   "mapsQuery": "Médersa Ben Youssef Marrakech Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=M%C3%A9dersa%20Ben%20Youssef%20Maroc&query_place_id=ChIJr0A2gGnurw0RoaPk7MWtElU",
+   "mapsQuery": "Médersa Ben Youssef",
    "status": "verifie",
    "statusLabel": "✅ existence/information documentée ; ouverture à reconfirmer",
-   "sourceUrl": "https://visitmarrakech.com/a-vivre-absolument/histoire-et-patrimoine/"
+   "sourceUrl": "https://visitmarrakech.com/a-vivre-absolument/histoire-et-patrimoine/",
+   "placeId": "ChIJr0A2gGnurw0RoaPk7MWtElU"
   },
   {
    "id": "L006",
@@ -423,19 +428,20 @@
    "days": [
     1
    ],
-   "lat": 31.6314,
-   "lon": -7.9868,
+   "lat": 31.6314232,
+   "lon": -7.9871497,
    "coordPrecision": "precise",
    "interest": 4,
    "duree": "15–25 min",
    "detour": "sur place",
    "detourClass": "sur_la_route",
    "desc": "Petit monument ancien près de Ben Youssef ; accès intérieur incertain.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Qoubba+almoravide+Marrakech+Maroc",
-   "mapsQuery": "Qoubba almoravide Marrakech Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Qoubba%20almoravide%20Maroc&query_place_id=ChIJccv9hGnurw0R9Syxi0yCiP0",
+   "mapsQuery": "Qoubba almoravide",
    "status": "incertain",
    "statusLabel": "⚠️ saisonnier / accès incertain",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJccv9hGnurw0R9Syxi0yCiP0"
   },
   {
    "id": "L007",
@@ -447,19 +453,20 @@
    "days": [
     1
    ],
-   "lat": 31.6318,
-   "lon": -7.9861,
+   "lat": 31.6316423,
+   "lon": -7.9862131,
    "coordPrecision": "precise",
    "interest": 3,
    "duree": "45–60 min",
    "detour": "sur place, accès pédestre",
    "detourClass": "sur_la_route",
    "desc": "Palais Mnebhi, patio et architecture ; intérêt architectural avant tout.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mus%C3%A9e+de+Marrakech+Marrakech+Maroc",
-   "mapsQuery": "Musée de Marrakech Marrakech Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mus%C3%A9e%20de%20Marrakech%20Maroc&query_place_id=ChIJy_j9iGnurw0RZnze99OMJF8",
+   "mapsQuery": "Musée de Marrakech",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJy_j9iGnurw0RZnze99OMJF8"
   },
   {
    "id": "L008",
@@ -471,19 +478,20 @@
    "days": [
     1
    ],
-   "lat": 31.633,
-   "lon": -7.9905,
+   "lat": 31.6314376,
+   "lon": -7.9922895,
    "coordPrecision": "precise",
    "interest": 4,
    "duree": "1 h",
    "detour": "sur place, accès pédestre",
    "detourClass": "sur_la_route",
    "desc": "Palais et Musée des Confluences ; vérifier accès au musée indépendamment du café.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Dar+El+Bacha+Marrakech+Maroc",
-   "mapsQuery": "Dar El Bacha Marrakech Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Dar%20El%20Bacha%20Maroc&query_place_id=ChIJg7AinKnvrw0RPnxAYcKox-E",
+   "mapsQuery": "Dar El Bacha",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJg7AinKnvrw0RPnxAYcKox-E"
   },
   {
    "id": "L009",
@@ -495,19 +503,20 @@
    "days": [
     1
    ],
-   "lat": 31.632,
-   "lon": -7.986,
+   "lat": 31.6319953,
+   "lon": -7.9842386,
    "coordPrecision": "precise",
    "interest": 5,
    "duree": "1 h",
    "detour": "sur place",
    "detourClass": "sur_la_route",
    "desc": "Images anciennes du Maroc et terrasse ; annonce 9 h 30–19 h, billet adulte 80 MAD, à reconfirmer pour votre date.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Maison+de+la+Photographie+Marrakech+Maroc",
-   "mapsQuery": "Maison de la Photographie Marrakech Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Maison%20de%20la%20Photographie%20Maroc&query_place_id=ChIJ1xpYs2vurw0RbqBE6JcSvWQ",
+   "mapsQuery": "Maison de la Photographie",
    "status": "verifie",
    "statusLabel": "✅ existence/information documentée ; ouverture à reconfirmer",
-   "sourceUrl": "https://maisondelaphotographie.ma/about/"
+   "sourceUrl": "https://maisondelaphotographie.ma/about/",
+   "placeId": "ChIJ1xpYs2vurw0RbqBE6JcSvWQ"
   },
   {
    "id": "L010",
@@ -519,19 +528,20 @@
    "days": [
     1
    ],
-   "lat": 31.63314,
-   "lon": -7.98416,
-   "coordPrecision": "zone",
+   "lat": 31.6294966,
+   "lon": -7.9890551,
+   "coordPrecision": "precise",
    "interest": 4,
    "duree": "45–60 min",
    "detour": "sur place, accès pédestre",
    "detourClass": "sur_la_route",
    "desc": "Maison ancienne et patrimoine musical ; concert seulement si annoncé.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mus%C3%A9e+de+la+Musique+Mouassine+Marrakech+Maroc",
-   "mapsQuery": "Musée de la Musique Mouassine Marrakech Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mus%C3%A9e%20de%20la%20Musique%20Mouassine%20Maroc&query_place_id=ChIJUfVXLWjurw0RBtNGIQSEnws",
+   "mapsQuery": "Musée de la Musique Mouassine",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJUfVXLWjurw0RBtNGIQSEnws"
   },
   {
    "id": "L011",
@@ -543,19 +553,20 @@
    "days": [
     1
    ],
-   "lat": 31.6258,
-   "lon": -7.9891,
+   "lat": 31.6251482,
+   "lon": -7.9891299,
    "coordPrecision": "precise",
    "interest": 4,
    "duree": "45–60 min",
    "detour": "sur place",
    "detourClass": "sur_la_route",
    "desc": "Approfondir les traditions de la place à travers une visite intérieure.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mus%C3%A9e+du+patrimoine+immat%C3%A9riel+Jemaa+el-Fna+Marrakech+Maroc",
-   "mapsQuery": "Musée du patrimoine immatériel Jemaa el-Fna Marrakech Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mus%C3%A9e%20du%20patrimoine%20immat%C3%A9riel%20Jemaa%20el-Fna%20Maroc&query_place_id=ChIJyz7eaaPvrw0RBSGyTLTlXzI",
+   "mapsQuery": "Musée du patrimoine immatériel Jemaa el-Fna",
    "status": "verifie",
    "statusLabel": "✅ existence/information documentée ; ouverture à reconfirmer",
-   "sourceUrl": "https://visitmarrakech.com/a-vivre-absolument/histoire-et-patrimoine/"
+   "sourceUrl": "https://visitmarrakech.com/a-vivre-absolument/histoire-et-patrimoine/",
+   "placeId": "ChIJyz7eaaPvrw0RBSGyTLTlXzI"
   },
   {
    "id": "L012",
@@ -567,19 +578,20 @@
    "days": [
     1
    ],
-   "lat": 31.6182,
-   "lon": -7.9878,
+   "lat": 31.6175582,
+   "lon": -7.9906871,
    "coordPrecision": "precise",
    "interest": 4,
    "duree": "15 min",
    "detour": "sur place, accès pédestre",
    "detourClass": "sur_la_route",
    "desc": "Porte monumentale sculptée à l’entrée de la kasbah.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bab+Agnaou+Marrakech+Maroc",
-   "mapsQuery": "Bab Agnaou Marrakech Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bab%20Agnaou%20Maroc&query_place_id=ChIJ0wv4X0Xurw0ReKnrpn63zNw",
+   "mapsQuery": "Bab Agnaou",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJ0wv4X0Xurw0ReKnrpn63zNw"
   },
   {
    "id": "L013",
@@ -591,19 +603,20 @@
    "days": [
     1
    ],
-   "lat": 31.63224,
-   "lon": -7.97704,
-   "coordPrecision": "zone",
+   "lat": 31.6200187,
+   "lon": -7.9824166,
+   "coordPrecision": "precise",
    "interest": 4,
    "duree": "30–45 min",
    "detour": "sur place, accès pédestre",
    "detourClass": "sur_la_route",
    "desc": "Patrimoine juif du mellah ; conditions de visite et jours d’accès à confirmer.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Synagogue+Slat+Al+Azama+Marrakech+Maroc",
-   "mapsQuery": "Synagogue Slat Al Azama Marrakech Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Synagogue%20Slat%20Al%20Azama%20Maroc&query_place_id=ChIJe1_4l0furw0RiYJAClULeAM",
+   "mapsQuery": "Synagogue Slat Al Azama",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJe1_4l0furw0RiYJAClULeAM"
   },
   {
    "id": "L014",
@@ -615,19 +628,20 @@
    "days": [
     1
    ],
-   "lat": 31.63352,
-   "lon": -7.98561,
-   "coordPrecision": "zone",
+   "lat": 31.6418694,
+   "lon": -8.0028769,
+   "coordPrecision": "precise",
    "interest": 4,
    "duree": "45–60 min",
    "detour": "sur place",
    "detourClass": "sur_la_route",
    "desc": "Objets, parures et textiles ; billet adapté à choisir avec Majorelle.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mus%C3%A9e+Pierre+Berg%C3%A9+des+arts+berb%C3%A8res+Marrakech+Maroc",
-   "mapsQuery": "Musée Pierre Bergé des arts berbères Marrakech Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mus%C3%A9e%20Pierre%20Berg%C3%A9%20des%20arts%20berb%C3%A8res%20Maroc&query_place_id=ChIJaQn3eYfurw0Rxo0aTqevgUo",
+   "mapsQuery": "Musée Pierre Bergé des arts berbères",
    "status": "verifie",
    "statusLabel": "✅ existence/information documentée ; ouverture à reconfirmer",
-   "sourceUrl": "https://www.jardinmajorelle.com/en/"
+   "sourceUrl": "https://www.jardinmajorelle.com/en/",
+   "placeId": "ChIJaQn3eYfurw0Rxo0aTqevgUo"
   },
   {
    "id": "L015",
@@ -639,19 +653,20 @@
    "days": [
     1
    ],
-   "lat": 31.6415,
-   "lon": -8.003,
+   "lat": 31.6425934,
+   "lon": -8.0031422,
    "coordPrecision": "precise",
    "interest": 3,
    "duree": "1 h",
    "detour": "sur place, accès pédestre",
    "detourClass": "sur_la_route",
    "desc": "Mode et architecture contemporaine, pertinent selon votre intérêt.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mus%C3%A9e+Yves+Saint+Laurent+Marrakech+Maroc",
-   "mapsQuery": "Musée Yves Saint Laurent Marrakech Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mus%C3%A9e%20Yves%20Saint%20Laurent%20Maroc&query_place_id=ChIJJ4feen3urw0RNy3HIexeiVE",
+   "mapsQuery": "Musée Yves Saint Laurent",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJJ4feen3urw0RNy3HIexeiVE"
   },
   {
    "id": "L016",
@@ -663,19 +678,20 @@
    "days": [
     1
    ],
-   "lat": 31.6258,
-   "lon": -7.9891,
+   "lat": 31.6259521,
+   "lon": -7.9890491,
    "coordPrecision": "precise",
    "interest": 5,
    "duree": "1–2 h",
    "detour": "sur place, accès pédestre",
    "detourClass": "sur_la_route",
    "desc": "Place vivante, stands et spectacles spontanés ; prix des prestations à convenir.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Jemaa+el-Fna+Marrakech+Maroc",
-   "mapsQuery": "Jemaa el-Fna Marrakech Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Jemaa%20el-Fna%20Maroc&query_place_id=ChIJ-WuddEHvrw0RDeah4wzCrnI",
+   "mapsQuery": "Jemaa el-Fna",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJ-WuddEHvrw0RDeah4wzCrnI"
   },
   {
    "id": "L017",
@@ -687,19 +703,20 @@
    "days": [
     1
    ],
-   "lat": 31.63188,
-   "lon": -7.98303,
-   "coordPrecision": "zone",
+   "lat": 31.6279711,
+   "lon": -7.9880702,
+   "coordPrecision": "precise",
    "interest": 4,
    "duree": "45–60 min",
    "detour": "sur place, accès pédestre",
    "detourClass": "sur_la_route",
    "desc": "Grande artère commerçante, textiles et artisanat.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Souk+Semmarine+Marrakech+Maroc",
-   "mapsQuery": "Souk Semmarine Marrakech Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Souk%20Semmarine%20Maroc&query_place_id=ChIJ47_4bELurw0R-EWmWhGIhis",
+   "mapsQuery": "Souk Semmarine",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJ47_4bELurw0R-EWmWhGIhis"
   },
   {
    "id": "L018",
@@ -711,19 +728,20 @@
    "days": [
     1
    ],
-   "lat": 31.63343,
-   "lon": -7.98516,
-   "coordPrecision": "zone",
+   "lat": 31.6297967,
+   "lon": -7.9872164,
+   "coordPrecision": "precise",
    "interest": 4,
    "duree": "20–40 min",
    "detour": "sur place, accès pédestre",
    "detourClass": "sur_la_route",
    "desc": "Place des épices et objets tressés ; bon repère dans la médina.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Rahba+Kedima+Marrakech+Maroc",
-   "mapsQuery": "Rahba Kedima Marrakech Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Rahba%20Kedima%20Maroc&query_place_id=ChIJz0b54Gnurw0RCq7lvFHFAGQ",
+   "mapsQuery": "Rahba Kedima",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJz0b54Gnurw0RCq7lvFHFAGQ"
   },
   {
    "id": "L019",
@@ -735,19 +753,20 @@
    "days": [
     1
    ],
-   "lat": 31.63376,
-   "lon": -7.98241,
-   "coordPrecision": "zone",
+   "lat": 31.6299774,
+   "lon": -7.9890286,
+   "coordPrecision": "precise",
    "interest": 4,
    "duree": "30 min",
    "detour": "sur place, accès pédestre",
    "detourClass": "sur_la_route",
    "desc": "Secteur Sebbaghine ; activité des ateliers variable, demander avant de photographier.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Souk+des+Teinturiers+Marrakech+Maroc",
-   "mapsQuery": "Souk des Teinturiers Marrakech Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Souk%20des%20Teinturiers%20Maroc&query_place_id=ChIJ7wbDuGnurw0RKTrOw9_WjKQ",
+   "mapsQuery": "Souk des Teinturiers",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJ7wbDuGnurw0RKTrOw9_WjKQ"
   },
   {
    "id": "L020",
@@ -759,19 +778,20 @@
    "days": [
     1
    ],
-   "lat": 31.62907,
-   "lon": -7.98555,
-   "coordPrecision": "zone",
+   "lat": 31.6308404,
+   "lon": -7.9872983,
+   "coordPrecision": "precise",
    "interest": 4,
    "duree": "30 min",
    "detour": "sur place, accès pédestre",
    "detourClass": "sur_la_route",
    "desc": "Travail et vente du cuir ; distinguer atelier actif et boutique.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Souk+Cherratine+Marrakech+Maroc",
-   "mapsQuery": "Souk Cherratine Marrakech Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Souk%20Cherratine%20Maroc&query_place_id=ChIJ-68v62nurw0R1X2ajUZbDH4",
+   "mapsQuery": "Souk Cherratine",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJ-68v62nurw0R1X2ajUZbDH4"
   },
   {
    "id": "L021",
@@ -783,19 +803,20 @@
    "days": [
     1
    ],
-   "lat": 31.63393,
-   "lon": -7.97614,
-   "coordPrecision": "zone",
+   "lat": 31.6309137,
+   "lon": -7.9877003,
+   "coordPrecision": "precise",
    "interest": 4,
    "duree": "30 min",
    "detour": "sur place, accès pédestre",
    "detourClass": "sur_la_route",
    "desc": "Ferronnerie et objets métalliques, activité à observer sans entrer sans accord.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Souk+Haddadine+Marrakech+Maroc",
-   "mapsQuery": "Souk Haddadine Marrakech Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Souk%20Haddadine%20Maroc&query_place_id=ChIJtctN9ELurw0RjUkr6GZ8kss",
+   "mapsQuery": "Souk Haddadine",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJtctN9ELurw0RjUkr6GZ8kss"
   },
   {
    "id": "L022",
@@ -807,19 +828,20 @@
    "days": [
     1
    ],
-   "lat": 31.62955,
-   "lon": -7.97829,
-   "coordPrecision": "zone",
+   "lat": 31.6196162,
+   "lon": -7.9847803,
+   "coordPrecision": "precise",
    "interest": 4,
    "duree": "20–30 min",
    "detour": "sur place, accès pédestre",
    "detourClass": "sur_la_route",
    "desc": "Place ouverte entre palais et mellah ; pause et objets en métal.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Place+des+Ferblantiers+Marrakech+Maroc",
-   "mapsQuery": "Place des Ferblantiers Marrakech Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Place%20des%20Ferblantiers%20Maroc&query_place_id=ChIJUfXYmtnvrw0R6BK543vBjPU",
+   "mapsQuery": "Place des Ferblantiers",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJUfXYmtnvrw0R6BK543vBjPU"
   },
   {
    "id": "L023",
@@ -831,19 +853,20 @@
    "days": [
     1
    ],
-   "lat": 31.616,
-   "lon": -7.981,
+   "lat": 31.6201349,
+   "lon": -7.9831284,
    "coordPrecision": "precise",
    "interest": 4,
    "duree": "45–60 min",
    "detour": "sur place, accès pédestre",
    "detourClass": "sur_la_route",
    "desc": "Rues commerçantes et mémoire du quartier juif.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mellah+de+Marrakech+Marrakech+Maroc",
-   "mapsQuery": "Mellah de Marrakech Marrakech Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mellah%20de%20Marrakech%20Maroc&query_place_id=ChIJbSV8KTjurw0RlzPILrXRBp0",
+   "mapsQuery": "Mellah de Marrakech",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJbSV8KTjurw0RlzPILrXRBp0"
   },
   {
    "id": "L024",
@@ -879,19 +902,20 @@
    "days": [
     1
    ],
-   "lat": 31.63,
-   "lon": -7.9878,
+   "lat": 31.6306908,
+   "lon": -7.98952,
    "coordPrecision": "precise",
    "interest": 4,
    "duree": "1 h",
    "detour": "sur place",
    "detourClass": "sur_la_route",
    "desc": "Jardin et système de l’eau ; novembre–janvier 9 h 30–18 h, dernière entrée 30 min avant, tarif affiché 100 MAD hors tour.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Jardin+Secret+Marrakech+Maroc",
-   "mapsQuery": "Jardin Secret Marrakech Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Jardin%20Secret%20Maroc&query_place_id=ChIJAT6_TWjurw0RDFwgrWaR2FA",
+   "mapsQuery": "Jardin Secret",
    "status": "verifie",
    "statusLabel": "✅ existence/information documentée ; ouverture à reconfirmer",
-   "sourceUrl": "https://www.lejardinsecretmarrakech.com/info-pratique/"
+   "sourceUrl": "https://www.lejardinsecretmarrakech.com/info-pratique/",
+   "placeId": "ChIJAT6_TWjurw0RDFwgrWaR2FA"
   },
   {
    "id": "L026",
@@ -903,19 +927,20 @@
    "days": [
     1
    ],
-   "lat": 31.6417,
-   "lon": -8.0033,
+   "lat": 31.6412031,
+   "lon": -8.0032397,
    "coordPrecision": "precise",
    "interest": 4,
    "duree": "1–1 h 30",
    "detour": "ville, transfert à calculer",
    "detourClass": null,
    "desc": "Collection végétale et bleu emblématique ; réservation officielle en ligne, horaires publiés 8 h–18 h 30, dernière entrée 18 h.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Jardin+Majorelle+Marrakech+Maroc",
-   "mapsQuery": "Jardin Majorelle Marrakech Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Jardin%20Majorelle%20Maroc&query_place_id=ChIJj7dmi4furw0RHPHQzsn2zIg",
+   "mapsQuery": "Jardin Majorelle",
    "status": "verifie",
    "statusLabel": "✅ existence/information documentée ; ouverture à reconfirmer",
-   "sourceUrl": "https://www.jardinmajorelle.com/en/"
+   "sourceUrl": "https://www.jardinmajorelle.com/en/",
+   "placeId": "ChIJj7dmi4furw0RHPHQzsn2zIg"
   },
   {
    "id": "L027",
@@ -927,19 +952,20 @@
    "days": [
     1
    ],
-   "lat": 31.62483,
-   "lon": -7.98271,
-   "coordPrecision": "zone",
+   "lat": 31.6143271,
+   "lon": -8.0225425,
+   "coordPrecision": "precise",
    "interest": 4,
    "duree": "45–60 min",
    "detour": "ville, transfert à calculer",
    "detourClass": null,
    "desc": "Bassin et oliveraie avec horizon sur l’Atlas si ciel clair.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Jardins+de+la+M%C3%A9nara+Marrakech+Maroc",
-   "mapsQuery": "Jardins de la Ménara Marrakech Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Jardins%20de%20la%20M%C3%A9nara%20Maroc&query_place_id=ChIJBz72Seburw0Rfsjs9Cc2jl0",
+   "mapsQuery": "Jardins de la Ménara",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJBz72Seburw0Rfsjs9Cc2jl0"
   },
   {
    "id": "L028",
@@ -951,19 +977,20 @@
    "days": [
     1
    ],
-   "lat": 31.62647,
-   "lon": -7.97852,
-   "coordPrecision": "zone",
+   "lat": 31.626536,
+   "lon": -7.996418,
+   "coordPrecision": "precise",
    "interest": 3,
    "duree": "30–45 min",
    "detour": "sur place, accès pédestre",
    "detourClass": "sur_la_route",
    "desc": "Pause verte proche de la médina.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Cyber+Parc+Arsat+Moulay+Abdeslam+Marrakech+Maroc",
-   "mapsQuery": "Cyber Parc Arsat Moulay Abdeslam Marrakech Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Cyber%20Parc%20Arsat%20Moulay%20Abdeslam%20Maroc&query_place_id=ChIJLYr5RF7urw0RyWqsWrE5oOE",
+   "mapsQuery": "Cyber Parc Arsat Moulay Abdeslam",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJLYr5RF7urw0RyWqsWrE5oOE"
   },
   {
    "id": "L029",
@@ -975,22 +1002,23 @@
    "days": [
     1
    ],
-   "lat": 31.62911,
-   "lon": -7.98272,
-   "coordPrecision": "zone",
+   "lat": 31.6361111,
+   "lon": -8.0136111,
+   "coordPrecision": "precise",
    "interest": null,
    "duree": null,
    "detour": null,
    "detourClass": null,
    "desc": "Cuisine marocaine, réservation conseillée.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Al+Fassia+Gu%C3%A9liz+Marrakech+Maroc",
-   "mapsQuery": "Al Fassia Guéliz Marrakech Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Al%20Fassia%20Gu%C3%A9liz%20Maroc&query_place_id=ChIJvfQI1I_urw0ReYbaEA1oE_8",
+   "mapsQuery": "Al Fassia Guéliz",
    "status": "verifie",
    "statusLabel": "✅ existence/information documentée ; ouverture à reconfirmer",
    "sourceUrl": "https://alfassia.com/gueliz/",
    "restoType": "table marocaine soignée",
    "budget": "250–450 MAD / personne, estimation",
-   "commander": "agneau ou tajine selon carte ; commande préalable pour plats longs"
+   "commander": "agneau ou tajine selon carte ; commande préalable pour plats longs",
+   "placeId": "ChIJvfQI1I_urw0ReYbaEA1oE_8"
   },
   {
    "id": "L030",
@@ -1002,22 +1030,23 @@
    "days": [
     1
    ],
-   "lat": 31.62709,
-   "lon": -7.98495,
-   "coordPrecision": "zone",
+   "lat": 31.6128952,
+   "lon": -7.987251,
+   "coordPrecision": "precise",
    "interest": null,
    "duree": null,
    "detour": null,
    "detourClass": null,
    "desc": "Carte publiée, cadre décontracté ; vérifier l’offre propre à Marrakech.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+Clock+Marrakech+Marrakech+Maroc",
-   "mapsQuery": "Café Clock Marrakech Marrakech Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Clock%20Marrakech%20Maroc&query_place_id=ChIJSXNuuk7urw0RpsrQ9sOA8-U",
+   "mapsQuery": "Café Clock Marrakech",
    "status": "verifie",
    "statusLabel": "✅ existence/information documentée ; ouverture à reconfirmer",
    "sourceUrl": "https://cafeclock.squarespace.com/our-food",
    "restoType": "café culturel",
    "budget": "100–180 MAD / personne, estimation",
-   "commander": "rfissa ou couscous selon carte"
+   "commander": "rfissa ou couscous selon carte",
+   "placeId": "ChIJSXNuuk7urw0RpsrQ9sOA8-U"
   },
   {
    "id": "L031",
@@ -1056,22 +1085,23 @@
    "days": [
     1
    ],
-   "lat": 31.626,
-   "lon": -7.988,
+   "lat": 31.6269859,
+   "lon": -7.9876661,
    "coordPrecision": "precise",
    "interest": null,
    "duree": null,
    "detour": null,
    "detourClass": null,
    "desc": "Expérience de cuisson traditionnelle ; quantité et prix au poids à convenir.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Four+et+r%C3%B4tisseries+du+secteur+Mechoui+Alley+Marrakech+Maroc",
-   "mapsQuery": "Four et rôtisseries du secteur Mechoui Alley Marrakech Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Four%20et%20r%C3%B4tisseries%20du%20secteur%20Mechoui%20Alley%20Maroc&query_place_id=ChIJc-TMOULurw0REXpbqEQYzWk",
+   "mapsQuery": "Four et rôtisseries du secteur Mechoui Alley",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
    "sourceUrl": null,
    "restoType": "petite restauration, secteur",
    "budget": "80–160 MAD / personne, estimation",
-   "commander": "portion de méchoui ou tanjia disponible"
+   "commander": "portion de méchoui ou tanjia disponible",
+   "placeId": "ChIJc-TMOULurw0REXpbqEQYzWk"
   },
   {
    "id": "L033",
@@ -1632,19 +1662,20 @@
    "days": [
     3
    ],
-   "lat": 31.0472,
-   "lon": -7.1316,
+   "lat": 31.047043,
+   "lon": -7.1318996,
    "coordPrecision": "precise",
    "interest": 5,
    "duree": "1 h 30–2 h",
    "detour": "étape prévue",
    "detourClass": "sur_la_route",
    "desc": "Architecture de terre et habitat fortifié classé à l’UNESCO ; promenade libre dans les accès publics.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ksar+d%E2%80%99A%C3%AFt-Ben-Haddou+A%C3%AFt-Ben-Haddou+et+Tichka+Maroc",
-   "mapsQuery": "Ksar d’Aït-Ben-Haddou Aït-Ben-Haddou et Tichka Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ksar%20d%E2%80%99A%C3%AFt-Ben-Haddou%20Maroc&query_place_id=ChIJORRBIGHgug0ROhLsoGQPCU0",
+   "mapsQuery": "Ksar d’Aït-Ben-Haddou",
    "status": "verifie",
    "statusLabel": "✅ existence/information documentée ; ouverture à reconfirmer",
-   "sourceUrl": "https://whc.unesco.org/en/list/444/"
+   "sourceUrl": "https://whc.unesco.org/en/list/444/",
+   "placeId": "ChIJORRBIGHgug0ROhLsoGQPCU0"
   },
   {
    "id": "L056",
@@ -1752,19 +1783,20 @@
    "days": [
     3
    ],
-   "lat": 31.288,
-   "lon": -7.24,
+   "lat": 31.2870382,
+   "lon": -7.2368011,
    "coordPrecision": "precise",
    "interest": 4,
    "duree": "45–60 min",
    "detour": "grand détour, voir section 2",
    "detourClass": null,
    "desc": "Palais glaoui, intérieur susceptible de fermeture/restauration ; ne venir qu’après confirmation.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kasbah+de+Telouet+A%C3%AFt-Ben-Haddou+et+Tichka+Maroc",
-   "mapsQuery": "Kasbah de Telouet Aït-Ben-Haddou et Tichka Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kasbah%20de%20Telouet%20Maroc&query_place_id=ChIJvS9uyUzQug0RB_QDbN_a30o",
+   "mapsQuery": "Kasbah de Telouet",
    "status": "incertain",
    "statusLabel": "⚠️ saisonnier / accès incertain",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJvS9uyUzQug0RB_QDbN_a30o"
   },
   {
    "id": "L061",
@@ -1944,19 +1976,20 @@
    "days": [
     3
    ],
-   "lat": 31.2917,
-   "lon": -7.3806,
+   "lat": 31.2862964,
+   "lon": -7.3810637,
    "coordPrecision": "precise",
    "interest": 5,
    "duree": "10–20 min",
    "detour": "sur la route",
    "detourClass": "sur_la_route",
    "desc": "Col de la N9 ; panorama, seulement stationnement sûr et chaussée dégagée.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tizi+n%E2%80%99Tichka+A%C3%AFt-Ben-Haddou+et+Tichka+Maroc",
-   "mapsQuery": "Tizi n’Tichka Aït-Ben-Haddou et Tichka Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tizi%20n%E2%80%99Tichka%20Maroc&query_place_id=ChIJRygonxvJug0ReFE-mLw_nxo",
+   "mapsQuery": "Tizi n’Tichka",
    "status": "incertain",
    "statusLabel": "⚠️ saisonnier / accès incertain",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJRygonxvJug0ReFE-mLw_nxo"
   },
   {
    "id": "L069",
@@ -2176,19 +2209,20 @@
    "days": [
     4
    ],
-   "lat": 30.9186,
-   "lon": -6.893,
+   "lat": 30.9195465,
+   "lon": -6.8984436,
    "coordPrecision": "precise",
    "interest": 4,
    "duree": "30–45 min",
    "detour": "sur place, accès pédestre",
    "detourClass": "sur_la_route",
    "desc": "Ruelles proches de la kasbah, parcours libre dans les passages publics.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Vieux+quartier+de+Taourirt+Ouarzazate+Maroc",
-   "mapsQuery": "Vieux quartier de Taourirt Ouarzazate Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Vieux%20quartier%20de%20Taourirt%20Maroc&query_place_id=ChIJs_HlGUAQuw0R0jqIj62MGdM",
+   "mapsQuery": "Vieux quartier de Taourirt",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJs_HlGUAQuw0R0jqIj62MGdM"
   },
   {
    "id": "L078",
@@ -2200,19 +2234,20 @@
    "days": [
     4
    ],
-   "lat": 30.9188,
-   "lon": -6.8925,
+   "lat": 30.9210508,
+   "lon": -6.89934,
    "coordPrecision": "precise",
    "interest": 3,
    "duree": "45–60 min",
    "detour": "sur place, accès pédestre",
    "detourClass": "sur_la_route",
    "desc": "Décors et accessoires ; intérêt surtout pour les amateurs de cinéma.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mus%C3%A9e+du+cin%C3%A9ma+de+Ouarzazate+Ouarzazate+Maroc",
-   "mapsQuery": "Musée du cinéma de Ouarzazate Ouarzazate Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mus%C3%A9e%20du%20cin%C3%A9ma%20de%20Ouarzazate%20Maroc&query_place_id=ChIJ68P5fmoQuw0RoXkYa8blBa0",
+   "mapsQuery": "Musée du cinéma de Ouarzazate",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJ68P5fmoQuw0RoXkYa8blBa0"
   },
   {
    "id": "L079",
@@ -2224,19 +2259,20 @@
    "days": [
     4
    ],
-   "lat": 30.939,
-   "lon": -6.966,
+   "lat": 30.9401361,
+   "lon": -6.9670487,
    "coordPrecision": "precise",
    "interest": 4,
    "duree": "1–1 h 30",
    "detour": "+0–5 min sur l’arrivée depuis Aït-Ben-Haddou",
    "detourClass": "sur_la_route",
    "desc": "Décors de cinéma à l’ouest ; accès selon tournages, formule accompagnée possible.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Atlas+Studios+Ouarzazate+Maroc",
-   "mapsQuery": "Atlas Studios Ouarzazate Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Atlas%20Studios%20Maroc&query_place_id=ChIJe5burKsbuw0RK_lRWtXquH0",
+   "mapsQuery": "Atlas Studios",
    "status": "incertain",
    "statusLabel": "⚠️ saisonnier / accès incertain",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJe5burKsbuw0RK_lRWtXquH0"
   },
   {
    "id": "L080",
@@ -2248,19 +2284,20 @@
    "days": [
     4
    ],
-   "lat": 30.933,
-   "lon": -6.983,
+   "lat": 30.9265986,
+   "lon": -6.9903141,
    "coordPrecision": "precise",
    "interest": 4,
    "duree": "30–45 min",
    "detour": "+20–30 min A/R estimés",
    "detourClass": "detour_interessant",
    "desc": "Silhouette au-dessus de l’oued ; accès intérieur commercial ou fermé à vérifier.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kasbah+de+Tifoultoute+Ouarzazate+Maroc",
-   "mapsQuery": "Kasbah de Tifoultoute Ouarzazate Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kasbah%20de%20Tifoultoute%20Maroc&query_place_id=ChIJ6RPJI3Ibuw0RZ3YtOYTNyZ4",
+   "mapsQuery": "Kasbah de Tifoultoute",
    "status": "verifie",
    "statusLabel": "✅ existence/information documentée ; ouverture à reconfirmer",
-   "sourceUrl": "https://www.visitmorocco.com/fr/voyage/ouarzazate-zagoura-tinguir/medina"
+   "sourceUrl": "https://www.visitmorocco.com/fr/voyage/ouarzazate-zagoura-tinguir/medina",
+   "placeId": "ChIJ6RPJI3Ibuw0RZ3YtOYTNyZ4"
   },
   {
    "id": "L081",
@@ -2272,19 +2309,20 @@
    "days": [
     4
    ],
-   "lat": 30.92106,
-   "lon": -6.8926,
-   "coordPrecision": "zone",
+   "lat": 30.9212984,
+   "lon": -6.9137035,
+   "coordPrecision": "precise",
    "interest": 3,
    "duree": "20–40 min",
    "detour": "sur place, accès pédestre",
    "detourClass": "sur_la_route",
    "desc": "Grande place du centre et cafés, observation de la vie urbaine.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Place+Al+Mouahidine+Ouarzazate+Maroc",
-   "mapsQuery": "Place Al Mouahidine Ouarzazate Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Place%20Al%20Mouahidine%20Maroc&query_place_id=ChIJr2WYvHMQuw0RtyDbqENnYXU",
+   "mapsQuery": "Place Al Mouahidine",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJr2WYvHMQuw0RtyDbqENnYXU"
   },
   {
    "id": "L082",
@@ -2296,19 +2334,20 @@
    "days": [
     4
    ],
-   "lat": 30.92265,
-   "lon": -6.89693,
-   "coordPrecision": "zone",
+   "lat": 30.9212254,
+   "lon": -6.915463,
+   "coordPrecision": "precise",
    "interest": 4,
    "duree": "30–45 min",
    "detour": "sur place, accès pédestre",
    "detourClass": "sur_la_route",
    "desc": "Produits alimentaires et achats de tous les jours ; activité surtout en journée.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=March%C3%A9+central+de+Ouarzazate+Ouarzazate+Maroc",
-   "mapsQuery": "Marché central de Ouarzazate Ouarzazate Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=March%C3%A9%20central%20de%20Ouarzazate%20Maroc&query_place_id=ChIJ__8_iHMQuw0R1V_f1lpQw4M",
+   "mapsQuery": "Marché central de Ouarzazate",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJ__8_iHMQuw0R1V_f1lpQw4M"
   },
   {
    "id": "L083",
@@ -2416,19 +2455,20 @@
    "days": [
     4
    ],
-   "lat": 30.83,
-   "lon": -6.88,
+   "lat": 30.8234912,
+   "lon": -6.9447317,
    "coordPrecision": "precise",
    "interest": 5,
    "duree": "1 h 30–2 h",
    "detour": "grand détour +60–90 min A/R estimés",
    "detourClass": "detour_interessant",
    "desc": "Village, palmeraie et rochers ; accès final à vérifier pour voiture ordinaire.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Oasis+de+Fint+Ouarzazate+Maroc",
-   "mapsQuery": "Oasis de Fint Ouarzazate Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Oasis%20de%20Fint%20Maroc&query_place_id=ChIJxf7plrgFuw0RQujCqDmzk9s",
+   "mapsQuery": "Oasis de Fint",
    "status": "incertain",
    "statusLabel": "⚠️ saisonnier / accès incertain",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJxf7plrgFuw0RQujCqDmzk9s"
   },
   {
    "id": "L088",
@@ -2648,19 +2688,20 @@
    "days": [
     4
    ],
-   "lat": 31.05999,
-   "lon": -6.55359,
-   "coordPrecision": "zone",
+   "lat": 31.1004318,
+   "lon": -6.5836774,
+   "coordPrecision": "precise",
    "interest": 5,
    "duree": "1–2 h",
    "detour": "+10–30 min A/R selon entrée",
    "detourClass": "detour_interessant",
    "desc": "Habitat de terre, jardins et canaux sur chemins publics.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Palmeraie+de+Skoura+Skoura+et+vall%C3%A9e+des+Roses+Maroc",
-   "mapsQuery": "Palmeraie de Skoura Skoura et vallée des Roses Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Palmeraie%20de%20Skoura%20Maroc&query_place_id=ChIJa30wzw5ouw0RLbuJ3rZ_dh4",
+   "mapsQuery": "Palmeraie de Skoura",
    "status": "incertain",
    "statusLabel": "⚠️ saisonnier / accès incertain",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJa30wzw5ouw0RLbuJ3rZ_dh4"
   },
   {
    "id": "L097",
@@ -2672,19 +2713,20 @@
    "days": [
     4
    ],
-   "lat": 31.058,
-   "lon": -6.552,
+   "lat": 31.0430652,
+   "lon": -6.5759715,
    "coordPrecision": "precise",
    "interest": 3,
    "duree": "20–30 min",
    "detour": "+10–20 min A/R estimés",
    "detourClass": "detour_interessant",
    "desc": "Bâtisse transformée en hébergement ; vue extérieure, intérieur uniquement avec accord.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kasbah+A%C3%AFt+Ben+Moro+Skoura+et+vall%C3%A9e+des+Roses+Maroc",
-   "mapsQuery": "Kasbah Aït Ben Moro Skoura et vallée des Roses Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kasbah%20A%C3%AFt%20Ben%20Moro%20Maroc&query_place_id=ChIJMUGY_Spmuw0RKYh-6buiQa0",
+   "mapsQuery": "Kasbah Aït Ben Moro",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJMUGY_Spmuw0RKYh-6buiQa0"
   },
   {
    "id": "L098",
@@ -2696,19 +2738,20 @@
    "days": [
     4
    ],
-   "lat": 31.05849,
-   "lon": -6.556,
-   "coordPrecision": "zone",
+   "lat": 31.106785,
+   "lon": -6.5792656,
+   "coordPrecision": "precise",
    "interest": 4,
    "duree": "30–45 min",
    "detour": "+30–50 min A/R estimés",
    "detourClass": "detour_interessant",
    "desc": "Tour de terre dans la palmeraie ; approche et propriété à confirmer.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kasbah+A%C3%AFt+Abou+Skoura+et+vall%C3%A9e+des+Roses+Maroc",
-   "mapsQuery": "Kasbah Aït Abou Skoura et vallée des Roses Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kasbah%20A%C3%AFt%20Abou%20Maroc&query_place_id=ChIJiVn8q0Jouw0RvWILh_bkAf8",
+   "mapsQuery": "Kasbah Aït Abou",
    "status": "incertain",
    "statusLabel": "⚠️ saisonnier / accès incertain",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJiVn8q0Jouw0RvWILh_bkAf8"
   },
   {
    "id": "L099",
@@ -2720,19 +2763,20 @@
    "days": [
     4
    ],
-   "lat": 31.238,
-   "lon": -6.13,
+   "lat": 31.2377837,
+   "lon": -6.1285236,
    "coordPrecision": "precise",
    "interest": 4,
    "duree": "30–45 min",
    "detour": "sur la route",
    "detourClass": "sur_la_route",
    "desc": "Bourg commerçant et carrefour de la vallée des Roses.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kelaat+M%E2%80%99Gouna+Skoura+et+vall%C3%A9e+des+Roses+Maroc",
-   "mapsQuery": "Kelaat M’Gouna Skoura et vallée des Roses Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kelaat%20M%E2%80%99Gouna%20Maroc&query_place_id=ChIJFzEVgRa5vA0RdFsGglwkBI0",
+   "mapsQuery": "Kelaat M’Gouna",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJFzEVgRa5vA0RdFsGglwkBI0"
   },
   {
    "id": "L100",
@@ -2936,19 +2980,20 @@
    "days": [
     4
    ],
-   "lat": 31.24196,
-   "lon": -6.1288,
-   "coordPrecision": "zone",
+   "lat": 31.2583564,
+   "lon": -6.1355698,
+   "coordPrecision": "precise",
    "interest": 4,
    "duree": "30–60 min",
    "detour": "+15–30 min A/R pour la basse vallée",
    "detourClass": "detour_interessant",
    "desc": "Courte approche de vallée ; demi-tour avant les détours longs si temps limité.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Vall%C3%A9e+du+M%E2%80%99Goun+%C3%A0+la+sortie+de+Kelaat+Skoura+et+vall%C3%A9e+des+Roses+Maroc",
-   "mapsQuery": "Vallée du M’Goun à la sortie de Kelaat Skoura et vallée des Roses Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Vall%C3%A9e%20du%20M%E2%80%99Goun%20%C3%A0%20la%20sortie%20de%20Kelaat%20Maroc&query_place_id=ChIJxRrjB9S5vA0ReEdIICffy_o",
+   "mapsQuery": "Vallée du M’Goun à la sortie de Kelaat",
    "status": "incertain",
    "statusLabel": "⚠️ saisonnier / accès incertain",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJxRrjB9S5vA0ReEdIICffy_o"
   },
   {
    "id": "L109",
@@ -3096,19 +3141,20 @@
     4,
     5
    ],
-   "lat": 31.365,
-   "lon": -5.99,
+   "lat": 31.3724813,
+   "lon": -5.9863792,
    "coordPrecision": "precise",
    "interest": 4,
    "duree": "30–45 min",
    "detour": "sur la route",
    "detourClass": "sur_la_route",
    "desc": "Bourg principal, façades en terrasses et commerces.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Boumalne+Dad%C3%A8s+Vall%C3%A9e+du+Dad%C3%A8s+Maroc",
-   "mapsQuery": "Boumalne Dadès Vallée du Dadès Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Boumalne%20Dad%C3%A8s%20Maroc&query_place_id=ChIJv3C-eC_JvA0RSexsozdMe0U",
+   "mapsQuery": "Boumalne Dadès",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJv3C-eC_JvA0RSexsozdMe0U"
   },
   {
    "id": "L115",
@@ -3121,19 +3167,20 @@
     4,
     5
    ],
-   "lat": 31.49,
-   "lon": -5.9,
+   "lat": 31.4446845,
+   "lon": -5.9819358,
    "coordPrecision": "precise",
    "interest": 4,
    "duree": "30–45 min",
    "detour": "étape prévue",
    "detourClass": "sur_la_route",
    "desc": "Village près des formations rocheuses, bon point de départ bas.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tamellalt+Vall%C3%A9e+du+Dad%C3%A8s+Maroc",
-   "mapsQuery": "Tamellalt Vallée du Dadès Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tamellalt%20Maroc&query_place_id=ChIJy2TWG4DMvA0RJX0akvbGxi0",
+   "mapsQuery": "Tamellalt",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJy2TWG4DMvA0RJX0akvbGxi0"
   },
   {
    "id": "L116",
@@ -3146,19 +3193,20 @@
     4,
     5
    ],
-   "lat": 31.362,
-   "lon": -5.99363,
-   "coordPrecision": "zone",
+   "lat": 31.4528218,
+   "lon": -5.9698188,
+   "coordPrecision": "precise",
    "interest": 4,
    "duree": "30–60 min",
    "detour": "sur la route de vallée",
    "detourClass": "sur_la_route",
    "desc": "Maisons et silhouettes de kasbahs au milieu des cultures ; extérieurs seulement sans accord.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=A%C3%AFt+Arbi+Vall%C3%A9e+du+Dad%C3%A8s+Maroc",
-   "mapsQuery": "Aït Arbi Vallée du Dadès Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=A%C3%AFt%20Arbi%20Maroc&query_place_id=ChIJE_GkUI7MvA0RR_XQ-LesOaY",
+   "mapsQuery": "Aït Arbi",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJE_GkUI7MvA0RR_XQ-LesOaY"
   },
   {
    "id": "L117",
@@ -3346,19 +3394,20 @@
     4,
     5
    ],
-   "lat": 31.49,
-   "lon": -5.9,
+   "lat": 31.4509351,
+   "lon": -5.9605932,
    "coordPrecision": "precise",
    "interest": 5,
    "duree": "1–3 h",
    "detour": "à pied depuis étape",
    "detourClass": "sur_la_route",
    "desc": "Formations rocheuses autour de Tamellalt ; vues faciles depuis les abords, canyon facultatif.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Doigts+de+singe+Vall%C3%A9e+du+Dad%C3%A8s+Maroc",
-   "mapsQuery": "Doigts de singe Vallée du Dadès Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Doigts%20de%20singe%20Maroc&query_place_id=ChIJYbKfMgDNvA0RwXqroaIYeLU",
+   "mapsQuery": "Doigts de singe",
    "status": "incertain",
    "statusLabel": "⚠️ saisonnier / accès incertain",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJYbKfMgDNvA0RwXqroaIYeLU"
   },
   {
    "id": "L125",
@@ -3371,19 +3420,20 @@
     4,
     5
    ],
-   "lat": 31.567,
-   "lon": -5.876,
+   "lat": 31.5305196,
+   "lon": -5.9245726,
    "coordPrecision": "precise",
    "interest": 5,
    "duree": "20–40 min",
    "detour": "aller-retour panoramique déjà prévu dans les 240 km du 29",
    "detourClass": null,
    "desc": "Belvédère des virages du Dadès ; route et terrasse accessibles seulement si dégagées.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Lacets+de+Timzzillite+Vall%C3%A9e+du+Dad%C3%A8s+Maroc",
-   "mapsQuery": "Lacets de Timzzillite Vallée du Dadès Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Lacets%20de%20Timzzillite%20Maroc&query_place_id=ChIJVWPGbgAzow0Rwl1EBpjkkMQ",
+   "mapsQuery": "Lacets de Timzzillite",
    "status": "incertain",
    "statusLabel": "⚠️ saisonnier / accès incertain",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJVWPGbgAzow0Rwl1EBpjkkMQ"
   },
   {
    "id": "L126",
@@ -3396,19 +3446,20 @@
     4,
     5
    ],
-   "lat": 31.36868,
-   "lon": -5.98971,
-   "coordPrecision": "zone",
+   "lat": 31.4532146,
+   "lon": -5.9675869,
+   "coordPrecision": "precise",
    "interest": 5,
    "duree": "30–60 min",
    "detour": "sur montée panoramique",
    "detourClass": null,
    "desc": "Falaises et rivière visibles depuis les zones sûres, sans prolonger vers M’semrir.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Gorges+du+Dad%C3%A8s+%E2%80%94+secteur+routier+bas+Vall%C3%A9e+du+Dad%C3%A8s+Maroc",
-   "mapsQuery": "Gorges du Dadès — secteur routier bas Vallée du Dadès Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Gorges%20du%20Dad%C3%A8s%20%E2%80%94%20secteur%20routier%20bas%20Maroc&query_place_id=ChIJv2SMiowyow0RwAkAEtVXfSU",
+   "mapsQuery": "Gorges du Dadès — secteur routier bas",
    "status": "incertain",
    "statusLabel": "⚠️ saisonnier / accès incertain",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJv2SMiowyow0RwAkAEtVXfSU"
   },
   {
    "id": "L127",
@@ -3471,22 +3522,23 @@
     4,
     5
    ],
-   "lat": 31.3644,
-   "lon": -5.98721,
-   "coordPrecision": "zone",
+   "lat": 31.373746,
+   "lon": -5.9869125,
+   "coordPrecision": "precise",
    "interest": null,
    "duree": null,
    "detour": null,
    "detourClass": null,
    "desc": "Adresse documentée, page directe non consultable ; service aux non-résidents à réserver.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Chez+Pierre+Dad%C3%A8s+Vall%C3%A9e+du+Dad%C3%A8s+Maroc",
-   "mapsQuery": "Chez Pierre Dadès Vallée du Dadès Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Chez%20Pierre%20Dad%C3%A8s%20Maroc&query_place_id=ChIJV3lmZd4yow0ROEdvWZMoOW4",
+   "mapsQuery": "Chez Pierre Dadès",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
    "sourceUrl": "https://www.chezpierre.org/index_php/rates.html",
    "restoType": "table soignée",
    "budget": "300–550 MAD estimés / personne, estimation",
-   "commander": "menu du jour à confirmer"
+   "commander": "menu du jour à confirmer",
+   "placeId": "ChIJV3lmZd4yow0ROEdvWZMoOW4"
   },
   {
    "id": "L130",
@@ -3555,22 +3607,23 @@
     4,
     5
    ],
-   "lat": 31.567,
-   "lon": -5.876,
+   "lat": 31.5305196,
+   "lon": -5.9245726,
    "coordPrecision": "precise",
    "interest": null,
    "duree": null,
    "detour": null,
    "detourClass": null,
    "desc": "Vue sur les virages ; ouverture et accès de terrasse à confirmer.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+du+belv%C3%A9d%C3%A8re+de+Timzzillite+Vall%C3%A9e+du+Dad%C3%A8s+Maroc",
-   "mapsQuery": "Café du belvédère de Timzzillite Vallée du Dadès Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20du%20belv%C3%A9d%C3%A8re%20de%20Timzzillite%20Maroc&query_place_id=ChIJVWPGbgAzow0Rwl1EBpjkkMQ",
+   "mapsQuery": "Café du belvédère de Timzzillite",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
    "sourceUrl": null,
    "restoType": "café panoramique",
    "budget": "20–60 MAD / personne, estimation",
-   "commander": "thé ou café"
+   "commander": "thé ou café",
+   "placeId": "ChIJVWPGbgAzow0Rwl1EBpjkkMQ"
   },
   {
    "id": "L133",
@@ -3611,19 +3664,20 @@
     5,
     6
    ],
-   "lat": 31.515,
-   "lon": -5.533,
+   "lat": 31.5204633,
+   "lon": -5.5302337,
    "coordPrecision": "precise",
    "interest": 4,
    "duree": "45–60 min",
    "detour": "sur place, accès pédestre",
    "detourClass": "sur_la_route",
    "desc": "Habitat de terre et ruelles ; accès publics seulement.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Vieux+Tinghir+Tinghir+et+Todra+Maroc",
-   "mapsQuery": "Vieux Tinghir Tinghir et Todra Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Vieux%20Tinghir%20Maroc&query_place_id=ChIJsZ5uVyozvQ0RR5bjEh1K4xQ",
+   "mapsQuery": "Vieux Tinghir",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJsZ5uVyozvQ0RR5bjEh1K4xQ"
   },
   {
    "id": "L135",
@@ -3711,19 +3765,20 @@
     5,
     6
    ],
-   "lat": 31.51029,
-   "lon": -5.53243,
-   "coordPrecision": "zone",
+   "lat": 31.5246673,
+   "lon": -5.5315793,
+   "coordPrecision": "precise",
    "interest": 3,
    "duree": "20–30 min",
    "detour": "sur place",
    "detourClass": "sur_la_route",
    "desc": "Silhouette patrimoniale ; privilégier extérieur, pas d’exploration de ruines.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kasbah+du+Glaoui+de+Tinghir+Tinghir+et+Todra+Maroc",
-   "mapsQuery": "Kasbah du Glaoui de Tinghir Tinghir et Todra Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kasbah%20du%20Glaoui%20de%20Tinghir%20Maroc&query_place_id=ChIJ_2kMhbTNog0R8H3agi9a4Pg",
+   "mapsQuery": "Kasbah du Glaoui de Tinghir",
    "status": "incertain",
    "statusLabel": "⚠️ saisonnier / accès incertain",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJ_2kMhbTNog0R8H3agi9a4Pg"
   },
   {
    "id": "L139",
@@ -3736,19 +3791,20 @@
     5,
     6
    ],
-   "lat": 31.51752,
-   "lon": -5.53485,
-   "coordPrecision": "zone",
+   "lat": 31.5153875,
+   "lon": -5.5334102,
+   "coordPrecision": "precise",
    "interest": 4,
    "duree": "30–60 min",
    "detour": "sur place, accès pédestre",
    "detourClass": "sur_la_route",
    "desc": "Ancienne demeure devenue hébergement ; accès avec accord ou repas.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kasbah+de+l%E2%80%99h%C3%B4tel+Tomboctou+Tinghir+et+Todra+Maroc",
-   "mapsQuery": "Kasbah de l’hôtel Tomboctou Tinghir et Todra Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kasbah%20de%20l%E2%80%99h%C3%B4tel%20Tomboctou%20Maroc&query_place_id=ChIJUX1RezHNog0RDvc9yi4nw6E",
+   "mapsQuery": "Kasbah de l’hôtel Tomboctou",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJUX1RezHNog0RDvc9yi4nw6E"
   },
   {
    "id": "L140",
@@ -3786,19 +3842,20 @@
     5,
     6
    ],
-   "lat": 31.585,
-   "lon": -5.596,
+   "lat": 31.5765506,
+   "lon": -5.5829986,
    "coordPrecision": "precise",
    "interest": 4,
    "duree": "30–45 min",
    "detour": "sur l’accès aux gorges",
    "detourClass": null,
    "desc": "Village au pied des falaises ; rues et chemins publics.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tizgui+Todra+Tinghir+et+Todra+Maroc",
-   "mapsQuery": "Tizgui Todra Tinghir et Todra Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tizgui%20Todra%20Maroc&query_place_id=ChIJFQAAADDNog0RBrKyxx2uL24",
+   "mapsQuery": "Tizgui Todra",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJFQAAADDNog0RBrKyxx2uL24"
   },
   {
    "id": "L142",
@@ -3961,19 +4018,20 @@
     5,
     6
    ],
-   "lat": 31.51298,
-   "lon": -5.53109,
-   "coordPrecision": "zone",
+   "lat": 31.5475055,
+   "lon": -5.5656152,
+   "coordPrecision": "precise",
    "interest": 5,
    "duree": "1–2 h",
    "detour": "sur place",
    "detourClass": "sur_la_route",
    "desc": "Chemins et canaux, accès public à reconnaître ; demi-tour si un chemin devient privé.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Palmeraie+de+Tinghir+Tinghir+et+Todra+Maroc",
-   "mapsQuery": "Palmeraie de Tinghir Tinghir et Todra Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Palmeraie%20de%20Tinghir%20Maroc&query_place_id=ChIJCzfu7FDTog0RbdUFYjn0-Jg",
+   "mapsQuery": "Palmeraie de Tinghir",
    "status": "incertain",
    "statusLabel": "⚠️ saisonnier / accès incertain",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJCzfu7FDTog0RbdUFYjn0-Jg"
   },
   {
    "id": "L149",
@@ -4061,22 +4119,23 @@
     5,
     6
    ],
-   "lat": 31.51684,
-   "lon": -5.5357,
-   "coordPrecision": "zone",
+   "lat": 31.5153875,
+   "lon": -5.5334102,
+   "coordPrecision": "precise",
    "interest": null,
    "duree": null,
    "detour": null,
    "detourClass": null,
    "desc": "Carte publiée ; menu affiché 125 MAD comme repère, à reconfirmer.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=H%C3%B4tel+Tomboctou+%E2%80%94+restaurant+Tinghir+et+Todra+Maroc",
-   "mapsQuery": "Hôtel Tomboctou — restaurant Tinghir et Todra Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=H%C3%B4tel%20Tomboctou%20%E2%80%94%20restaurant%20Maroc&query_place_id=ChIJUX1RezHNog0RDvc9yi4nw6E",
+   "mapsQuery": "Hôtel Tomboctou — restaurant",
    "status": "verifie",
    "statusLabel": "✅ existence/information documentée ; ouverture à reconfirmer",
    "sourceUrl": "https://www.hoteltomboctou.com/hotel-tinghir/es/restaurant.html",
    "restoType": "table marocaine dans une kasbah",
    "budget": "140–230 MAD / personne, estimation",
-   "commander": "couscous sur commande ou bœuf aux dattes/pruneaux"
+   "commander": "couscous sur commande ou bœuf aux dattes/pruneaux",
+   "placeId": "ChIJUX1RezHNog0RDvc9yi4nw6E"
   },
   {
    "id": "L153",
@@ -4200,19 +4259,20 @@
    "days": [
     6
    ],
-   "lat": 31.49,
-   "lon": -5.0,
+   "lat": 31.4933344,
+   "lon": -5.0851764,
    "coordPrecision": "precise",
    "interest": 5,
    "duree": "45–60 min",
    "detour": "+5–15 min A/R estimés",
    "detourClass": "petit_detour",
    "desc": "Village fortifié habité près de Tinjdad ; ruelles publiques, respect des maisons.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ksar+El+Khorbat+Tinjdad%2C+Jorf+et+Rissani+Maroc",
-   "mapsQuery": "Ksar El Khorbat Tinjdad, Jorf et Rissani Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ksar%20El%20Khorbat%20Maroc&query_place_id=ChIJTbMyGg5VvQ0RCC4LTSrPYEY",
+   "mapsQuery": "Ksar El Khorbat",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJTbMyGg5VvQ0RCC4LTSrPYEY"
   },
   {
    "id": "L158",
@@ -4224,19 +4284,20 @@
    "days": [
     6
    ],
-   "lat": 31.49,
-   "lon": -5.0,
+   "lat": 31.4945138,
+   "lon": -5.0856306,
    "coordPrecision": "precise",
    "interest": 5,
    "duree": "1 h",
    "detour": "même détour qu’El Khorbat",
    "detourClass": null,
    "desc": "Excellent complément sur habitat, irrigation et société oasienne ; site annonce 9 h–18 h et 20 MAD, données non datées à reconfirmer.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mus%C3%A9e+des+Oasis+El+Khorbat+Tinjdad%2C+Jorf+et+Rissani+Maroc",
-   "mapsQuery": "Musée des Oasis El Khorbat Tinjdad, Jorf et Rissani Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mus%C3%A9e%20des%20Oasis%20El%20Khorbat%20Maroc&query_place_id=ChIJwV8vGRJVvQ0RNoP8ypOvTeQ",
+   "mapsQuery": "Musée des Oasis El Khorbat",
    "status": "verifie",
    "statusLabel": "✅ existence/information documentée ; ouverture à reconfirmer",
-   "sourceUrl": "https://www.elkhorbat.com/en.museum.htm"
+   "sourceUrl": "https://www.elkhorbat.com/en.museum.htm",
+   "placeId": "ChIJwV8vGRJVvQ0RNoP8ypOvTeQ"
   },
   {
    "id": "L159",
@@ -4248,19 +4309,20 @@
    "days": [
     6
    ],
-   "lat": 31.51,
-   "lon": -5.031,
+   "lat": 31.5094175,
+   "lon": -5.0321837,
    "coordPrecision": "precise",
    "interest": 3,
    "duree": "20–40 min",
    "detour": "sur la route",
    "detourClass": "sur_la_route",
    "desc": "Bourg de l’oasis de Ferkla, utile pour vie locale et ravitaillement.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tinjdad+Tinjdad%2C+Jorf+et+Rissani+Maroc",
-   "mapsQuery": "Tinjdad Tinjdad, Jorf et Rissani Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tinjdad%20Maroc&query_place_id=ChIJCV_fj7z_lw0RKEbumDBuIgc",
+   "mapsQuery": "Tinjdad",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJCV_fj7z_lw0RKEbumDBuIgc"
   },
   {
    "id": "L160",
@@ -4272,19 +4334,20 @@
    "days": [
     6
    ],
-   "lat": 31.48346,
-   "lon": -4.39973,
-   "coordPrecision": "zone",
+   "lat": 31.5305053,
+   "lon": -4.4985707,
+   "coordPrecision": "precise",
    "interest": 4,
    "duree": "20–40 min",
    "detour": "+0–10 min selon site",
    "detourClass": "petit_detour",
    "desc": "Alignements de puits des anciennes galeries drainantes ; voir depuis surface et accès autorisés, jamais descendre spontanément.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Khettaras+de+Jorf+Tinjdad%2C+Jorf+et+Rissani+Maroc",
-   "mapsQuery": "Khettaras de Jorf Tinjdad, Jorf et Rissani Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Khettaras%20de%20Jorf%20Maroc&query_place_id=ChIJnZoR9RGHlw0R-2SGDU_M2aM",
+   "mapsQuery": "Khettaras de Jorf",
    "status": "incertain",
    "statusLabel": "⚠️ saisonnier / accès incertain",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJnZoR9RGHlw0R-2SGDU_M2aM"
   },
   {
    "id": "L161",
@@ -4296,19 +4359,20 @@
    "days": [
     6
    ],
-   "lat": 31.27989,
-   "lon": -4.26624,
-   "coordPrecision": "zone",
+   "lat": 31.2824366,
+   "lon": -4.270581,
+   "coordPrecision": "precise",
    "interest": 3,
    "duree": "10–20 min",
    "detour": "sur la route",
    "detourClass": "sur_la_route",
    "desc": "Repère urbain et photo depuis stationnement autorisé.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Porte+monumentale+de+Rissani+Tinjdad%2C+Jorf+et+Rissani+Maroc",
-   "mapsQuery": "Porte monumentale de Rissani Tinjdad, Jorf et Rissani Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Porte%20monumentale%20de%20Rissani%20Maroc&query_place_id=ChIJUdt5mzxxlw0RAADscqzIkcM",
+   "mapsQuery": "Porte monumentale de Rissani",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJUdt5mzxxlw0RAADscqzIkcM"
   },
   {
    "id": "L162",
@@ -4320,19 +4384,20 @@
    "days": [
     6
    ],
-   "lat": 31.283,
-   "lon": -4.27,
+   "lat": 31.2796701,
+   "lon": -4.2528538,
    "coordPrecision": "precise",
    "interest": 4,
    "duree": "20–40 min",
    "detour": "+10–20 min A/R estimés",
    "detourClass": "detour_interessant",
    "desc": "Architecture et abords ; accès aux espaces religieux soumis aux restrictions locales.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mausol%C3%A9e+Moulay+Ali+Cherif+Tinjdad%2C+Jorf+et+Rissani+Maroc",
-   "mapsQuery": "Mausolée Moulay Ali Cherif Tinjdad, Jorf et Rissani Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mausol%C3%A9e%20Moulay%20Ali%20Cherif%20Maroc&query_place_id=ChIJPyHjaR9ylw0RNaQKKoG_8q4",
+   "mapsQuery": "Mausolée Moulay Ali Cherif",
    "status": "incertain",
    "statusLabel": "⚠️ saisonnier / accès incertain",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJPyHjaR9ylw0RNaQKKoG_8q4"
   },
   {
    "id": "L163",
@@ -4344,19 +4409,20 @@
    "days": [
     6
    ],
-   "lat": 31.27,
-   "lon": -4.26,
+   "lat": 31.2779829,
+   "lon": -4.2516015,
    "coordPrecision": "precise",
    "interest": 4,
    "duree": "30–45 min",
    "detour": "+10–20 min A/R estimés",
    "detourClass": "detour_interessant",
    "desc": "Vestiges et mémoire de la ville ; accès et état structurel incertains.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ksar+Abbar+Tinjdad%2C+Jorf+et+Rissani+Maroc",
-   "mapsQuery": "Ksar Abbar Tinjdad, Jorf et Rissani Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ksar%20Abbar%20Maroc&query_place_id=ChIJv4Te0xhylw0RUOP6kz7P5o8",
+   "mapsQuery": "Ksar Abbar",
    "status": "incertain",
    "statusLabel": "⚠️ saisonnier / accès incertain",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJv4Te0xhylw0RUOP6kz7P5o8"
   },
   {
    "id": "L164",
@@ -4368,19 +4434,20 @@
    "days": [
     6
    ],
-   "lat": 31.28,
-   "lon": -4.29,
+   "lat": 31.2741436,
+   "lon": -4.2823529,
    "coordPrecision": "precise",
    "interest": 4,
    "duree": "30–60 min",
    "detour": "+10–20 min A/R estimés",
    "detourClass": "detour_interessant",
    "desc": "Site caravanier majeur mais vestiges peu lisibles ; zones archéologiques éventuellement fermées.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Vestiges+de+Sijilmassa+Tinjdad%2C+Jorf+et+Rissani+Maroc",
-   "mapsQuery": "Vestiges de Sijilmassa Tinjdad, Jorf et Rissani Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Vestiges%20de%20Sijilmassa%20Maroc&query_place_id=ChIJgSngnH9xlw0RldiUTyPpH6Q",
+   "mapsQuery": "Vestiges de Sijilmassa",
    "status": "incertain",
    "statusLabel": "⚠️ saisonnier / accès incertain",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJgSngnH9xlw0RldiUTyPpH6Q"
   },
   {
    "id": "L165",
@@ -4392,19 +4459,20 @@
    "days": [
     6
    ],
-   "lat": 31.281,
-   "lon": -4.267,
+   "lat": 31.281065,
+   "lon": -4.2663472,
    "coordPrecision": "precise",
    "interest": 5,
    "duree": "1–1 h 30",
    "detour": "sur l’étape Rissani",
    "detourClass": "sur_la_route",
    "desc": "Dattes, produits agricoles et échoppes ; mardi/jeudi/dimanche habituellement annoncés, tenue du 31 à confirmer.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Souk+de+Rissani+Tinjdad%2C+Jorf+et+Rissani+Maroc",
-   "mapsQuery": "Souk de Rissani Tinjdad, Jorf et Rissani Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Souk%20de%20Rissani%20Maroc&query_place_id=ChIJZ9XIUShylw0RG1Slvlc3hcw",
+   "mapsQuery": "Souk de Rissani",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": "https://www.excursionmerzouga.com/blog/rissani"
+   "sourceUrl": "https://www.excursionmerzouga.com/blog/rissani",
+   "placeId": "ChIJZ9XIUShylw0RG1Slvlc3hcw"
   },
   {
    "id": "L166",
@@ -4771,19 +4839,20 @@
     6,
     7
    ],
-   "lat": 31.099,
-   "lon": -4.012,
+   "lat": 31.0801676,
+   "lon": -4.013361,
    "coordPrecision": "precise",
    "interest": 4,
    "duree": "30–45 min",
    "detour": "sur place, accès pédestre",
    "detourClass": "sur_la_route",
    "desc": "Village, rue principale et services, base pour l’erg.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Merzouga+Merzouga%2C+Hassilabied+et+Erg+Chebbi+Maroc",
-   "mapsQuery": "Merzouga Merzouga, Hassilabied et Erg Chebbi Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Merzouga%20Maroc&query_place_id=ChIJ5d80mCc8lw0RREretbL6OVY",
+   "mapsQuery": "Merzouga",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJ5d80mCc8lw0RREretbL6OVY"
   },
   {
    "id": "L181",
@@ -4796,19 +4865,20 @@
     6,
     7
    ],
-   "lat": 31.128,
-   "lon": -4.011,
+   "lat": 31.1401507,
+   "lon": -4.0253666,
    "coordPrecision": "precise",
    "interest": 4,
    "duree": "30–45 min",
    "detour": "sur place, accès pédestre",
    "detourClass": "sur_la_route",
    "desc": "Village et accès proche aux dunes ; repérer l’hébergement depuis le sable.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hassilabied+Merzouga%2C+Hassilabied+et+Erg+Chebbi+Maroc",
-   "mapsQuery": "Hassilabied Merzouga, Hassilabied et Erg Chebbi Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hassilabied%20Maroc&query_place_id=ChIJQ1aWlPY-lw0Ry9EQZWEO5mI",
+   "mapsQuery": "Hassilabied",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJQ1aWlPY-lw0Ry9EQZWEO5mI"
   },
   {
    "id": "L182",
@@ -4821,19 +4891,20 @@
     6,
     7
    ],
-   "lat": 31.05,
-   "lon": -3.99,
+   "lat": 31.0260344,
+   "lon": -4.0057042,
    "coordPrecision": "precise",
    "interest": 5,
    "duree": "1–1 h 30",
    "detour": "+15–30 min A/R depuis Merzouga estimés",
    "detourClass": "detour_interessant",
    "desc": "Village associé à des rencontres musicales ; se rendre au village librement, séance à convenir.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Khamlia+Merzouga%2C+Hassilabied+et+Erg+Chebbi+Maroc",
-   "mapsQuery": "Khamlia Merzouga, Hassilabied et Erg Chebbi Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Khamlia%20Maroc&query_place_id=ChIJ8fNdF7k8lw0R4kBO1sGQUPY",
+   "mapsQuery": "Khamlia",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJ8fNdF7k8lw0R4kBO1sGQUPY"
   },
   {
    "id": "L183",
@@ -5121,22 +5192,23 @@
     6,
     7
    ],
-   "lat": 31.05,
-   "lon": -3.99,
+   "lat": 31.0378826,
+   "lon": -4.0075051,
    "coordPrecision": "precise",
    "interest": null,
    "duree": null,
    "detour": null,
    "detourClass": null,
    "desc": "Adresse référencée, pas de confirmation directe du service le 1er janvier.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Restaurant+Caf%C3%A9+Nora+Khamlia+Merzouga%2C+Hassilabied+et+Erg+Chebbi+Maroc",
-   "mapsQuery": "Restaurant Café Nora Khamlia Merzouga, Hassilabied et Erg Chebbi Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Restaurant%20Caf%C3%A9%20Nora%20Khamlia%20Maroc&query_place_id=ChIJU3LZhL88lw0RNVvpVZLijXQ",
+   "mapsQuery": "Restaurant Café Nora Khamlia",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
    "sourceUrl": "https://www.tripadvisor.ca/Restaurant_Review-g304017-d3296274-Reviews-Restaurant_Cafe_NORA-Merzouga_Draa_Tafilalet.html",
    "restoType": "table villageoise",
    "budget": "90–180 MAD / personne, estimation",
-   "commander": "medfouna ou couscous sur commande"
+   "commander": "medfouna ou couscous sur commande",
+   "placeId": "ChIJU3LZhL88lw0RNVvpVZLijXQ"
   },
   {
    "id": "L195",
@@ -5149,22 +5221,23 @@
     6,
     7
    ],
-   "lat": 31.09695,
-   "lon": -4.01433,
-   "coordPrecision": "zone",
+   "lat": 31.1310355,
+   "lon": -4.0170814,
+   "coordPrecision": "precise",
    "interest": null,
    "duree": null,
    "detour": null,
    "detourClass": null,
    "desc": "Restaurant confirmé, devis distinct pour le 31 et accueil des non-résidents.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kasbah+Mohayut+Merzouga%2C+Hassilabied+et+Erg+Chebbi+Maroc",
-   "mapsQuery": "Kasbah Mohayut Merzouga, Hassilabied et Erg Chebbi Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kasbah%20Mohayut%20Maroc&query_place_id=ChIJwVtdXe0-lw0RnrCIWQrTLeM",
+   "mapsQuery": "Kasbah Mohayut",
    "status": "verifie",
    "statusLabel": "✅ existence/information documentée ; ouverture à reconfirmer",
    "sourceUrl": "https://www.hotelmohayut.com/restaurant.html",
    "restoType": "restaurant d’auberge",
    "budget": "120–250 MAD hors réveillon / personne, estimation",
-   "commander": "tajine ou couscous demandé à l’avance"
+   "commander": "tajine ou couscous demandé à l’avance",
+   "placeId": "ChIJwVtdXe0-lw0RnrCIWQrTLeM"
   },
   {
    "id": "L196",
@@ -5260,19 +5333,20 @@
    "days": [
     8
    ],
-   "lat": 31.435,
-   "lon": -4.233,
+   "lat": 31.4347145,
+   "lon": -4.2337339,
    "coordPrecision": "precise",
    "interest": 4,
    "duree": "30–45 min",
    "detour": "sur la route",
    "detourClass": "sur_la_route",
    "desc": "Ville de services et artisanat des fossiles ; utile avant la remontée du Ziz.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Erfoud+Erfoud%2C+vall%C3%A9e+du+Ziz+et+Rich+Maroc",
-   "mapsQuery": "Erfoud Erfoud, vallée du Ziz et Rich Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Erfoud%20Maroc&query_place_id=ChIJC1V5UCx7lw0RFUKmETVSTPA",
+   "mapsQuery": "Erfoud",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJC1V5UCx7lw0RFUKmETVSTPA"
   },
   {
    "id": "L200",
@@ -5308,19 +5382,20 @@
    "days": [
     8
    ],
-   "lat": 31.68,
-   "lon": -4.28,
+   "lat": 31.6890813,
+   "lon": -4.1788953,
    "coordPrecision": "precise",
    "interest": 4,
    "duree": "30–45 min",
    "detour": "sur la route",
    "detourClass": "sur_la_route",
    "desc": "Bourg de la vallée et accès aux paysages de palmeraie.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Aoufous+Erfoud%2C+vall%C3%A9e+du+Ziz+et+Rich+Maroc",
-   "mapsQuery": "Aoufous Erfoud, vallée du Ziz et Rich Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Aoufous%20Maroc&query_place_id=ChIJj5PX7KrbmQ0RU0MQE_slhVA",
+   "mapsQuery": "Aoufous",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJj5PX7KrbmQ0RU0MQE_slhVA"
   },
   {
    "id": "L202",
@@ -5356,19 +5431,20 @@
    "days": [
     8
    ],
-   "lat": 31.931,
-   "lon": -4.424,
+   "lat": 31.9229606,
+   "lon": -4.4336669,
    "coordPrecision": "precise",
    "interest": 3,
    "duree": "30–45 min",
    "detour": "sur la route",
    "detourClass": "sur_la_route",
    "desc": "Pause urbaine, ravitaillement et contrôle de la suite routière.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Errachidia+Erfoud%2C+vall%C3%A9e+du+Ziz+et+Rich+Maroc",
-   "mapsQuery": "Errachidia Erfoud, vallée du Ziz et Rich Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Errachidia%20Maroc&query_place_id=ChIJ29mVDJBKmA0Rs_iuNvHkZOM",
+   "mapsQuery": "Errachidia",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJ29mVDJBKmA0Rs_iuNvHkZOM"
   },
   {
    "id": "L204",
@@ -5404,19 +5480,20 @@
    "days": [
     8
    ],
-   "lat": 32.258,
-   "lon": -4.499,
+   "lat": 32.2610805,
+   "lon": -4.4953795,
    "coordPrecision": "precise",
    "interest": 3,
    "duree": "20–40 min",
    "detour": "sur la route",
    "detourClass": "sur_la_route",
    "desc": "Bourg commerçant au pied du passage vers Midelt.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Rich+Erfoud%2C+vall%C3%A9e+du+Ziz+et+Rich+Maroc",
-   "mapsQuery": "Rich Erfoud, vallée du Ziz et Rich Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Rich%20Maroc&query_place_id=ChIJHxNDYhZWmA0Rw1MuaxuqLE4",
+   "mapsQuery": "Rich",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJHxNDYhZWmA0Rw1MuaxuqLE4"
   },
   {
    "id": "L206",
@@ -5548,19 +5625,20 @@
    "days": [
     8
    ],
-   "lat": 31.68,
-   "lon": -4.28,
+   "lat": 31.7897222,
+   "lon": -4.2391667,
    "coordPrecision": "precise",
    "interest": 5,
    "duree": "15–30 min",
    "detour": "sur la route",
    "detourClass": "sur_la_route",
    "desc": "Palmeraie en ruban ; choisir une aire de stationnement autorisée de N13.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Panoramas+du+Ziz+pr%C3%A8s+d%E2%80%99Aoufous+Erfoud%2C+vall%C3%A9e+du+Ziz+et+Rich+Maroc",
-   "mapsQuery": "Panoramas du Ziz près d’Aoufous Erfoud, vallée du Ziz et Rich Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Panoramas%20du%20Ziz%20pr%C3%A8s%20d%E2%80%99Aoufous%20Maroc&query_place_id=ChIJCUNkOnnPmQ0RrH-b_3Hk3KQ",
+   "mapsQuery": "Panoramas du Ziz près d’Aoufous",
    "status": "incertain",
    "statusLabel": "⚠️ saisonnier / accès incertain",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJCUNkOnnPmQ0RrH-b_3Hk3KQ"
   },
   {
    "id": "L212",
@@ -5596,19 +5674,20 @@
    "days": [
     8
    ],
-   "lat": 31.84,
-   "lon": -4.28,
+   "lat": 31.8564879,
+   "lon": -4.2819388,
    "coordPrecision": "precise",
    "interest": 4,
    "duree": "45–60 min",
    "detour": "+10–20 min A/R estimés",
    "detourClass": "detour_interessant",
    "desc": "Source et palmeraie ; eau, baignade et qualité de l’aménagement non garanties en hiver.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Source+Bleue+de+Meski+Erfoud%2C+vall%C3%A9e+du+Ziz+et+Rich+Maroc",
-   "mapsQuery": "Source Bleue de Meski Erfoud, vallée du Ziz et Rich Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Source%20Bleue%20de%20Meski%20Maroc&query_place_id=ChIJw_zICRnJmQ0RAAXr9W97ybA",
+   "mapsQuery": "Source Bleue de Meski",
    "status": "incertain",
    "statusLabel": "⚠️ saisonnier / accès incertain",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJw_zICRnJmQ0RAAXr9W97ybA"
   },
   {
    "id": "L214",
@@ -5620,19 +5699,20 @@
    "days": [
     8
    ],
-   "lat": 31.4337,
-   "lon": -4.23182,
-   "coordPrecision": "zone",
+   "lat": 32.1705109,
+   "lon": -4.3684552,
+   "coordPrecision": "precise",
    "interest": 5,
    "duree": "20–40 min",
    "detour": "sur la route",
    "detourClass": "sur_la_route",
    "desc": "Falaises le long de N13, arrêts uniquement sur dégagements sûrs.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Gorges+du+Ziz+Erfoud%2C+vall%C3%A9e+du+Ziz+et+Rich+Maroc",
-   "mapsQuery": "Gorges du Ziz Erfoud, vallée du Ziz et Rich Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Gorges%20du%20Ziz%20Maroc&query_place_id=ChIJ5-d28YKtmQ0Rx1HVxsqpV9s",
+   "mapsQuery": "Gorges du Ziz",
    "status": "incertain",
    "statusLabel": "⚠️ saisonnier / accès incertain",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJ5-d28YKtmQ0Rx1HVxsqpV9s"
   },
   {
    "id": "L215",
@@ -5644,19 +5724,20 @@
    "days": [
     8
    ],
-   "lat": 31.43427,
-   "lon": -4.23592,
-   "coordPrecision": "zone",
+   "lat": 31.9997643,
+   "lon": -4.4645276,
+   "coordPrecision": "precise",
    "interest": 3,
    "duree": "15–30 min",
    "detour": "+0–10 min selon belvédère",
    "detourClass": "petit_detour",
    "desc": "Paysage de réservoir au nord d’Errachidia, niveau d’eau variable et zones techniques interdites.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Barrage+Hassan+Addakhil+Erfoud%2C+vall%C3%A9e+du+Ziz+et+Rich+Maroc",
-   "mapsQuery": "Barrage Hassan Addakhil Erfoud, vallée du Ziz et Rich Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Barrage%20Hassan%20Addakhil%20Maroc&query_place_id=ChIJXebg_4lLmA0RzLvdakt-XkQ",
+   "mapsQuery": "Barrage Hassan Addakhil",
    "status": "incertain",
    "statusLabel": "⚠️ saisonnier / accès incertain",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJXebg_4lLmA0RzLvdakt-XkQ"
   },
   {
    "id": "L216",
@@ -5828,19 +5909,20 @@
     8,
     9
    ],
-   "lat": 32.68405,
-   "lon": -4.74419,
-   "coordPrecision": "zone",
+   "lat": 32.6799423,
+   "lon": -4.7329268,
+   "coordPrecision": "precise",
    "interest": 3,
    "duree": "30–45 min",
    "detour": "sur place, accès pédestre",
    "detourClass": "sur_la_route",
    "desc": "Rues commerçantes et ville d’étape entre montagnes.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Centre+de+Midelt+Midelt+Maroc",
-   "mapsQuery": "Centre de Midelt Midelt Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Centre%20de%20Midelt%20Maroc&query_place_id=ChIJnx5E6EK_mA0RNrXbqKacJog",
+   "mapsQuery": "Centre de Midelt",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJnx5E6EK_mA0RNrXbqKacJog"
   },
   {
    "id": "L223",
@@ -6242,19 +6324,20 @@
    "days": [
     9
    ],
-   "lat": 33.235,
-   "lon": -5.061,
+   "lat": 33.2371814,
+   "lon": -5.0599571,
    "coordPrecision": "precise",
    "interest": 3,
    "duree": "15–30 min",
    "detour": "sur la route",
    "detourClass": "sur_la_route",
    "desc": "Bourg du plateau et paysage pastoral ; étape simple sur N13.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Timahdite+Moyen+Atlas%2C+Azrou+et+El+Hajeb+Maroc",
-   "mapsQuery": "Timahdite Moyen Atlas, Azrou et El Hajeb Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Timahdite%20Maroc&query_place_id=ChIJt4m3P6hYnw0RXMLH1xwaTrk",
+   "mapsQuery": "Timahdite",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJt4m3P6hYnw0RXMLH1xwaTrk"
   },
   {
    "id": "L239",
@@ -6266,19 +6349,20 @@
    "days": [
     9
    ],
-   "lat": 33.43868,
-   "lon": -5.21785,
-   "coordPrecision": "zone",
+   "lat": 33.4347305,
+   "lon": -5.2318879,
+   "coordPrecision": "precise",
    "interest": 4,
    "duree": "45–60 min",
    "detour": "sur la route",
    "detourClass": "sur_la_route",
    "desc": "Rues, place et commerces au pied du rocher.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Azrou+%E2%80%94+centre+ancien+Moyen+Atlas%2C+Azrou+et+El+Hajeb+Maroc",
-   "mapsQuery": "Azrou — centre ancien Moyen Atlas, Azrou et El Hajeb Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Azrou%20%E2%80%94%20centre%20ancien%20Maroc&query_place_id=ChIJsya4bzXboQ0RC-X2MPJ88rQ",
+   "mapsQuery": "Azrou — centre ancien",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJsya4bzXboQ0RC-X2MPJ88rQ"
   },
   {
    "id": "L240",
@@ -6290,19 +6374,20 @@
    "days": [
     9
    ],
-   "lat": 33.437,
-   "lon": -5.22596,
-   "coordPrecision": "zone",
+   "lat": 33.4355532,
+   "lon": -5.2242565,
+   "coordPrecision": "precise",
    "interest": 4,
    "duree": "20–40 min",
    "detour": "sur place",
    "detourClass": "sur_la_route",
    "desc": "Repère qui domine le centre ; vue depuis le pied, montée seulement si accès sec et autorisé.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Rocher+d%E2%80%99Azrou+Moyen+Atlas%2C+Azrou+et+El+Hajeb+Maroc",
-   "mapsQuery": "Rocher d’Azrou Moyen Atlas, Azrou et El Hajeb Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Rocher%20d%E2%80%99Azrou%20Maroc&query_place_id=ChIJh-AFeUvboQ0RpdyLbimAJus",
+   "mapsQuery": "Rocher d’Azrou",
    "status": "incertain",
    "statusLabel": "⚠️ saisonnier / accès incertain",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJh-AFeUvboQ0RpdyLbimAJus"
   },
   {
    "id": "L241",
@@ -6314,19 +6399,20 @@
    "days": [
     9
    ],
-   "lat": 33.4291,
-   "lon": -5.21842,
-   "coordPrecision": "zone",
+   "lat": 33.4364628,
+   "lon": -5.2218554,
+   "coordPrecision": "precise",
    "interest": 3,
    "duree": "15–20 min",
    "detour": "sur place, accès pédestre",
    "detourClass": "sur_la_route",
    "desc": "Architecture extérieure et repère central ; salle de prière non proposée à la visite.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mosqu%C3%A9e+Annour+d%E2%80%99Azrou+Moyen+Atlas%2C+Azrou+et+El+Hajeb+Maroc",
-   "mapsQuery": "Mosquée Annour d’Azrou Moyen Atlas, Azrou et El Hajeb Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mosqu%C3%A9e%20Annour%20d%E2%80%99Azrou%20Maroc&query_place_id=ChIJQQpk50vboQ0RR5kifrrIG4A",
+   "mapsQuery": "Mosquée Annour d’Azrou",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJQQpk50vboQ0RR5kifrrIG4A"
   },
   {
    "id": "L242",
@@ -6338,19 +6424,20 @@
    "days": [
     9
    ],
-   "lat": 33.687,
-   "lon": -5.371,
+   "lat": 33.685735,
+   "lon": -5.3677844,
    "coordPrecision": "precise",
    "interest": 3,
    "duree": "20–40 min",
    "detour": "sur la route",
    "detourClass": "sur_la_route",
    "desc": "Ville d’étape et falaises, transition vers la plaine de Meknès.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=El+Hajeb+Moyen+Atlas%2C+Azrou+et+El+Hajeb+Maroc",
-   "mapsQuery": "El Hajeb Moyen Atlas, Azrou et El Hajeb Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=El%20Hajeb%20Maroc&query_place_id=ChIJU47EcjU1oA0Rdxj02L2JG0I",
+   "mapsQuery": "El Hajeb",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJU47EcjU1oA0Rdxj02L2JG0I"
   },
   {
    "id": "L243",
@@ -6506,19 +6593,20 @@
    "days": [
     9
    ],
-   "lat": 33.43562,
-   "lon": -5.2202,
-   "coordPrecision": "zone",
+   "lat": 33.4264439,
+   "lon": -5.1555024,
+   "coordPrecision": "precise",
    "interest": 4,
    "duree": "30–60 min",
    "detour": "+30–50 min A/R depuis N13 selon accès",
    "detourClass": "detour_interessant",
    "desc": "Repère forestier connu, fréquenté ; le grand cèdre historique est mort, intérêt du peuplement alentour.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=C%C3%A8dre+Gouraud+Moyen+Atlas%2C+Azrou+et+El+Hajeb+Maroc",
-   "mapsQuery": "Cèdre Gouraud Moyen Atlas, Azrou et El Hajeb Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=C%C3%A8dre%20Gouraud%20Maroc&query_place_id=ChIJk4xBMvfboQ0Rqlc6Zt7cAjQ",
+   "mapsQuery": "Cèdre Gouraud",
    "status": "incertain",
    "statusLabel": "⚠️ saisonnier / accès incertain",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJk4xBMvfboQ0Rqlc6Zt7cAjQ"
   },
   {
    "id": "L250",
@@ -6738,19 +6826,20 @@
     9,
     10
    ],
-   "lat": 33.8948,
-   "lon": -5.5666,
+   "lat": 33.893054,
+   "lon": -5.5654054,
    "coordPrecision": "precise",
    "interest": 5,
    "duree": "30–60 min",
    "detour": "sur place, accès pédestre",
    "detourClass": "sur_la_route",
    "desc": "Place centrale, porte d’entrée des souks et du patrimoine impérial.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Place+El+Hedim+Mekn%C3%A8s+Maroc",
-   "mapsQuery": "Place El Hedim Meknès Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Place%20El%20Hedim%20Maroc&query_place_id=ChIJecuo7NVaoA0RYCaneAFhs1w",
+   "mapsQuery": "Place El Hedim",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJecuo7NVaoA0RYCaneAFhs1w"
   },
   {
    "id": "L259",
@@ -6763,19 +6852,20 @@
     9,
     10
    ],
-   "lat": 33.8935,
-   "lon": -5.5646,
+   "lat": 33.8925906,
+   "lon": -5.5646902,
    "coordPrecision": "precise",
    "interest": 5,
    "duree": "20–30 min",
    "detour": "sur place, accès pédestre",
    "detourClass": "sur_la_route",
    "desc": "Porte monumentale ; extérieur intéressant même si intérieur ou abords en travaux.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bab+Mansour+Mekn%C3%A8s+Maroc",
-   "mapsQuery": "Bab Mansour Meknès Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bab%20Mansour%20Maroc&query_place_id=ChIJ0-4DEp5boA0RBOHOY8uRJHg",
+   "mapsQuery": "Bab Mansour",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJ0-4DEp5boA0RBOHOY8uRJHg"
   },
   {
    "id": "L260",
@@ -6788,19 +6878,20 @@
     9,
     10
    ],
-   "lat": 33.8952,
-   "lon": -5.5668,
+   "lat": 33.8937409,
+   "lon": -5.5665809,
    "coordPrecision": "precise",
    "interest": 5,
    "duree": "1–1 h 30",
    "detour": "sur place",
    "detourClass": "sur_la_route",
    "desc": "Palais, instruments et jardin ; site FNM annonce 10 h–18 h, fermé mardi, adulte 30 MAD ; vérifier dates du séjour.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Dar+Jama%C3%AF+%E2%80%94+Mus%C3%A9e+national+de+la+musique+Mekn%C3%A8s+Maroc",
-   "mapsQuery": "Dar Jamaï — Musée national de la musique Meknès Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Dar%20Jama%C3%AF%20%E2%80%94%20Mus%C3%A9e%20national%20de%20la%20musique%20Maroc&query_place_id=ChIJw4E8-tVaoA0RNIh0gpFwc4I",
+   "mapsQuery": "Dar Jamaï — Musée national de la musique",
    "status": "verifie",
    "statusLabel": "✅ existence/information documentée ; ouverture à reconfirmer",
-   "sourceUrl": "https://fnm.ma/museums/37"
+   "sourceUrl": "https://fnm.ma/museums/37",
+   "placeId": "ChIJw4E8-tVaoA0RNIh0gpFwc4I"
   },
   {
    "id": "L261",
@@ -6813,19 +6904,20 @@
     9,
     10
    ],
-   "lat": 33.894,
-   "lon": -5.566,
+   "lat": 33.8951586,
+   "lon": -5.5652967,
    "coordPrecision": "precise",
    "interest": 5,
    "duree": "45–60 min",
    "detour": "sur place",
    "detourClass": "sur_la_route",
    "desc": "Cour et décor mérinide ; accès intérieur et terrasse à reconfirmer.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=M%C3%A9dersa+Bou+Inania+de+Mekn%C3%A8s+Mekn%C3%A8s+Maroc",
-   "mapsQuery": "Médersa Bou Inania de Meknès Meknès Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=M%C3%A9dersa%20Bou%20Inania%20de%20Mekn%C3%A8s%20Maroc&query_place_id=ChIJjXW4bipboA0R4MZAweRh0ps",
+   "mapsQuery": "Médersa Bou Inania de Meknès",
    "status": "incertain",
    "statusLabel": "⚠️ saisonnier / accès incertain",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJjXW4bipboA0R4MZAweRh0ps"
   },
   {
    "id": "L262",
@@ -6838,19 +6930,20 @@
     9,
     10
    ],
-   "lat": 33.89986,
-   "lon": -5.56296,
-   "coordPrecision": "zone",
+   "lat": 33.8947918,
+   "lon": -5.564816,
+   "coordPrecision": "precise",
    "interest": 3,
    "duree": "15–25 min",
    "detour": "sur place, accès pédestre",
    "detourClass": "sur_la_route",
    "desc": "Repère de la médina ; découverte extérieure uniquement.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Grande+Mosqu%C3%A9e+de+Mekn%C3%A8s+Mekn%C3%A8s+Maroc",
-   "mapsQuery": "Grande Mosquée de Meknès Meknès Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Grande%20Mosqu%C3%A9e%20de%20Mekn%C3%A8s%20Maroc&query_place_id=ChIJNajqeipboA0RFH5-k0l2TPg",
+   "mapsQuery": "Grande Mosquée de Meknès",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJNajqeipboA0RFH5-k0l2TPg"
   },
   {
    "id": "L263",
@@ -6863,19 +6956,20 @@
     9,
     10
    ],
-   "lat": 33.89969,
-   "lon": -5.56865,
-   "coordPrecision": "zone",
+   "lat": 33.8907229,
+   "lon": -5.5631701,
+   "coordPrecision": "precise",
    "interest": 5,
    "duree": "30–45 min",
    "detour": "sur place",
    "detourClass": "sur_la_route",
    "desc": "Patrimoine impérial ; espaces accessibles et consignes religieuses à vérifier à l’entrée.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mausol%C3%A9e+Moulay+Isma%C3%AFl+Mekn%C3%A8s+Maroc",
-   "mapsQuery": "Mausolée Moulay Ismaïl Meknès Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mausol%C3%A9e%20Moulay%20Isma%C3%AFl%20Maroc&query_place_id=ChIJqU6tXdVaoA0RQyeoZcbEw4Y",
+   "mapsQuery": "Mausolée Moulay Ismaïl",
    "status": "incertain",
    "statusLabel": "⚠️ saisonnier / accès incertain",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJqU6tXdVaoA0RQyeoZcbEw4Y"
   },
   {
    "id": "L264",
@@ -6888,19 +6982,20 @@
     9,
     10
    ],
-   "lat": 33.89598,
-   "lon": -5.56923,
-   "coordPrecision": "zone",
+   "lat": 33.8934142,
+   "lon": -5.5625483,
+   "coordPrecision": "precise",
    "interest": 4,
    "duree": "20–30 min",
    "detour": "sur place, accès pédestre",
    "detourClass": "sur_la_route",
    "desc": "Esplanade et approche de la ville impériale.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Place+Lalla+Aouda+Mekn%C3%A8s+Maroc",
-   "mapsQuery": "Place Lalla Aouda Meknès Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Place%20Lalla%20Aouda%20Maroc&query_place_id=ChIJUVOOatVaoA0RskU6vacx9Gs",
+   "mapsQuery": "Place Lalla Aouda",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJUVOOatVaoA0RskU6vacx9Gs"
   },
   {
    "id": "L265",
@@ -6938,19 +7033,20 @@
     9,
     10
    ],
-   "lat": 33.89072,
-   "lon": -5.5649,
-   "coordPrecision": "zone",
+   "lat": 33.8912399,
+   "lon": -5.5645173,
+   "coordPrecision": "precise",
    "interest": 3,
    "duree": "30–45 min",
    "detour": "sur place",
    "detourClass": "sur_la_route",
    "desc": "Espaces souterrains et interprétation historique à nuancer ; accès ouvert seulement.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Prison+de+Qara+Mekn%C3%A8s+Maroc",
-   "mapsQuery": "Prison de Qara Meknès Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Prison%20de%20Qara%20Maroc&query_place_id=ChIJ____VNRaoA0RyTD9L4UxB_0",
+   "mapsQuery": "Prison de Qara",
    "status": "incertain",
    "statusLabel": "⚠️ saisonnier / accès incertain",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJ____VNRaoA0RyTD9L4UxB_0"
   },
   {
    "id": "L267",
@@ -6963,19 +7059,20 @@
     9,
     10
    ],
-   "lat": 33.882,
-   "lon": -5.558,
+   "lat": 33.8805023,
+   "lon": -5.5577436,
    "coordPrecision": "precise",
    "interest": 5,
    "duree": "45–60 min",
    "detour": "+15–25 min A/R depuis El Hedim estimés",
    "detourClass": "detour_interessant",
    "desc": "Grands volumes de stockage et hydraulique ; ouverture actuelle non établie par la page patrimoniale.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Heri+es-Souani+et+Dar+el+Ma+Mekn%C3%A8s+Maroc",
-   "mapsQuery": "Heri es-Souani et Dar el Ma Meknès Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Heri%20es-Souani%20et%20Dar%20el%20Ma%20Maroc&query_place_id=ChIJ_xeJfP9FoA0RRdsEbpZxxuo",
+   "mapsQuery": "Heri es-Souani et Dar el Ma",
    "status": "incertain",
    "statusLabel": "⚠️ saisonnier / accès incertain",
-   "sourceUrl": "https://visit-meknes.com/en/portfolio/heri-souani-and-dar-al-ma/"
+   "sourceUrl": "https://visit-meknes.com/en/portfolio/heri-souani-and-dar-al-ma/",
+   "placeId": "ChIJ_xeJfP9FoA0RRdsEbpZxxuo"
   },
   {
    "id": "L268",
@@ -6988,19 +7085,20 @@
     9,
     10
    ],
-   "lat": 31.594,
-   "lon": -7.977,
+   "lat": 33.879068,
+   "lon": -5.5453226,
    "coordPrecision": "precise",
    "interest": 4,
    "duree": "30–45 min",
    "detour": "même secteur Heri",
    "detourClass": null,
    "desc": "Réservoir historique et promenade extérieure si abords accessibles.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bassin+Agdal+de+Mekn%C3%A8s+Mekn%C3%A8s+Maroc",
-   "mapsQuery": "Bassin Agdal de Meknès Meknès Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bassin%20Agdal%20de%20Mekn%C3%A8s%20Maroc&query_place_id=ChIJ27TjDjxFoA0RuiQMVFcugb0",
+   "mapsQuery": "Bassin Agdal de Meknès",
    "status": "incertain",
    "statusLabel": "⚠️ saisonnier / accès incertain",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJ27TjDjxFoA0RuiQMVFcugb0"
   },
   {
    "id": "L269",
@@ -7013,19 +7111,20 @@
     9,
     10
    ],
-   "lat": 33.89104,
-   "lon": -5.56864,
-   "coordPrecision": "zone",
+   "lat": 33.8911971,
+   "lon": -5.5723858,
+   "coordPrecision": "precise",
    "interest": 4,
    "duree": "15–25 min",
    "detour": "sur place, accès pédestre",
    "detourClass": "sur_la_route",
    "desc": "Porte monumentale à l’ouest de la médina.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bab+el+Khemis+Mekn%C3%A8s+Maroc",
-   "mapsQuery": "Bab el Khemis Meknès Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bab%20el%20Khemis%20Maroc&query_place_id=ChIJr3QISStFoA0RAskkgJ7AqhY",
+   "mapsQuery": "Bab el Khemis",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJr3QISStFoA0RAskkgJ7AqhY"
   },
   {
    "id": "L270",
@@ -7038,19 +7137,20 @@
     9,
     10
    ],
-   "lat": 33.89373,
-   "lon": -5.56948,
-   "coordPrecision": "zone",
+   "lat": 33.9010274,
+   "lon": -5.5683088,
+   "coordPrecision": "precise",
    "interest": 4,
    "duree": "15–25 min",
    "detour": "sur place, accès pédestre",
    "detourClass": "sur_la_route",
    "desc": "Porte du nord et vie de quartier.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bab+Berda%C3%AFne+Mekn%C3%A8s+Maroc",
-   "mapsQuery": "Bab Berdaïne Meknès Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bab%20Berda%C3%AFne%20Maroc&query_place_id=ChIJvTGy6i5boA0Rxd3CZxa5gj8",
+   "mapsQuery": "Bab Berdaïne",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJvTGy6i5boA0Rxd3CZxa5gj8"
   },
   {
    "id": "L271",
@@ -7313,19 +7413,20 @@
     9,
     10
    ],
-   "lat": 33.89341,
-   "lon": -5.56545,
-   "coordPrecision": "zone",
+   "lat": 33.895938,
+   "lon": -5.560563,
+   "coordPrecision": "precise",
    "interest": 4,
    "duree": "30–60 min",
    "detour": "sur place, accès pédestre",
    "detourClass": "sur_la_route",
    "desc": "Pause verte à proximité de la médina ; état et ouverture à vérifier.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Jardin+Lahboul+Mekn%C3%A8s+Maroc",
-   "mapsQuery": "Jardin Lahboul Meknès Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Jardin%20Lahboul%20Maroc&query_place_id=ChIJk2FtPtVEoA0RPcR-qXImWgU",
+   "mapsQuery": "Jardin Lahboul",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJk2FtPtVEoA0RPcR-qXImWgU"
   },
   {
    "id": "L282",
@@ -7556,19 +7657,20 @@
     1,
     10
    ],
-   "lat": 34.024,
-   "lon": -6.822,
+   "lat": 34.0240776,
+   "lon": -6.8229168,
    "coordPrecision": "precise",
    "interest": 5,
    "duree": "30–45 min",
    "detour": "grand détour urbain depuis axe aéroport",
    "detourClass": null,
    "desc": "Minaret inachevé et esplanade monumentale, accès et cérémonies à vérifier.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tour+Hassan+Rabat+et+Sal%C3%A9+Maroc",
-   "mapsQuery": "Tour Hassan Rabat et Salé Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tour%20Hassan%20Maroc&query_place_id=ChIJ8QoUlJFrpw0RXGFGkplsNhM",
+   "mapsQuery": "Tour Hassan",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJ8QoUlJFrpw0RXGFGkplsNhM"
   },
   {
    "id": "L291",
@@ -7581,19 +7683,20 @@
     1,
     10
    ],
-   "lat": 34.024,
-   "lon": -6.821,
+   "lat": 34.0226375,
+   "lon": -6.8214844,
    "coordPrecision": "precise",
    "interest": 4,
    "duree": "20–30 min",
    "detour": "même secteur Hassan",
    "detourClass": null,
    "desc": "Architecture et abords ; accès selon consignes du site.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mausol%C3%A9e+Mohammed+V+Rabat+et+Sal%C3%A9+Maroc",
-   "mapsQuery": "Mausolée Mohammed V Rabat et Salé Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mausol%C3%A9e%20Mohammed%20V%20Maroc&query_place_id=ChIJIQ_FAZFrpw0RR2twZGQWwOQ",
+   "mapsQuery": "Mausolée Mohammed V",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJIQ_FAZFrpw0RR2twZGQWwOQ"
   },
   {
    "id": "L292",
@@ -7606,19 +7709,20 @@
     1,
     10
    ],
-   "lat": 34.026,
-   "lon": -6.836,
+   "lat": 34.0318167,
+   "lon": -6.8361049,
    "coordPrecision": "precise",
    "interest": 5,
    "duree": "1–1 h 30",
    "detour": "grand détour urbain",
    "detourClass": null,
    "desc": "Ruelles et porte monumentale ; musée et jardins selon ouvertures.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kasbah+des+Oudayas+Rabat+et+Sal%C3%A9+Maroc",
-   "mapsQuery": "Kasbah des Oudayas Rabat et Salé Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kasbah%20des%20Oudayas%20Maroc&query_place_id=ChIJBZ4-lgpspw0RWVQqi0ipreQ",
+   "mapsQuery": "Kasbah des Oudayas",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJBZ4-lgpspw0RWVQqi0ipreQ"
   },
   {
    "id": "L293",
@@ -7631,19 +7735,20 @@
     1,
     10
    ],
-   "lat": 34.007,
-   "lon": -6.821,
+   "lat": 34.0064375,
+   "lon": -6.8203594,
    "coordPrecision": "precise",
    "interest": 5,
    "duree": "1–1 h 30",
    "detour": "grand détour urbain",
    "detourClass": null,
    "desc": "Vestiges antiques et nécropole mérinide ; billet et accès à vérifier.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Chellah+Rabat+et+Sal%C3%A9+Maroc",
-   "mapsQuery": "Chellah Rabat et Salé Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Chellah%20Maroc&query_place_id=ChIJh0xTTnZrpw0RhT7CpZzXDKc",
+   "mapsQuery": "Chellah",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJh0xTTnZrpw0RhT7CpZzXDKc"
   },
   {
    "id": "L294",
@@ -7656,19 +7761,20 @@
     1,
     10
    ],
-   "lat": 34.01801,
-   "lon": -6.84335,
-   "coordPrecision": "zone",
+   "lat": 34.0150939,
+   "lon": -6.8327243,
+   "coordPrecision": "precise",
    "interest": 4,
    "duree": "1–1 h 30",
    "detour": "grand détour urbain",
    "detourClass": null,
    "desc": "Option muséale en ville ; exposition et jour d’ouverture à vérifier.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mus%C3%A9e+Mohammed+VI+d%E2%80%99art+moderne+et+contemporain+Rabat+et+Sal%C3%A9+Maroc",
-   "mapsQuery": "Musée Mohammed VI d’art moderne et contemporain Rabat et Salé Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mus%C3%A9e%20Mohammed%20VI%20d%E2%80%99art%20moderne%20et%20contemporain%20Maroc&query_place_id=ChIJ6bsJIodrpw0RRZnRi1D4qTw",
+   "mapsQuery": "Musée Mohammed VI d’art moderne et contemporain",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJ6bsJIodrpw0RRZnRi1D4qTw"
   },
   {
    "id": "L295",
@@ -7681,19 +7787,20 @@
     1,
     10
    ],
-   "lat": 34.02478,
-   "lon": -6.84055,
-   "coordPrecision": "zone",
+   "lat": 34.0128133,
+   "lon": -6.837674,
+   "coordPrecision": "precise",
    "interest": 4,
    "duree": "20–40 min",
    "detour": "grand détour urbain",
    "detourClass": null,
    "desc": "Porte almohade, exposition uniquement si ouverte.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bab+Rouah+Rabat+et+Sal%C3%A9+Maroc",
-   "mapsQuery": "Bab Rouah Rabat et Salé Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bab%20Rouah%20Maroc&query_place_id=ChIJsSwuKn9spw0Ru0rQtdgLOjI",
+   "mapsQuery": "Bab Rouah",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJsSwuKn9spw0Ru0rQtdgLOjI"
   },
   {
    "id": "L296",
@@ -7706,19 +7813,20 @@
     1,
     10
    ],
-   "lat": 34.01904,
-   "lon": -6.84181,
-   "coordPrecision": "zone",
+   "lat": 34.0309473,
+   "lon": -6.8366279,
+   "coordPrecision": "precise",
    "interest": 4,
    "duree": "15–25 min",
    "detour": "même secteur Oudayas",
    "detourClass": null,
    "desc": "Porte monumentale de la kasbah ; extérieur.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bab+Ouda%C3%AFa+Rabat+et+Sal%C3%A9+Maroc",
-   "mapsQuery": "Bab Oudaïa Rabat et Salé Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bab%20Ouda%C3%AFa%20Maroc&query_place_id=ChIJOwr8xgpspw0RN3gOvH31kSU",
+   "mapsQuery": "Bab Oudaïa",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJOwr8xgpspw0RN3gOvH31kSU"
   },
   {
    "id": "L297",
@@ -7731,19 +7839,20 @@
     1,
     10
    ],
-   "lat": 34.02383,
-   "lon": -6.84469,
-   "coordPrecision": "zone",
+   "lat": 34.0398419,
+   "lon": -6.8272938,
+   "coordPrecision": "precise",
    "interest": 4,
    "duree": "30–45 min",
    "detour": "détour urbain Salé",
    "detourClass": null,
    "desc": "Décor historique dans la médina, ouverture à vérifier.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=M%C3%A9dersa+m%C3%A9rinide+de+Sal%C3%A9+Rabat+et+Sal%C3%A9+Maroc",
-   "mapsQuery": "Médersa mérinide de Salé Rabat et Salé Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=M%C3%A9dersa%20m%C3%A9rinide%20de%20Sal%C3%A9%20Maroc&query_place_id=ChIJZWvv8PBrpw0RxD9r8E5LDWA",
+   "mapsQuery": "Médersa mérinide de Salé",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJZWvv8PBrpw0RxD9r8E5LDWA"
   },
   {
    "id": "L298",
@@ -7756,19 +7865,20 @@
     1,
     10
    ],
-   "lat": 34.0216,
-   "lon": -6.83759,
-   "coordPrecision": "zone",
+   "lat": 34.0405316,
+   "lon": -6.8272294,
+   "coordPrecision": "precise",
    "interest": 3,
    "duree": "15–20 min",
    "detour": "même secteur Salé",
    "detourClass": null,
    "desc": "Intérêt extérieur dans la médina ; intérieur non proposé.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Grande+Mosqu%C3%A9e+de+Sal%C3%A9+Rabat+et+Sal%C3%A9+Maroc",
-   "mapsQuery": "Grande Mosquée de Salé Rabat et Salé Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Grande%20Mosqu%C3%A9e%20de%20Sal%C3%A9%20Maroc&query_place_id=ChIJfTjRjPBrpw0R3MuflOKTyWA",
+   "mapsQuery": "Grande Mosquée de Salé",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJfTjRjPBrpw0R3MuflOKTyWA"
   },
   {
    "id": "L299",
@@ -7781,19 +7891,20 @@
     1,
     10
    ],
-   "lat": 34.01781,
-   "lon": -6.83788,
-   "coordPrecision": "zone",
+   "lat": 34.033078,
+   "lon": -6.8202899,
+   "coordPrecision": "precise",
    "interest": 4,
    "duree": "20–30 min",
    "detour": "détour urbain Salé",
    "detourClass": null,
    "desc": "Porte de Salé et mémoire de la ville portuaire.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bab+Mrissa+Rabat+et+Sal%C3%A9+Maroc",
-   "mapsQuery": "Bab Mrissa Rabat et Salé Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bab%20Mrissa%20Maroc&query_place_id=ChIJPRVnjexrpw0RRbVkn5NZJWU",
+   "mapsQuery": "Bab Mrissa",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJPRVnjexrpw0RRbVkn5NZJWU"
   },
   {
    "id": "L300",
@@ -7806,19 +7917,20 @@
     1,
     10
    ],
-   "lat": 34.025,
-   "lon": -6.835,
+   "lat": 34.0271543,
+   "lon": -6.8331646,
    "coordPrecision": "precise",
    "interest": 4,
    "duree": "30–60 min",
    "detour": "grand détour urbain",
    "detourClass": null,
    "desc": "Artisanat et tapis, grande entrée commerçante de médina.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Rue+des+Consuls+Rabat+Rabat+et+Sal%C3%A9+Maroc",
-   "mapsQuery": "Rue des Consuls Rabat Rabat et Salé Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Rue%20des%20Consuls%20Rabat%20Maroc&query_place_id=ChIJ5VywUIprpw0RAPwq5KFHfqk",
+   "mapsQuery": "Rue des Consuls Rabat",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJ5VywUIprpw0RAPwq5KFHfqk"
   },
   {
    "id": "L301",
@@ -7931,19 +8043,20 @@
     1,
     10
    ],
-   "lat": 34.026,
-   "lon": -6.836,
+   "lat": 34.0300583,
+   "lon": -6.8353361,
    "coordPrecision": "precise",
    "interest": 4,
    "duree": "30–45 min",
    "detour": "même secteur Oudayas",
    "detourClass": null,
    "desc": "Pause dans la kasbah si ouvert.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Jardin+andalou+des+Oudayas+Rabat+et+Sal%C3%A9+Maroc",
-   "mapsQuery": "Jardin andalou des Oudayas Rabat et Salé Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Jardin%20andalou%20des%20Oudayas%20Maroc&query_place_id=ChIJC9SRVHVspw0ReRXp0ou_UQU",
+   "mapsQuery": "Jardin andalou des Oudayas",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJC9SRVHVspw0ReRXp0ou_UQU"
   },
   {
    "id": "L306",
@@ -7981,19 +8094,20 @@
     1,
     10
    ],
-   "lat": 34.02082,
-   "lon": -6.84492,
-   "coordPrecision": "zone",
+   "lat": 34.008468,
+   "lon": -6.8467643,
+   "coordPrecision": "precise",
    "interest": 3,
    "duree": "45–60 min",
    "detour": "grand détour urbain",
    "detourClass": null,
    "desc": "Option végétale en ville, ouverture à reconfirmer.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Jardin+d%E2%80%99Essais+botaniques+Rabat+Rabat+et+Sal%C3%A9+Maroc",
-   "mapsQuery": "Jardin d’Essais botaniques Rabat Rabat et Salé Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Jardin%20d%E2%80%99Essais%20botaniques%20Rabat%20Maroc&query_place_id=ChIJPRPzs2Jspw0RIkNUs4_tOWo",
+   "mapsQuery": "Jardin d’Essais botaniques Rabat",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJPRPzs2Jspw0RIkNUs4_tOWo"
   },
   {
    "id": "L308",
@@ -8006,22 +8120,23 @@
     1,
     10
    ],
-   "lat": 34.026,
-   "lon": -6.836,
+   "lat": 34.0304543,
+   "lon": -6.8349148,
    "coordPrecision": "precise",
    "interest": null,
    "duree": null,
    "detour": null,
    "detourClass": null,
    "desc": "Cadre emblématique, ouverture à reconfirmer, détour urbain conséquent.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+Maure+des+Oudayas+Rabat+et+Sal%C3%A9+Maroc",
-   "mapsQuery": "Café Maure des Oudayas Rabat et Salé Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Maure%20des%20Oudayas%20Maroc&query_place_id=ChIJzRV_VvVrpw0R2DhMrSTt0FA",
+   "mapsQuery": "Café Maure des Oudayas",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
    "sourceUrl": null,
    "restoType": "café patrimonial",
    "budget": "30–80 MAD / personne, estimation",
-   "commander": "thé et pâtisseries selon service"
+   "commander": "thé et pâtisseries selon service",
+   "placeId": "ChIJzRV_VvVrpw0R2DhMrSTt0FA"
   },
   {
    "id": "L309",
@@ -8143,19 +8258,20 @@
    "emoji": "💎",
    "region": "Repères de route complémentaires",
    "days": [],
-   "lat": 33.0011,
-   "lon": -7.6162,
+   "lat": 33.002165,
+   "lon": -7.6196289,
    "coordPrecision": "precise",
    "interest": 2,
    "duree": "30–45 min",
    "detour": "+20–35 min A/R estimés",
    "detourClass": "detour_interessant",
    "desc": "Pause de bourg possible après sortie d’autoroute ; intérêt secondaire par rapport au temps perdu.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Settat+centre+Maroc",
-   "mapsQuery": "Settat centre Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Settat%20centre%20Maroc&query_place_id=ChIJmZ5CqV0Fpg0REvre3pVejT8",
+   "mapsQuery": "Settat centre",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJmZ5CqV0Fpg0REvre3pVejT8"
   },
   {
    "id": "L314",
@@ -8165,19 +8281,20 @@
    "emoji": "💎",
    "region": "Repères de route complémentaires",
    "days": [],
-   "lat": 32.236,
-   "lon": -7.949,
+   "lat": 32.2359364,
+   "lon": -7.9538378,
    "coordPrecision": "precise",
    "interest": 2,
    "duree": "20–40 min",
    "detour": "+15–25 min A/R estimés",
    "detourClass": "detour_interessant",
    "desc": "Commerces et pause simple, sans attraction prioritaire pour cette boucle.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ben+Guerir+centre+Maroc",
-   "mapsQuery": "Ben Guerir centre Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ben%20Guerir%20centre%20Maroc&query_place_id=ChIJe-OTEXh6rw0RKhNrVq9ICmA",
+   "mapsQuery": "Ben Guerir centre",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJe-OTEXh6rw0RKhNrVq9ICmA"
   },
   {
    "id": "L315",
@@ -8187,19 +8304,20 @@
    "emoji": "💎",
    "region": "Repères de route complémentaires",
    "days": [],
-   "lat": 31.352,
-   "lon": -7.947,
+   "lat": 31.354702,
+   "lon": -7.9505308,
    "coordPrecision": "precise",
    "interest": 3,
    "duree": "20–30 min",
    "detour": "sur la route",
    "detourClass": "sur_la_route",
    "desc": "Provisions et village de transition avant Asni.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tahanaout+centre+Maroc",
-   "mapsQuery": "Tahanaout centre Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tahanaout%20centre%20Maroc&query_place_id=ChIJKXsoms4CsA0R3OuhSsFj_Pg",
+   "mapsQuery": "Tahanaout centre",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJKXsoms4CsA0R3OuhSsFj_Pg"
   },
   {
    "id": "L316",
@@ -8209,19 +8327,20 @@
    "emoji": "💎",
    "region": "Repères de route complémentaires",
    "days": [],
-   "lat": 31.283,
-   "lon": -7.928,
+   "lat": 31.2855219,
+   "lon": -7.9668244,
    "coordPrecision": "precise",
    "interest": 3,
    "duree": "30–45 min",
    "detour": "+15–30 min A/R estimés",
    "detourClass": "detour_interessant",
    "desc": "Village sur les hauteurs, visite extérieure sans entrer dans le sanctuaire.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Moulay+Brahim+village+Maroc",
-   "mapsQuery": "Moulay Brahim village Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Moulay%20Brahim%20village%20Maroc&query_place_id=ChIJ8fnAHlcbsA0Rd2DMEn3rNuA",
+   "mapsQuery": "Moulay Brahim village",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJ8fnAHlcbsA0Rd2DMEn3rNuA"
   },
   {
    "id": "L317",
@@ -8253,19 +8372,20 @@
    "emoji": "💎",
    "region": "Repères de route complémentaires",
    "days": [],
-   "lat": 31.155,
-   "lon": -7.442,
+   "lat": 31.1572172,
+   "lon": -7.4631539,
    "coordPrecision": "precise",
    "interest": 3,
    "duree": "15–30 min",
    "detour": "sur la route",
    "detourClass": "sur_la_route",
    "desc": "Pause après le Tichka et vues sur le versant sud.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Agouim+Maroc",
-   "mapsQuery": "Agouim Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Agouim%20Maroc&query_place_id=ChIJE54O_8C4ug0RG_J0hE5Zkec",
+   "mapsQuery": "Agouim",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJE54O_8C4ug0RG_J0hE5Zkec"
   },
   {
    "id": "L319",
@@ -8275,19 +8395,20 @@
    "emoji": "💎",
    "region": "Repères de route complémentaires",
    "days": [],
-   "lat": 31.079,
-   "lon": -7.303,
+   "lat": 31.1262715,
+   "lon": -7.3263407,
    "coordPrecision": "precise",
    "interest": 3,
    "duree": "15–30 min",
    "detour": "sur la route",
    "detourClass": "sur_la_route",
    "desc": "Village de N9 et pause de route, observer les maisons depuis l’espace public.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tisselday+Maroc",
-   "mapsQuery": "Tisselday Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tisselday%20Maroc&query_place_id=ChIJuTj2iqTDug0RgZ7hLsg8NkI",
+   "mapsQuery": "Tisselday",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJuTj2iqTDug0RgZ7hLsg8NkI"
   },
   {
    "id": "L320",
@@ -8297,19 +8418,20 @@
    "emoji": "💎",
    "region": "Repères de route complémentaires",
    "days": [],
-   "lat": 31.288,
-   "lon": -7.24,
+   "lat": 31.2870382,
+   "lon": -7.2368011,
    "coordPrecision": "precise",
    "interest": 5,
    "duree": "demi-journée de route et arrêts",
    "detour": "grand détour +1 h 30–3 h estimés",
    "detourClass": null,
    "desc": "Variante paysagère exceptionnelle, itinéraire complet à recalculer ; pas un détour de quelques minutes.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ounila+%E2%80%94+vall%C3%A9e+par+Telouet+Maroc",
-   "mapsQuery": "Ounila — vallée par Telouet Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ounila%20%E2%80%94%20vall%C3%A9e%20par%20Telouet%20Maroc&query_place_id=ChIJvS9uyUzQug0RB_QDbN_a30o",
+   "mapsQuery": "Ounila — vallée par Telouet",
    "status": "incertain",
    "statusLabel": "⚠️ saisonnier / accès incertain",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJvS9uyUzQug0RB_QDbN_a30o"
   },
   {
    "id": "L321",
@@ -8341,19 +8463,20 @@
    "emoji": "💎",
    "region": "Repères de route complémentaires",
    "days": [],
-   "lat": 33.527,
-   "lon": -5.111,
+   "lat": 33.5271746,
+   "lon": -5.1171821,
    "coordPrecision": "precise",
    "interest": 3,
    "duree": "45–60 min",
    "detour": "grand détour +40–70 min estimés",
    "detourClass": "detour_interessant",
    "desc": "Ville de montagne optionnelle ; détour supérieur à la courte visite annoncée dans l’ancien fichier.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ifrane+centre+Maroc",
-   "mapsQuery": "Ifrane centre Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ifrane%20centre%20Maroc&query_place_id=ChIJCxQt83LXoQ0Ro3xMQB3PU3I",
+   "mapsQuery": "Ifrane centre",
    "status": "incertain",
    "statusLabel": "⚠️ saisonnier / accès incertain",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJCxQt83LXoQ0Ro3xMQB3PU3I"
   },
   {
    "id": "L324",
@@ -8363,19 +8486,20 @@
    "emoji": "💎",
    "region": "Repères de route complémentaires",
    "days": [],
-   "lat": 33.8946,
-   "lon": -6.3067,
+   "lat": 33.8954803,
+   "lon": -6.3207151,
    "coordPrecision": "precise",
    "interest": 2,
    "duree": "20–40 min",
    "detour": "+20–35 min A/R estimés",
    "detourClass": "detour_interessant",
    "desc": "Commerces si sortie d’autoroute utile ; intérêt limité le jour du vol.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tiflet+centre+Maroc",
-   "mapsQuery": "Tiflet centre Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tiflet%20centre%20Maroc&query_place_id=ChIJG-91rLbOoA0RMV3X9FLyzMs",
+   "mapsQuery": "Tiflet centre",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJG-91rLbOoA0RMV3X9FLyzMs"
   },
   {
    "id": "L325",
@@ -8385,19 +8509,20 @@
    "emoji": "💎",
    "region": "Repères de route complémentaires",
    "days": [],
-   "lat": 33.8242,
-   "lon": -6.0664,
+   "lat": 33.8259796,
+   "lon": -6.0710879,
    "coordPrecision": "precise",
    "interest": 3,
    "duree": "30–60 min",
    "detour": "+20–35 min A/R estimés",
    "detourClass": "detour_interessant",
    "desc": "Marché et tapis, seulement si vous avez une vraie marge ; pas d’arrêt nécessaire sur A2.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kh%C3%A9misset+centre+Maroc",
-   "mapsQuery": "Khémisset centre Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kh%C3%A9misset%20centre%20Maroc&query_place_id=ChIJl-cejqfCoA0RXMTW_TFXrpg",
+   "mapsQuery": "Khémisset centre",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "placeId": "ChIJl-cejqfCoA0RXMTW_TFXrpg"
   },
   {
    "id": "R1",
@@ -8463,8 +8588,8 @@
    "days": [
     5
    ],
-   "lat": 31.49,
-   "lon": -5.9,
+   "lat": 31.4509351,
+   "lon": -5.9605932,
    "coordPrecision": "precise",
    "interest": 5,
    "depart": "Bord de la R704 devant Miguirne Chez Ali, Tamellalt",
@@ -8476,9 +8601,11 @@
    "hiver": "Aucun canyon étroit sous pluie ou alerte crue ; gel dans les passages encaissés",
    "guide": "Fortement recommandé",
    "desc": "Villages, pieds des formations rocheuses et belvédères.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Miguirne+Chez+Ali+Dades+Tamellalt",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Doigts%20de%20singe%20%E2%80%93%20Tamellalt%20/%20A%C3%AFt%20Arbi%20Maroc&query_place_id=ChIJYbKfMgDNvA0RwXqroaIYeLU",
    "status": "verifie",
-   "statusLabel": "✅ documenté"
+   "statusLabel": "✅ documenté",
+   "placeId": "ChIJYbKfMgDNvA0RwXqroaIYeLU",
+   "mapsQuery": "Doigts de singe – Tamellalt / Aït Arbi"
   },
   {
    "id": "R4",
@@ -8572,14 +8699,16 @@
    "days": [
     3
    ],
-   "lat": 31.2917,
-   "lon": -7.3806,
+   "lat": 31.2862964,
+   "lon": -7.3810637,
    "coordPrecision": "precise",
    "interest": 5,
    "desc": "Neige, gel, brouillard et éboulements possibles. Un GPS annonçant un passage ne remplace pas l'ouverture officielle. Faire le plein avant la montagne.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tizi+n%27Tichka",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tizi%20n%27Tichka%20%28col%20N9%2C%20~2%20260%20m%29%20Maroc&query_place_id=ChIJRygonxvJug0ReFE-mLw_nxo",
    "status": "incertain",
-   "statusLabel": "⚠️ contrôle obligatoire avant passage"
+   "statusLabel": "⚠️ contrôle obligatoire avant passage",
+   "placeId": "ChIJRygonxvJug0ReFE-mLw_nxo",
+   "mapsQuery": "Tizi n'Tichka (col N9, ~2 260 m)"
   },
   {
    "id": "V2",
@@ -8591,14 +8720,16 @@
    "days": [
     4
    ],
-   "lat": 31.567,
-   "lon": -5.876,
+   "lat": 31.5305196,
+   "lon": -5.9245726,
    "coordPrecision": "precise",
    "interest": 4,
    "desc": "Belvédère des virages du Dadès : route et terrasse accessibles seulement si dégagées. Demi-tour avant le secteur en cas de gel.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Lacets+de+Timzzillite+Dades",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Lacets%20de%20Timzzillite%20%28Dad%C3%A8s%29%20Maroc&query_place_id=ChIJVWPGbgAzow0Rwl1EBpjkkMQ",
    "status": "incertain",
-   "statusLabel": "⚠️ D si glace"
+   "statusLabel": "⚠️ D si glace",
+   "placeId": "ChIJVWPGbgAzow0Rwl1EBpjkkMQ",
+   "mapsQuery": "Lacets de Timzzillite (Dadès)"
   },
   {
    "id": "V3",
@@ -9145,21 +9276,22 @@
    "days": [
     108
    ],
-   "lat": 31.435,
-   "lon": -4.233,
-   "coordPrecision": "zone",
+   "lat": 31.4347145,
+   "lon": -4.2337339,
+   "coordPrecision": "precise",
    "interest": null,
    "duree": null,
    "detour": null,
    "detourClass": null,
    "desc": "dattes et petite pause",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=March%C3%A9+central+Erfoud+Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Centre%20et%20march%C3%A9%20d%E2%80%99Erfoud%20Maroc&query_place_id=ChIJC1V5UCx7lw0RFUKmETVSTPA",
    "mapsQuery": "Centre et marché d’Erfoud",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 Accès / créneau / rendez-vous à confirmer",
    "sourceUrl": null,
    "variant": "B",
-   "exterior": false
+   "exterior": false,
+   "placeId": "ChIJC1V5UCx7lw0RFUKmETVSTPA"
   },
   {
    "id": "B03",
@@ -9171,21 +9303,22 @@
    "days": [
     108
    ],
-   "lat": 31.68,
-   "lon": -4.28,
-   "coordPrecision": "zone",
+   "lat": 31.6890813,
+   "lon": -4.1788953,
+   "coordPrecision": "precise",
    "interest": null,
    "duree": null,
    "detour": null,
    "detourClass": null,
    "desc": "village et palmeraie",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Aoufous+Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Aoufous%20Maroc&query_place_id=ChIJj5PX7KrbmQ0RU0MQE_slhVA",
    "mapsQuery": "Aoufous",
    "status": "verifie",
    "statusLabel": "✅ Lieu/offre documenté ; ouverture janvier 2027 à confirmer",
    "sourceUrl": null,
    "variant": "B",
-   "exterior": false
+   "exterior": false,
+   "placeId": "ChIJj5PX7KrbmQ0RU0MQE_slhVA"
   },
   {
    "id": "B04",
@@ -9197,21 +9330,22 @@
    "days": [
     108
    ],
-   "lat": 31.68,
-   "lon": -4.28,
-   "coordPrecision": "zone",
+   "lat": 32.1705109,
+   "lon": -4.3684552,
+   "coordPrecision": "precise",
    "interest": null,
    "duree": null,
    "detour": null,
    "detourClass": null,
    "desc": "panorama depuis la N13, secteur d’Aoufous",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ziz+Valley+viewpoint+Aoufous+Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Vall%C3%A9e%20du%20Ziz%20Maroc&query_place_id=ChIJ5-d28YKtmQ0Rx1HVxsqpV9s",
    "mapsQuery": "Vallée du Ziz",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 Accès / créneau / rendez-vous à confirmer",
    "sourceUrl": null,
    "variant": "B",
-   "exterior": false
+   "exterior": false,
+   "placeId": "ChIJ5-d28YKtmQ0Rx1HVxsqpV9s"
   },
   {
    "id": "B05",
@@ -9303,21 +9437,22 @@
    "days": [
     108
    ],
-   "lat": 31.923,
-   "lon": -4.434,
-   "coordPrecision": "zone",
+   "lat": 31.9229606,
+   "lon": -4.4336669,
+   "coordPrecision": "precise",
    "interest": null,
    "duree": null,
    "detour": null,
    "detourClass": null,
    "desc": "déjeuner et ravitaillement",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Centre+ville+Errachidia+Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Errachidia%20centre%20Maroc&query_place_id=ChIJ29mVDJBKmA0Rs_iuNvHkZOM",
    "mapsQuery": "Errachidia centre",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 Accès / créneau / rendez-vous à confirmer",
    "sourceUrl": null,
    "variant": "B",
-   "exterior": false
+   "exterior": false,
+   "placeId": "ChIJ29mVDJBKmA0Rs_iuNvHkZOM"
   },
   {
    "id": "B09",
@@ -9329,21 +9464,22 @@
    "days": [
     108
    ],
-   "lat": 31.95,
-   "lon": -4.4,
-   "coordPrecision": "zone",
+   "lat": 31.9997643,
+   "lon": -4.4645276,
+   "coordPrecision": "precise",
    "interest": null,
    "duree": null,
    "detour": null,
    "detourClass": null,
    "desc": "vue depuis un arrêt autorisé",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Barrage+Hassan+Addakhil+Errachidia+Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Barrage%20Hassan%20Addakhil%20Maroc&query_place_id=ChIJXebg_4lLmA0RzLvdakt-XkQ",
    "mapsQuery": "Barrage Hassan Addakhil",
    "status": "incertain",
    "statusLabel": "⚠️ Condition particulière (météo, intérieur, détour ou accès restreint)",
    "sourceUrl": null,
    "variant": "B",
-   "exterior": false
+   "exterior": false,
+   "placeId": "ChIJXebg_4lLmA0RzLvdakt-XkQ"
   },
   {
    "id": "B10",
@@ -9355,21 +9491,22 @@
    "days": [
     108
    ],
-   "lat": 32.05,
-   "lon": -4.42,
-   "coordPrecision": "zone",
+   "lat": 32.1705109,
+   "lon": -4.3684552,
+   "coordPrecision": "precise",
    "interest": null,
    "duree": null,
    "detour": null,
    "detourClass": null,
    "desc": "paysages le long de la N13",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Gorges+du+Ziz+Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Gorges%20du%20Ziz%20Maroc&query_place_id=ChIJ5-d28YKtmQ0Rx1HVxsqpV9s",
    "mapsQuery": "Gorges du Ziz",
    "status": "verifie",
    "statusLabel": "✅ Lieu/offre documenté ; ouverture janvier 2027 à confirmer",
    "sourceUrl": null,
    "variant": "B",
-   "exterior": false
+   "exterior": false,
+   "placeId": "ChIJ5-d28YKtmQ0Rx1HVxsqpV9s"
   },
   {
    "id": "B11",
@@ -9407,21 +9544,22 @@
    "days": [
     108
    ],
-   "lat": 32.258,
-   "lon": -4.499,
-   "coordPrecision": "zone",
+   "lat": 32.2610805,
+   "lon": -4.4953795,
+   "coordPrecision": "precise",
    "interest": null,
    "duree": null,
    "detour": null,
    "detourClass": null,
    "desc": "pause café ou provisions",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Rich+Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Rich%20Maroc&query_place_id=ChIJHxNDYhZWmA0Rw1MuaxuqLE4",
    "mapsQuery": "Rich",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 Accès / créneau / rendez-vous à confirmer",
    "sourceUrl": null,
    "variant": "B",
-   "exterior": false
+   "exterior": false,
+   "placeId": "ChIJHxNDYhZWmA0Rw1MuaxuqLE4"
   },
   {
    "id": "B13",
@@ -9459,21 +9597,22 @@
    "days": [
     108
    ],
-   "lat": 32.68,
-   "lon": -4.745,
-   "coordPrecision": "zone",
+   "lat": 32.6799423,
+   "lon": -4.7329268,
+   "coordPrecision": "precise",
    "interest": null,
    "duree": null,
    "detour": null,
    "detourClass": null,
    "desc": "déjeuner ou courte promenade",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Centre+ville+Midelt+Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Centre%20de%20Midelt%20Maroc&query_place_id=ChIJnx5E6EK_mA0RNrXbqKacJog",
    "mapsQuery": "Centre de Midelt",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 Accès / créneau / rendez-vous à confirmer",
    "sourceUrl": null,
    "variant": "B",
-   "exterior": false
+   "exterior": false,
+   "placeId": "ChIJnx5E6EK_mA0RNrXbqKacJog"
   },
   {
    "id": "B15",
@@ -9485,21 +9624,22 @@
    "days": [
     108
    ],
-   "lat": 32.68,
-   "lon": -4.745,
-   "coordPrecision": "zone",
+   "lat": 32.6799423,
+   "lon": -4.7329268,
+   "coordPrecision": "precise",
    "interest": null,
    "duree": null,
    "detour": null,
    "detourClass": null,
    "desc": "produits locaux",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=March%C3%A9+central+Midelt+Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=March%C3%A9%20de%20Midelt%20Maroc&query_place_id=ChIJnx5E6EK_mA0RNrXbqKacJog",
    "mapsQuery": "Marché de Midelt",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 Accès / créneau / rendez-vous à confirmer",
    "sourceUrl": null,
    "variant": "B",
-   "exterior": false
+   "exterior": false,
+   "placeId": "ChIJnx5E6EK_mA0RNrXbqKacJog"
   },
   {
    "id": "B16",
@@ -9537,21 +9677,22 @@
    "days": [
     108
    ],
-   "lat": 32.82,
-   "lon": -4.96,
-   "coordPrecision": "zone",
+   "lat": 32.8175662,
+   "lon": -4.9610649,
+   "coordPrecision": "precise",
    "interest": null,
    "duree": null,
    "detour": null,
    "detourClass": null,
    "desc": "grillades et pause déjeuner",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Restaurants+grillades+Zaida+Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Za%C3%AFda%20Maroc&query_place_id=ChIJRcpBVTevmA0RLhQm4oUVMKg",
    "mapsQuery": "Zaïda",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 Accès / créneau / rendez-vous à confirmer",
    "sourceUrl": null,
    "variant": "B",
-   "exterior": false
+   "exterior": false,
+   "placeId": "ChIJRcpBVTevmA0RLhQm4oUVMKg"
   },
   {
    "id": "B18",
@@ -9563,21 +9704,22 @@
    "days": [
     108
    ],
-   "lat": 33.235,
-   "lon": -5.061,
-   "coordPrecision": "zone",
+   "lat": 33.2371814,
+   "lon": -5.0599571,
+   "coordPrecision": "precise",
    "interest": null,
    "duree": null,
    "detour": null,
    "detourClass": null,
    "desc": "paysages depuis la route",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Timahdite+Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Plateaux%20de%20Timahdite%20Maroc&query_place_id=ChIJt4m3P6hYnw0RXMLH1xwaTrk",
    "mapsQuery": "Plateaux de Timahdite",
    "status": "incertain",
    "statusLabel": "⚠️ Condition particulière (météo, intérieur, détour ou accès restreint)",
    "sourceUrl": null,
    "variant": "B",
-   "exterior": false
+   "exterior": false,
+   "placeId": "ChIJt4m3P6hYnw0RXMLH1xwaTrk"
   },
   {
    "id": "B19",
@@ -9589,21 +9731,22 @@
    "days": [
     108
    ],
-   "lat": 33.434,
-   "lon": -5.221,
-   "coordPrecision": "zone",
+   "lat": 33.4347305,
+   "lon": -5.2318879,
+   "coordPrecision": "precise",
    "interest": null,
    "duree": null,
    "detour": null,
    "detourClass": null,
    "desc": "centre ancien et place autour du rocher",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Azrou+centre+ancien+Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Azrou%20Maroc&query_place_id=ChIJsya4bzXboQ0RC-X2MPJ88rQ",
    "mapsQuery": "Azrou",
    "status": "verifie",
    "statusLabel": "✅ Lieu/offre documenté ; ouverture janvier 2027 à confirmer",
    "sourceUrl": null,
    "variant": "B",
-   "exterior": false
+   "exterior": false,
+   "placeId": "ChIJsya4bzXboQ0RC-X2MPJ88rQ"
   },
   {
    "id": "B20",
@@ -9615,21 +9758,22 @@
    "days": [
     108
    ],
-   "lat": 33.434,
-   "lon": -5.221,
-   "coordPrecision": "zone",
+   "lat": 33.4355532,
+   "lon": -5.2242565,
+   "coordPrecision": "precise",
    "interest": null,
    "duree": null,
    "detour": null,
    "detourClass": null,
    "desc": "vue depuis le pied, montée facultative",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Rocher+Azrou+Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Rocher%20d%E2%80%99Azrou%20Maroc&query_place_id=ChIJh-AFeUvboQ0RpdyLbimAJus",
    "mapsQuery": "Rocher d’Azrou",
    "status": "incertain",
    "statusLabel": "⚠️ Condition particulière (météo, intérieur, détour ou accès restreint)",
    "sourceUrl": null,
    "variant": "B",
-   "exterior": false
+   "exterior": false,
+   "placeId": "ChIJh-AFeUvboQ0RpdyLbimAJus"
   },
   {
    "id": "B21",
@@ -9641,21 +9785,22 @@
    "days": [
     108
    ],
-   "lat": 33.434,
-   "lon": -5.221,
-   "coordPrecision": "zone",
+   "lat": 33.4347305,
+   "lon": -5.2318879,
+   "coordPrecision": "precise",
    "interest": null,
    "duree": null,
    "detour": null,
    "detourClass": null,
    "desc": "tapis et travail du bois, boutiques du centre",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Artisanat+Azrou+Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Artisanat%20d%E2%80%99Azrou%20Maroc&query_place_id=ChIJsya4bzXboQ0RC-X2MPJ88rQ",
    "mapsQuery": "Artisanat d’Azrou",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 Accès / créneau / rendez-vous à confirmer",
    "sourceUrl": null,
    "variant": "B",
-   "exterior": false
+   "exterior": false,
+   "placeId": "ChIJsya4bzXboQ0RC-X2MPJ88rQ"
   },
   {
    "id": "B22",
@@ -9694,21 +9839,22 @@
    "days": [
     108
    ],
-   "lat": 33.42644,
-   "lon": -5.1555,
-   "coordPrecision": "zone",
+   "lat": 33.4264439,
+   "lon": -5.1555024,
+   "coordPrecision": "precise",
    "interest": null,
    "duree": null,
    "detour": null,
    "detourClass": null,
    "desc": "courte promenade et observation de la faune",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=For%C3%AAt+de+c%C3%A8dres+Azrou+Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=C%C3%A9draie%20d%E2%80%99Azrou%20Maroc&query_place_id=ChIJk4xBMvfboQ0Rqlc6Zt7cAjQ",
    "mapsQuery": "Cédraie d’Azrou",
    "status": "incertain",
    "statusLabel": "⚠️ Condition particulière (météo, intérieur, détour ou accès restreint)",
    "sourceUrl": null,
    "variant": "B",
-   "exterior": false
+   "exterior": false,
+   "placeId": "ChIJk4xBMvfboQ0Rqlc6Zt7cAjQ"
   },
   {
    "id": "B24",
@@ -9799,21 +9945,22 @@
    "days": [
     108
    ],
-   "lat": 33.73,
-   "lon": -5.02,
-   "coordPrecision": "zone",
+   "lat": 33.7311674,
+   "lon": -5.0156456,
+   "coordPrecision": "precise",
    "interest": null,
    "duree": null,
    "detour": null,
    "detourClass": null,
    "desc": "courte pause au centre",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Imouzzer+Kandar+Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Imouzzer%20Kandar%20Maroc&query_place_id=ChIJpXx_ua2Bnw0RFcQt0ultMMQ",
    "mapsQuery": "Imouzzer Kandar",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 Accès / créneau / rendez-vous à confirmer",
    "sourceUrl": null,
    "variant": "B",
-   "exterior": false
+   "exterior": false,
+   "placeId": "ChIJpXx_ua2Bnw0RFcQt0ultMMQ"
   },
   {
    "id": "B28",
@@ -9906,21 +10053,22 @@
    "days": [
     109
    ],
-   "lat": 34.0625,
-   "lon": -4.982,
-   "coordPrecision": "zone",
+   "lat": 34.0645489,
+   "lon": -4.9787409,
+   "coordPrecision": "precise",
    "interest": null,
    "duree": null,
    "detour": null,
    "detourClass": null,
    "desc": "grande rue de la médina",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Talaa+Kebira+Fes+Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Talaa%20Kebira%20Maroc&query_place_id=ChIJMcDxq6j0nw0R1EBxtbARU0c",
    "mapsQuery": "Talaa Kebira",
    "status": "verifie",
    "statusLabel": "✅ Lieu/offre documenté ; ouverture janvier 2027 à confirmer",
    "sourceUrl": null,
    "variant": "B",
-   "exterior": false
+   "exterior": false,
+   "placeId": "ChIJMcDxq6j0nw0R1EBxtbARU0c"
   },
   {
    "id": "B32",
@@ -11013,21 +11161,22 @@
    "days": [
     110
    ],
-   "lat": 34.0535,
-   "lon": -4.9905,
-   "coordPrecision": "zone",
+   "lat": 34.0514267,
+   "lon": -4.9915976,
+   "coordPrecision": "precise",
    "interest": null,
    "duree": null,
    "detour": null,
    "detourClass": null,
    "desc": "ruelles et maisons à balcons",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mellah+Fes+Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mellah%20de%20F%C3%A8s%20Maroc&query_place_id=ChIJjVtXx0yLnw0RQ0XDgZKjg40",
    "mapsQuery": "Mellah de Fès",
    "status": "verifie",
    "statusLabel": "✅ Lieu/offre documenté ; ouverture janvier 2027 à confirmer",
    "sourceUrl": null,
    "variant": "B",
-   "exterior": false
+   "exterior": false,
+   "placeId": "ChIJjVtXx0yLnw0RQ0XDgZKjg40"
   },
   {
    "id": "B73",
@@ -11066,21 +11215,22 @@
    "days": [
     110
    ],
-   "lat": 34.052,
-   "lon": -4.991,
-   "coordPrecision": "zone",
+   "lat": 34.0514194,
+   "lon": -4.9927479,
+   "coordPrecision": "precise",
    "interest": null,
    "duree": null,
    "detour": null,
    "detourClass": null,
    "desc": "conditions d’entrée à confirmer",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Cimeti%C3%A8re+juif+Fes+Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Cimeti%C3%A8re%20juif%20de%20F%C3%A8s%20Maroc&query_place_id=ChIJBXvmp0yLnw0RHSktYu6NV4U",
    "mapsQuery": "Cimetière juif de Fès",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 Accès / créneau / rendez-vous à confirmer",
    "sourceUrl": null,
    "variant": "B",
-   "exterior": false
+   "exterior": false,
+   "placeId": "ChIJBXvmp0yLnw0RHSktYu6NV4U"
   },
   {
    "id": "B75",
@@ -11119,21 +11269,22 @@
    "days": [
     110
    ],
-   "lat": 34.054,
-   "lon": -4.992,
-   "coordPrecision": "zone",
+   "lat": 34.0540932,
+   "lon": -4.9900506,
+   "coordPrecision": "precise",
    "interest": null,
    "duree": null,
    "detour": null,
    "detourClass": null,
    "desc": "commerces et promenade",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Grande+Rue+Fes+Jdid+Fes+Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Grande%20rue%20de%20F%C3%A8s%20el-Jdid%20Maroc&query_place_id=ChIJERfyirP0nw0RuR_qZUQdQcc",
    "mapsQuery": "Grande rue de Fès el-Jdid",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 Accès / créneau / rendez-vous à confirmer",
    "sourceUrl": null,
    "variant": "B",
-   "exterior": false
+   "exterior": false,
+   "placeId": "ChIJERfyirP0nw0RuR_qZUQdQcc"
   },
   {
    "id": "B77",
@@ -11226,21 +11377,22 @@
    "days": [
     110
    ],
-   "lat": 34.03,
-   "lon": -6.85,
-   "coordPrecision": "zone",
+   "lat": 34.0309473,
+   "lon": -6.8366279,
+   "coordPrecision": "precise",
    "interest": null,
    "duree": null,
    "detour": null,
    "detourClass": null,
    "desc": "porte monumentale",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bab+Oudaia+Rabat+Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bab%20Ouda%C3%AFa%20Maroc&query_place_id=ChIJOwr8xgpspw0RN3gOvH31kSU",
    "mapsQuery": "Bab Oudaïa",
    "status": "verifie",
    "statusLabel": "✅ Lieu/offre documenté ; ouverture janvier 2027 à confirmer",
    "sourceUrl": null,
    "variant": "B",
-   "exterior": false
+   "exterior": false,
+   "placeId": "ChIJOwr8xgpspw0RN3gOvH31kSU"
   },
   {
    "id": "B81",
@@ -11385,21 +11537,22 @@
    "days": [
     110
    ],
-   "lat": 33.434,
-   "lon": -5.221,
-   "coordPrecision": "zone",
+   "lat": 34.0271543,
+   "lon": -6.8331646,
+   "coordPrecision": "precise",
    "interest": null,
    "duree": null,
    "detour": null,
    "detourClass": null,
    "desc": "artisanat dans la médina",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Rue+des+Consuls+Rabat+Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Rue%20des%20Consuls%20Maroc&query_place_id=ChIJ5VywUIprpw0RAPwq5KFHfqk",
    "mapsQuery": "Rue des Consuls",
    "status": "verifie",
    "statusLabel": "✅ Lieu/offre documenté ; ouverture janvier 2027 à confirmer",
    "sourceUrl": null,
    "variant": "B",
-   "exterior": false
+   "exterior": false,
+   "placeId": "ChIJ5VywUIprpw0RAPwq5KFHfqk"
   },
   {
    "id": "B87",
@@ -11491,21 +11644,72 @@
    "days": [
     110
    ],
-   "lat": 34.0087,
-   "lon": -6.823,
-   "coordPrecision": "zone",
+   "lat": 34.0138719,
+   "lon": -6.8315545,
+   "coordPrecision": "precise",
    "interest": null,
    "duree": null,
    "detour": null,
    "detourClass": null,
    "desc": null,
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mus%C3%A9e+Histoire+Civilisations+Rabat+Maroc",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mus%C3%A9e%20de%20l%E2%80%99Histoire%20et%20des%20Civilisations%20Maroc&query_place_id=ChIJq6rqLIFrpw0RO8l-4TzOP-E",
    "mapsQuery": "Musée de l’Histoire et des Civilisations",
    "status": "verifie",
    "statusLabel": "✅ Lieu/offre documenté ; ouverture janvier 2027 à confirmer",
    "sourceUrl": null,
    "variant": "B",
-   "exterior": false
+   "exterior": false,
+   "placeId": "ChIJq6rqLIFrpw0RO8l-4TzOP-E"
+  },
+  {
+   "id": "N7",
+   "name": "Site archéologique de Volubilis",
+   "category": "patrimoine",
+   "categoryLabel": "Monument / patrimoine",
+   "emoji": "🏛️",
+   "region": "Meknès",
+   "days": [
+    9
+   ],
+   "lat": 34.0719819,
+   "lon": -5.5523387,
+   "coordPrecision": "precise",
+   "placeId": "ChIJ9SpZan1ooA0RYj4vMXsxv4k",
+   "interest": 5,
+   "duree": "1 h 30–2 h",
+   "detour": "détour recommandé",
+   "detourClass": "detour_interessant",
+   "desc": "Cité romaine classée UNESCO (mosaïques, arc de Caracalla, capitole) au pied du Zerhoun, ~30 km au nord de Meknès. Prévoir chapeau et eau : peu d'ombre. Un des plus beaux sites antiques du Maroc, superbe détour depuis Meknès.",
+   "mapsQuery": "Site archéologique de Volubilis",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Site%20arch%C3%A9ologique%20de%20Volubilis%20Maroc&query_place_id=ChIJ9SpZan1ooA0RYj4vMXsxv4k",
+   "status": "verifie",
+   "statusLabel": "✅ site vérifié (position officielle) ; horaires à reconfirmer",
+   "sourceUrl": null
+  },
+  {
+   "id": "N8",
+   "name": "Moulay Idriss Zerhoun",
+   "category": "medina",
+   "categoryLabel": "Médina / mosquée / quartier",
+   "emoji": "🕌",
+   "region": "Meknès",
+   "days": [
+    9
+   ],
+   "lat": 34.056811,
+   "lon": -5.5229519,
+   "coordPrecision": "precise",
+   "placeId": "ChIJJQ10qbZpoA0RR4H7X75OTQE",
+   "interest": 4,
+   "duree": "1–2 h",
+   "detour": "détour recommandé",
+   "detourClass": "detour_interessant",
+   "desc": "Ville sainte perchée sur deux collines, à côté de Volubilis. Ruelles blanches et vertes, panorama depuis le belvédère, ambiance paisible. S'associe parfaitement à Volubilis pour une demi-journée au nord de Meknès.",
+   "mapsQuery": "Moulay Idriss Zerhoun",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Moulay%20Idriss%20Zerhoun%20Maroc&query_place_id=ChIJJQ10qbZpoA0RR4H7X75OTQE",
+   "status": "verifie",
+   "statusLabel": "✅ site vérifié (position officielle) ; horaires à reconfirmer",
+   "sourceUrl": null
   }
  ],
  "routes": {

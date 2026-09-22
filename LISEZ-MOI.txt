@@ -1,0 +1,28 @@
+ROAD TRIP MAROC — dossier complet (à jour)
+==========================================
+
+Ce dossier contient TOUT le site, dans sa dernière version :
+- repères aux vraies localisations officielles Google (220 lieux)
+- clic sur un repère = ouverture du lieu officiel sur Google Maps
+- points de vue des routes recalés (lacets du Dadès, vallée des Roses, vallée du Ziz)
+- ajout de Volubilis et Moulay Idriss Zerhoun (jour 9)
+- mise à jour automatique activée (cache v5)
+
+--------------------------------------------------
+POUR OUVRIR SUR L'ORDINATEUR
+--------------------------------------------------
+Double-cliquez sur "index.html".
+
+--------------------------------------------------
+POUR METTRE EN LIGNE SUR GITHUB (remplacer l'ancienne version)
+--------------------------------------------------
+1. Ouvrez votre dépôt GitHub (road-trip-maroc).
+2. Cliquez "Add file" > "Upload files".
+3. Faites glisser TOUT le contenu de ce dossier
+   (index.html, app.js, styles.css, sw.js, manifest.webmanifest,
+    et les dossiers data, vendor, assets).
+4. Cochez "Commit directly to the main branch" puis "Commit changes".
+5. Attendez 1-2 min : le site se met à jour tout seul.
+
+Astuce téléphone/ordinateur : si l'ancien affichage reste,
+faites Ctrl+Maj+R (ordinateur) ou fermez/rouvrez l'onglet.
