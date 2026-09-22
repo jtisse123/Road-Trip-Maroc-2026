@@ -196,6 +196,7 @@ function iconIdFor(p) {
 
 /* ---------- Filtrage ---------- */
 function placeMatches(p) {
+  if (p.hidden) return false;
   if (p.lat == null || p.lon == null) return false;
   if (filters.query) {
     const hay = norm(p.name + " " + (p.region || "") + " " + (p.categoryLabel || ""));
@@ -327,7 +328,15 @@ function renderFav() {
 /* ---------- Timeline ---------- */
 function renderTimeline() {
   const box = $("#timeline"); box.innerHTML = "";
-  const daysToShow = currentDay === "all" ? DATA.days.map(d => d.num) : [Number(currentDay)];
+  let daysToShow;
+  if (currentDay === "all") {
+    // ordre : ... J8, J8ᴮ, J9, J9ᴮ, J10, J10ᴮ (chaque variante juste après sa journée)
+    const base = DATA.days.filter(d => d.num < 100).map(d => d.num).sort((a, b) => a - b);
+    daysToShow = [];
+    base.forEach(n => { daysToShow.push(n); if (DATA.days.find(x => x.num === n + 100)) daysToShow.push(n + 100); });
+  } else {
+    daysToShow = [Number(currentDay)];
+  }
   daysToShow.forEach(num => {
     const d = DATA.days.find(x => x.num === num); if (!d) return;
     const wrap = el("div", "tl-day");
@@ -345,9 +354,9 @@ function renderTimeline() {
 // noms de villes-étapes d'une journée (à partir des coordonnées du tracé, reliées aux villes connues)
 const STOP_LABELS = {
   1: ["Rabat aéroport", "Casablanca (contournement)", "Settat", "Ben Guerir", "Marrakech"],
-  2: ["Marrakech", "Tahanaout", "Asni", "Imlil"],
-  3: ["Imlil", "Asni", "Tahanaout", "Aït Ourir", "Taddert", "Tizi n'Tichka", "Agouim", "Aït-Ben-Haddou"],
-  4: ["Aït-Ben-Haddou", "Ouarzazate", "Skoura", "Kelaat M'Gouna", "Boumalne", "Tamellalt", "Lacets du Dadès"],
+  2: ["Marrakech (journée libre)"],
+  3: ["Marrakech", "Aït Ourir", "Taddert", "Tizi n'Tichka", "Agouim", "Aït-Ben-Haddou", "Ouarzazate"],
+  4: ["Ouarzazate", "Skoura", "Kelaat M'Gouna", "Boumalne", "Tamellalt", "Lacets du Dadès"],
   5: ["Tamellalt", "Boumalne", "Tinghir", "Todra"],
   6: ["Todra", "Tinghir", "Tinjdad", "Jorf", "Rissani", "Erfoud", "Merzouga"],
   7: ["Hassilabied", "Merzouga", "Khamlia", "Merzouga"],
@@ -889,6 +898,57 @@ function importData(file) {
 function openModal(title, html) { $("#modalTitle").textContent = title; $("#modalBody").innerHTML = html; $("#modal").hidden = false; }
 function closeModal() { $("#modal").hidden = true; }
 
+/* ---------- Ajustements d'itinéraire appliqués au chargement (idempotent) ----------
+   (Jour 2 = Marrakech ; Jour 3 = Marrakech → Tichka → Aït-Ben-Haddou → Ouarzazate ;
+    Imlil retiré). Centralisé ici pour qu'une simple mise à jour de app.js suffise. */
+function applyItineraryTweaks(D) {
+  if (!D || !D.days) return;
+  const days = {}; D.days.forEach(x => days[x.num] = x);
+  if (days[2]) Object.assign(days[2], { label: "Marrakech — journée libre (médina, souks, jardins)", start: "Marrakech", end: "Marrakech", night: "Marrakech", km: 0, drive: "sur place", intensity: "🟢" });
+  if (days[3]) Object.assign(days[3], { label: "Marrakech → Tichka → Aït-Ben-Haddou → Ouarzazate", start: "Marrakech", end: "Ouarzazate", night: "Ouarzazate", km: 330, drive: "6–7 h", intensity: "🔴" });
+  if (days[4]) Object.assign(days[4], { label: "Ouarzazate → Skoura → Dadès", start: "Ouarzazate", end: "Dadès", night: "Tamellalt / Dadès" });
+  const IMLIL = new Set(["R1", "R2", "V5"]);
+  for (let n = 35; n <= 54; n++) IMLIL.add("L0" + n);
+  D.places.forEach(p => {
+    if (p.id === "H2") { p.name = "Nuit à Marrakech (2e nuit)"; p.region = "Marrakech"; p.days = [2]; return; }
+    if (p.id === "H3") { p.name = "Nuit à Ouarzazate"; p.region = "Ouarzazate"; p.days = [3]; p.lat = 30.9200; p.lon = -6.8936; p.coordPrecision = "zone"; return; }
+    if (IMLIL.has(p.id) || p.region === "Imlil et Asni") { p.days = []; p.hidden = true; return; }
+    if (p.region === "Marrakech") { const s = new Set(p.days || []); s.add(1); s.add(2); p.days = [...s].sort((a, b) => a - b); }
+    if (p.region === "Ouarzazate") { const s = new Set(p.days || []); s.add(3); s.add(4); p.days = [...s].sort((a, b) => a - b); }
+  });
+  if (!D.places.some(p => p.id === "N6")) {
+    const c = (D.categories && D.categories.panorama) || { label: "Panorama / belvédère", emoji: "🌄" };
+    D.places.push({
+      id: "N6", name: "Vallée de l'Ounila (route de Telouet)", category: "panorama",
+      categoryLabel: c.label, emoji: c.emoji, region: "Aït-Ben-Haddou et Tichka", days: [3],
+      lat: 31.19, lon: -7.18, coordPrecision: "zone", interest: 5, duree: "1–2 h",
+      detour: "détour panoramique", detourClass: "detour_interessant",
+      desc: "Vallée peinte de villages de terre entre Telouet et Aït-Ben-Haddou : route très photogénique. Portions de piste par endroits — à éviter par neige ou pluie ; sinon un des plus beaux passages du secteur.",
+      mapsUrl: "https://www.google.com/maps/search/?api=1&query=Vall%C3%A9e+de+l%27Ounila+Telouet+Maroc",
+      mapsQuery: "Vallée de l'Ounila Telouet", status: "a_reconfirmer",
+      statusLabel: "🟡 Route panoramique ; état de la piste à confirmer", sourceUrl: null,
+    });
+  }
+  // Tracés J3 et J4 (on retire l'ancien J2 Marrakech→Imlil)
+  const RC = {
+    marrakech: [-7.9811, 31.6295], ait_ourir: [-7.6640, 31.5640], touama: [-7.5500, 31.4700],
+    taddert: [-7.4020, 31.2940], tichka: [-7.3806, 31.2917], agouim: [-7.4420, 31.1550],
+    tisselday: [-7.3030, 31.0790], tabourahte: [-7.1600, 31.0600], ait_ben_haddou: [-7.1316, 31.0472],
+    ouarzazate: [-6.8936, 30.9200], skoura: [-6.5560, 31.0610], kelaat: [-6.1300, 31.2380],
+    boumalne: [-5.9900, 31.3650], tamellalt: [-5.9000, 31.4900], timzzillite: [-5.8760, 31.5670],
+  };
+  const col3 = days[3] ? days[3].color : "#D4A017", col4 = days[4] ? days[4].color : "#6E8B3D";
+  D.routes.features = D.routes.features.filter(f => ![2, 3, 4].includes(f.properties.day));
+  D.routes.features.push({
+    type: "Feature", properties: { day: 3, dayId: "day-03", label: days[3] ? days[3].label : "Jour 3", km: 330, drive: "6–7 h", color: col3, night: "Ouarzazate", kind: "principale" },
+    geometry: { type: "LineString", coordinates: ["marrakech", "ait_ourir", "touama", "taddert", "tichka", "agouim", "tisselday", "tabourahte", "ait_ben_haddou", "ouarzazate"].map(k => RC[k]) },
+  });
+  D.routes.features.push({
+    type: "Feature", properties: { day: 4, dayId: "day-04", label: days[4] ? days[4].label : "Jour 4", km: 240, drive: "4 h–5 h", color: col4, night: "Tamellalt / Dadès", kind: "principale" },
+    geometry: { type: "LineString", coordinates: ["ouarzazate", "skoura", "kelaat", "boumalne", "tamellalt", "timzzillite"].map(k => RC[k]) },
+  });
+}
+
 /* ---------- Reconstruction index ---------- */
 function rebuildIndex() {
   PLACES = DATA.places.concat(added);
@@ -1053,6 +1113,7 @@ async function fetchRealRoutes() {
 async function init() {
   try { DATA = await loadData(); }
   catch (e) { document.body.innerHTML = "<p style='padding:24px'>Impossible de charger les données du voyage (data/roadtrip.json). Ouvrez l'application via le lanceur « Ouvrir Road Trip ».</p>"; return; }
+  applyItineraryTweaks(DATA);
   rebuildIndex();
   $("#brandSub").textContent = DATA.meta.subtitle || "";
 
