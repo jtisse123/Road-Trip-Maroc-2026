@@ -47,7 +47,7 @@ let geoCtrl = null;           // contrôle de géolocalisation MapLibre
 let pendingPos = null;        // callback en attente de position
 let addMode = false;
 let popup = null;
-const KEY_ROUTES = "rtm_routes_geo_v1";
+const KEY_ROUTES = "rtm_routes_geo_v2";  // v2 : recalcul des tracés après changement des jours 2/3/4
 let routeGeoCache = LS.get(KEY_ROUTES, {});  // { dayNum: [[lon,lat],…] } vraies routes
 let ROUTE_WAYPOINTS = {};                    // points d'origine (corridors) par jour
 
