@@ -1,0 +1,19 @@
+{
+  "name": "Road Trip Maroc",
+  "short_name": "Road Trip Maroc",
+  "description": "Carnet de voyage cartographique interactif — road trip au Maroc (26 déc. 2026 → 4 janv. 2027).",
+  "lang": "fr",
+  "dir": "ltr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#F5EFE6",
+  "theme_color": "#C1440E",
+  "categories": ["travel", "navigation", "maps"],
+  "icons": [
+    { "src": "assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

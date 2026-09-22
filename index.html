@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, viewport-fit=cover">
+<title>🗺️ Road Trip Maroc</title>
+<meta name="description" content="Carnet de voyage cartographique interactif — road trip au Maroc, 26 décembre 2026 → 4 janvier 2027.">
+<meta name="theme-color" content="#C1440E">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="assets/icons/favicon-64.png" sizes="64x64" type="image/png">
+<link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Road Trip Maroc">
+<link rel="stylesheet" href="vendor/maplibre-gl.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ======================= EN-TÊTE ======================= -->
+<header id="topbar">
+  <div class="brand">
+    <span class="brand-emoji">🗺️</span>
+    <div class="brand-text">
+      <strong>Road Trip Maroc</strong>
+      <small id="brandSub">26 déc. 2026 → 4 janv. 2027</small>
+    </div>
+  </div>
+  <div class="top-actions">
+    <button id="btnToday" class="btn ghost" title="Voir la journée d'aujourd'hui">📅 Aujourd'hui</button>
+    <button id="btnManage" class="btn ghost" title="Gestion du voyage (import / export)">⚙️</button>
+  </div>
+</header>
+
+<!-- ======================= SÉLECTEUR DE JOURNÉE ======================= -->
+<nav id="dayNav" aria-label="Sélecteur de journée">
+  <div id="dayPills" class="day-pills"></div>
+</nav>
+
+<!-- ======================= BARRE D'OUTILS ======================= -->
+<div id="toolbar">
+  <button id="btnFilters" class="btn tool">🧭 <span class="lbl">Filtres</span><span id="filterCount" class="badge" hidden>0</span></button>
+  <button id="btnAround" class="btn tool">📍 <span class="lbl">Autour de moi</span></button>
+  <button id="btnWhatNow" class="btn tool">🎯 <span class="lbl">Que faire ?</span></button>
+  <button id="btnAddPlace" class="btn tool">➕ <span class="lbl">Ajouter</span></button>
+  <div class="tool-spacer"></div>
+  <div id="basemapSwitch" class="basemap-switch">
+    <button data-base="plan" class="active" title="Plan / routier">🗺️</button>
+    <button data-base="relief" title="Relief / topographique">⛰️</button>
+    <button data-base="sat" title="Satellite">🛰️</button>
+    <button data-base="satinfo" title="Satellite + infos">🛰️ⁱ</button>
+  </div>
+</div>
+
+<!-- ======================= CARTE ======================= -->
+<main id="mapWrap">
+  <div id="map"></div>
+  <button id="btnLocate" class="map-fab" title="Ma position">📍</button>
+  <div id="addHint" class="add-hint" hidden>➕ Touchez la carte à l'endroit du nouveau lieu — <button id="cancelAdd" class="link">annuler</button></div>
+  <button id="btnBigMap" class="map-fab" title="Agrandir la carte">⤢</button>
+</main>
+
+<!-- ======================= PANNEAU (bottom sheet / sidebar) ======================= -->
+<section id="panel" class="peek" aria-label="Informations">
+  <div id="sheetHandle" class="sheet-handle" title="Agrandir / réduire"><span></span></div>
+  <div class="panel-scroll">
+    <div id="daySummary" class="day-summary" hidden></div>
+    <div id="panelTabs" class="panel-tabs">
+      <button data-tab="list" class="active">📋 Lieux <span id="listCount" class="count"></span></button>
+      <button data-tab="timeline">🧵 Timeline</button>
+      <button data-tab="fav">❤️ Mes lieux</button>
+    </div>
+    <div id="tab-list" class="tabpane">
+      <div class="search-wrap">
+        <input id="searchBox" type="search" placeholder="🔎 Rechercher un lieu, une ville, une catégorie…" autocomplete="off">
+      </div>
+      <div id="placeList" class="place-list"></div>
+    </div>
+    <div id="tab-timeline" class="tabpane" hidden>
+      <div id="timeline" class="timeline"></div>
+    </div>
+    <div id="tab-fav" class="tabpane" hidden>
+      <div id="favList" class="place-list"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= FICHE LIEU (overlay) ======================= -->
+<div id="placeCard" class="place-card" hidden>
+  <div class="card-inner">
+    <button id="closeCard" class="close-x" aria-label="Fermer">✕</button>
+    <div id="cardBody"></div>
+  </div>
+</div>
+
+<!-- ======================= DRAWER FILTRES ======================= -->
+<div id="filtersDrawer" class="drawer" hidden>
+  <div class="drawer-panel">
+    <div class="drawer-head">
+      <strong>🧭 Filtres</strong>
+      <button id="closeFilters" class="close-x">✕</button>
+    </div>
+    <div class="drawer-body" id="filtersBody"></div>
+    <div class="drawer-foot">
+      <button id="filtAll" class="btn ghost small">Tout afficher</button>
+      <button id="filtNone" class="btn ghost small">Tout masquer</button>
+      <button id="filtStar" class="btn ghost small">⭐ Incontournables</button>
+      <button id="filtApply" class="btn primary small">Voir les résultats</button>
+    </div>
+  </div>
+</div>
+
+<!-- ======================= MODALE GÉNÉRIQUE ======================= -->
+<div id="modal" class="modal" hidden>
+  <div class="modal-panel">
+    <div class="modal-head"><strong id="modalTitle"></strong><button id="modalClose" class="close-x">✕</button></div>
+    <div class="modal-body" id="modalBody"></div>
+  </div>
+</div>
+
+<div id="toast" class="toast" hidden></div>
+
+<!-- MapLibre (embarqué, fonctionne hors ligne) -->
+<script src="vendor/maplibre-gl.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
