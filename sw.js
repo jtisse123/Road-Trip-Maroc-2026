@@ -1,6 +1,6 @@
 /* Road Trip Maroc — Service Worker (cache PWA + tuiles hors ligne) */
-const APP_CACHE = "rtm-app-v3";
-const TILE_CACHE = "rtm-tiles-v3";
+const APP_CACHE = "rtm-app-v4";
+const TILE_CACHE = "rtm-tiles-v4";
 const TILE_MAX = 6000; // nb max de tuiles conservées (permet le téléchargement hors-ligne de la zone)
 
 const APP_ASSETS = [
@@ -62,11 +62,10 @@ self.addEventListener("fetch", (e) => {
     return;
   }
 
-  // App (même origine) : cache d'abord, puis réseau en repli
+  // App (même origine) : RÉSEAU d'abord (toujours la dernière version en ligne),
+  // cache en repli si hors connexion. -> les mises à jour s'affichent automatiquement.
   if (url.origin === location.origin) {
     e.respondWith((async () => {
-      const cached = await caches.match(req);
-      if (cached) return cached;
       try {
         const res = await fetch(req);
         if (res && res.ok && res.type === "basic") {
@@ -74,6 +73,8 @@ self.addEventListener("fetch", (e) => {
         }
         return res;
       } catch (err) {
+        const cached = await caches.match(req);
+        if (cached) return cached;
         if (req.mode === "navigate") return caches.match("./index.html");
         throw err;
       }
