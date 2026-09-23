@@ -344,8 +344,9 @@ function renderTimeline() {
     // étapes = villes traversées (depuis le tracé) + lieux clés
     const stops = routeStopNames(num);
     stops.forEach(s => {
-      const stop = el("div", "tl-stop");
-      stop.innerHTML = `<b>${esc(s.name)}</b>`;
+      const stop = el("div", "tl-stop tl-stop-click");
+      stop.innerHTML = `<b>${esc(s.name)}</b><span class="tl-go">carte ▸</span>`;
+      stop.addEventListener("click", () => goToStop(s));
       wrap.appendChild(stop);
     });
     box.appendChild(wrap);
@@ -367,6 +368,24 @@ const STOP_LABELS = {
   109: ["Fès — Bab Boujloud", "Bou Inania", "Nejjarine", "Al-Attarine", "Place Seffarine", "Tanneries Chouara"],
   110: ["Fès", "Meknès", "Khémisset", "Rabat aéroport"],
 };
+function goToStop(s) {
+  const base = norm(String(s.name).split("(")[0].split("—")[0].trim());
+  const cands = [base, base.split(" ")[0]].filter((v, i, a) => v && a.indexOf(v) === i);
+  const active = PLACES.filter(x => !x.hidden && x.lat != null);
+  const regions = [...new Set(active.map(x => x.region).filter(Boolean))];
+  for (const q of cands) {
+    if (q.length < 3) continue;
+    const exact = active.find(x => norm(x.name) === q);
+    if (exact) { goToPlace(exact.id); return afterStopNav(); }
+    const reg = regions.find(r => norm(r).includes(q));
+    if (reg) { goToRegion(reg); return afterStopNav(); }
+    const contains = active.filter(x => norm(x.name).includes(q)).sort((a, b) => (b.interest || 0) - (a.interest || 0))[0];
+    if (contains) { goToPlace(contains.id); return afterStopNav(); }
+  }
+  if (s.lat != null) { map.flyTo({ center: [s.lon, s.lat], zoom: 11, essential: true }); toast("Sur la carte : " + s.name); afterStopNav(); }
+  else toast("Emplacement approximatif indisponible pour « " + s.name + " »");
+}
+function afterStopNav() { if (window.innerWidth < 900 && typeof setSheet === "function") setSheet("half"); }
 function routeStopNames(num) {
   const route = DATA.routes.features.find(f => f.properties.day === num);
   const labels = STOP_LABELS[num] || [];

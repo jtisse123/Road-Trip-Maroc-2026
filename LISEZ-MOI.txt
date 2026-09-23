@@ -1,22 +1,19 @@
 ROAD TRIP MAROC — dossier complet (a jour)
 ==========================================
-NOUVEAU : la barre de recherche amene a l'endroit sur la carte.
-Tapez un nom (ex. "Skoura") : une liste apparait sous la barre avec
-le SECTEUR (recadre la carte sur toute la zone) et les LIEUX. Cliquez :
-la carte s'y rend et la fiche s'ouvre.
+NOUVEAU :
+- Timeline cliquable : dans l'onglet Timeline, cliquez une ville/etape
+  -> la carte s'y rend directement (ville = secteur, monument = repere+fiche).
+- Recherche : tapez un nom (ex. "Skoura") -> liste de suggestions -> clic
+  -> la carte s'y rend.
 
-Rappel des ajouts precedents :
+Deja en place :
 - 241 reperes a leur position officielle Google (clic = lieu officiel).
 - Horaires + note Google reels sur les principaux sites (a reconfirmer).
 - Interets (etoiles) sur les fiches Option B jours 8/9/10.
 - Coordonnees corrigees, points de vue recales, Volubilis + Moulay Idriss.
 - Traces routiers figes (affiches meme hors-ligne).
-- Mise a jour automatique (cache v8).
+- Mise a jour automatique (cache v9).
 
 OUVRIR SUR L'ORDINATEUR : double-cliquez "index.html".
-
-METTRE EN LIGNE (GitHub) :
-1. Depot GitHub > "Add file" > "Upload files".
-2. Deposez TOUT le contenu de ce dossier (index.html, app.js, styles.css,
-   sw.js, manifest.webmanifest, et les dossiers data, vendor, assets).
-3. "Commit changes". Puis sur l'appareil : Ctrl+Maj+R, ou fermez/rouvrez l'onglet.
+METTRE EN LIGNE (GitHub) : Add file > Upload files > deposez TOUT le
+contenu du dossier > Commit. Puis Ctrl+Maj+R sur l'appareil.

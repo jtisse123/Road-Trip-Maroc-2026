@@ -165,6 +165,11 @@ body.map-full #panel{display:none}
 .tl-stop:last-child::after{display:none}
 .tl-stop b{font-weight:650}
 .tl-sub{color:var(--muted); font-size:12px; margin-top:3px; line-height:1.5}
+.tl-stop-click{cursor:pointer; border-radius:9px; transition:background .12s}
+.tl-stop-click:hover{background:var(--sand)}
+.tl-stop-click .tl-go{margin-left:8px; font-size:11px; font-weight:600; color:var(--terra); opacity:0; transition:opacity .12s; white-space:nowrap}
+.tl-stop-click:hover .tl-go{opacity:1}
+@media (hover:none){.tl-stop-click .tl-go{opacity:.75}}
 
 /* ===== Fiche lieu ===== */
 .place-card{position:absolute; inset:0; z-index:40; display:flex; align-items:flex-end; justify-content:center; background:rgba(35,22,10,.42); backdrop-filter:blur(2px); animation:fade .18s ease}
