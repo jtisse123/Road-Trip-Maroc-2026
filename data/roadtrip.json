@@ -317,8 +317,7 @@
    "statusLabel": "✅ existence/information documentée ; ouverture à reconfirmer",
    "sourceUrl": "https://visitmarrakech.com/a-vivre-absolument/histoire-et-patrimoine/",
    "placeId": "ChIJ313XmVzurw0Rwm9umhM4zdg",
-   "rating": 4.6,
-   "wiki": "Mosquée Koutoubia"
+   "rating": 4.6
   },
   {
    "id": "L002",
@@ -348,8 +347,7 @@
     "Lun–Sam 9:00–17:00",
     "Ven 9:00–12:00"
    ],
-   "rating": 4.3,
-   "wiki": "Palais de la Bahia"
+   "rating": 4.3
   },
   {
    "id": "L003",
@@ -378,8 +376,7 @@
    "hours": [
     "Tous les jours 9:00–17:00"
    ],
-   "rating": 4.2,
-   "wiki": "Palais el-Badiâ"
+   "rating": 4.2
   },
   {
    "id": "L004",
@@ -408,8 +405,7 @@
    "hours": [
     "Tous les jours 9:00–17:00"
    ],
-   "rating": 3.8,
-   "wiki": "Tombeaux saadiens"
+   "rating": 3.8
   },
   {
    "id": "L005",
@@ -440,8 +436,7 @@
     "Mar 9:00–16:30",
     "Mer–Dim 9:00–19:00"
    ],
-   "rating": 4.7,
-   "wiki": "Médersa Ben Youssef"
+   "rating": 4.7
   },
   {
    "id": "L006",
@@ -734,8 +729,7 @@
     "Mer fermé",
     "Autres jours 10:00–18:00"
    ],
-   "rating": 4.0,
-   "wiki": "Musée Yves-Saint-Laurent de Marrakech"
+   "rating": 4.0
   },
   {
    "id": "L016",
@@ -760,8 +754,7 @@
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
    "sourceUrl": null,
-   "placeId": "ChIJ-WuddEHvrw0RDeah4wzCrnI",
-   "wiki": "Jemaa el-Fna"
+   "placeId": "ChIJ-WuddEHvrw0RDeah4wzCrnI"
   },
   {
    "id": "L017",
@@ -1018,8 +1011,7 @@
    "hours": [
     "Tous les jours 8:00–18:30"
    ],
-   "rating": 4.4,
-   "wiki": "Jardin Majorelle"
+   "rating": 4.4
   },
   {
    "id": "L027",
@@ -1048,8 +1040,7 @@
    "hours": [
     "Tous les jours 8:00–18:00"
    ],
-   "rating": 4.1,
-   "wiki": "Ménara (Marrakech)"
+   "rating": 4.1
   },
   {
    "id": "L028",
@@ -1772,8 +1763,7 @@
    "status": "verifie",
    "statusLabel": "✅ existence/information documentée ; ouverture à reconfirmer",
    "sourceUrl": "https://whc.unesco.org/en/list/444/",
-   "placeId": "ChIJORRBIGHgug0ROhLsoGQPCU0",
-   "wiki": "Aït-ben-Haddou"
+   "placeId": "ChIJORRBIGHgug0ROhLsoGQPCU0"
   },
   {
    "id": "L056",
@@ -1895,8 +1885,7 @@
    "status": "incertain",
    "statusLabel": "⚠️ saisonnier / accès incertain",
    "sourceUrl": null,
-   "placeId": "ChIJvS9uyUzQug0RB_QDbN_a30o",
-   "wiki": "Télouet"
+   "placeId": "ChIJvS9uyUzQug0RB_QDbN_a30o"
   },
   {
    "id": "L061",
@@ -2091,8 +2080,7 @@
    "status": "incertain",
    "statusLabel": "⚠️ saisonnier / accès incertain",
    "sourceUrl": null,
-   "placeId": "ChIJRygonxvJug0ReFE-mLw_nxo",
-   "wiki": "Tizi n'Tichka"
+   "placeId": "ChIJRygonxvJug0ReFE-mLw_nxo"
   },
   {
    "id": "L069",
@@ -2325,8 +2313,7 @@
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
    "sourceUrl": null,
-   "placeId": "ChIJs_HlGUAQuw0R0jqIj62MGdM",
-   "wiki": "Kasbah de Taourirt"
+   "placeId": "ChIJs_HlGUAQuw0R0jqIj62MGdM"
   },
   {
    "id": "L078",
@@ -2384,8 +2371,7 @@
    "hours": [
     "Tous les jours 8:30–18:30"
    ],
-   "rating": 3.8,
-   "wiki": "Atlas Corporation Studios"
+   "rating": 3.8
   },
   {
    "id": "L080",
@@ -2414,8 +2400,7 @@
    "hours": [
     "Tous les jours 8:00–20:00"
    ],
-   "rating": 4.3,
-   "wiki": "Tifoultoute"
+   "rating": 4.3
   },
   {
    "id": "L081",
@@ -3579,8 +3564,7 @@
    "status": "incertain",
    "statusLabel": "⚠️ saisonnier / accès incertain",
    "sourceUrl": null,
-   "placeId": "ChIJv2SMiowyow0RwAkAEtVXfSU",
-   "wiki": "Gorges du Dadès"
+   "placeId": "ChIJv2SMiowyow0RwAkAEtVXfSU"
   },
   {
    "id": "L127",
@@ -4131,8 +4115,7 @@
    "statusLabel": "⚠️ saisonnier / accès incertain",
    "sourceUrl": null,
    "placeId": "ChIJ35rVYADTog0Rxatkys8PzB0",
-   "rating": 4.5,
-   "wiki": "Gorges du Todgha"
+   "rating": 4.5
   },
   {
    "id": "L148",
@@ -4574,8 +4557,7 @@
    "status": "incertain",
    "statusLabel": "⚠️ saisonnier / accès incertain",
    "sourceUrl": null,
-   "placeId": "ChIJgSngnH9xlw0RldiUTyPpH6Q",
-   "wiki": "Sijilmassa"
+   "placeId": "ChIJgSngnH9xlw0RldiUTyPpH6Q"
   },
   {
    "id": "L165",
@@ -4987,8 +4969,7 @@
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
    "sourceUrl": null,
-   "placeId": "ChIJ5d80mCc8lw0RREretbL6OVY",
-   "wiki": "Merzouga"
+   "placeId": "ChIJ5d80mCc8lw0RREretbL6OVY"
   },
   {
    "id": "L181",
@@ -5245,8 +5226,7 @@
    "mapsQuery": "Erg Chebbi — dunes intermédiaires Merzouga, Hassilabied et Erg Chebbi Maroc",
    "status": "incertain",
    "statusLabel": "⚠️ saisonnier / accès incertain",
-   "sourceUrl": null,
-   "wiki": "Erg Chebbi"
+   "sourceUrl": null
   },
   {
    "id": "L191",
@@ -5865,8 +5845,7 @@
    "status": "incertain",
    "statusLabel": "⚠️ saisonnier / accès incertain",
    "sourceUrl": null,
-   "placeId": "ChIJ5-d28YKtmQ0Rx1HVxsqpV9s",
-   "wiki": "Ziz"
+   "placeId": "ChIJ5-d28YKtmQ0Rx1HVxsqpV9s"
   },
   {
    "id": "L215",
@@ -6765,8 +6744,7 @@
    "status": "incertain",
    "statusLabel": "⚠️ saisonnier / accès incertain",
    "sourceUrl": null,
-   "placeId": "ChIJk4xBMvfboQ0Rqlc6Zt7cAjQ",
-   "wiki": "Cèdre Gouraud"
+   "placeId": "ChIJk4xBMvfboQ0Rqlc6Zt7cAjQ"
   },
   {
    "id": "L250",
@@ -7003,8 +6981,7 @@
    "hours": [
     "Tous les jours 7:00–20:00"
    ],
-   "rating": 4.3,
-   "wiki": "Place el-Hedim"
+   "rating": 4.3
   },
   {
    "id": "L259",
@@ -7034,8 +7011,7 @@
    "hours": [
     "Ouvert 24h/24"
    ],
-   "rating": 4.2,
-   "wiki": "Bab Mansour"
+   "rating": 4.2
   },
   {
    "id": "L260",
@@ -7093,8 +7069,7 @@
    "statusLabel": "⚠️ saisonnier / accès incertain",
    "sourceUrl": null,
    "placeId": "ChIJjXW4bipboA0R4MZAweRh0ps",
-   "rating": 4.2,
-   "wiki": "Médersa Bou Inania de Meknès"
+   "rating": 4.2
   },
   {
    "id": "L262",
@@ -7152,8 +7127,7 @@
     "Lun–Jeu, Sam–Dim 9:00–12:30 et 15:00–18:00",
     "Ven 15:00–18:00"
    ],
-   "rating": 4.5,
-   "wiki": "Mausolée de Moulay Ismaïl"
+   "rating": 4.5
   },
   {
    "id": "L264",
@@ -7259,8 +7233,7 @@
    "statusLabel": "⚠️ saisonnier / accès incertain",
    "sourceUrl": "https://visit-meknes.com/en/portfolio/heri-souani-and-dar-al-ma/",
    "placeId": "ChIJ_xeJfP9FoA0RRdsEbpZxxuo",
-   "rating": 4.2,
-   "wiki": "Heri es-Souani"
+   "rating": 4.2
   },
   {
    "id": "L268",
@@ -7875,8 +7848,7 @@
    "hours": [
     "Tous les jours 6:30–18:00"
    ],
-   "rating": 4.6,
-   "wiki": "Tour Hassan"
+   "rating": 4.6
   },
   {
    "id": "L291",
@@ -7908,8 +7880,7 @@
     "Ven 8:00–13:20 et 14:25–18:00",
     "Sam–Dim 8:15–17:45"
    ],
-   "rating": 4.6,
-   "wiki": "Mausolée Mohammed-V"
+   "rating": 4.6
   },
   {
    "id": "L292",
@@ -7935,8 +7906,7 @@
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
    "sourceUrl": null,
-   "placeId": "ChIJBZ4-lgpspw0RWVQqi0ipreQ",
-   "wiki": "Kasbah des Oudayas"
+   "placeId": "ChIJBZ4-lgpspw0RWVQqi0ipreQ"
   },
   {
    "id": "L293",
@@ -7966,8 +7936,7 @@
    "hours": [
     "Tous les jours 9:00–20:00"
    ],
-   "rating": 4.5,
-   "wiki": "Chellah"
+   "rating": 4.5
   },
   {
    "id": "L294",
@@ -7998,8 +7967,7 @@
     "Mar fermé",
     "Autres jours 10:00–18:00"
    ],
-   "rating": 4.5,
-   "wiki": "Musée Mohammed-VI d'art moderne et contemporain"
+   "rating": 4.5
   },
   {
    "id": "L295",
@@ -8728,8 +8696,7 @@
    "status": "incertain",
    "statusLabel": "⚠️ saisonnier / accès incertain",
    "sourceUrl": null,
-   "placeId": "ChIJCxQt83LXoQ0Ro3xMQB3PU3I",
-   "wiki": "Ifrane"
+   "placeId": "ChIJCxQt83LXoQ0Ro3xMQB3PU3I"
   },
   {
    "id": "L324",
@@ -10240,8 +10207,7 @@
    "sourceUrl": null,
    "variant": "B",
    "exterior": false,
-   "placeId": "ChIJA6mUDq_0nw0RPYxLZfRxE-s",
-   "wiki": "Bab Bou Jeloud"
+   "placeId": "ChIJA6mUDq_0nw0RPYxLZfRxE-s"
   },
   {
    "id": "B29",
@@ -10268,8 +10234,7 @@
    "sourceUrl": null,
    "variant": "B",
    "exterior": false,
-   "placeId": "ChIJjWR-R6_0nw0RFCc3S_OwfpU",
-   "wiki": "Médersa Bou Inania de Fès"
+   "placeId": "ChIJjWR-R6_0nw0RFCc3S_OwfpU"
   },
   {
    "id": "B30",
@@ -10430,8 +10395,7 @@
    "sourceUrl": null,
    "variant": "B",
    "exterior": false,
-   "placeId": "ChIJdVUvylnznw0RHz99-4EHTWk",
-   "wiki": "Médersa Attarine"
+   "placeId": "ChIJdVUvylnznw0RHz99-4EHTWk"
   },
   {
    "id": "B36",
@@ -10458,8 +10422,7 @@
    "sourceUrl": null,
    "variant": "B",
    "exterior": true,
-   "placeId": "ChIJPw3jxFnznw0Rg9_Qr76oFIY",
-   "wiki": "Université al-Quaraouiyine"
+   "placeId": "ChIJPw3jxFnznw0Rg9_Qr76oFIY"
   },
   {
    "id": "B37",
@@ -10863,8 +10826,7 @@
    "sourceUrl": null,
    "variant": "B",
    "exterior": false,
-   "placeId": "ChIJ34ssEpHznw0RTr09X_7HqCE",
-   "wiki": "Tannerie Chouara"
+   "placeId": "ChIJ34ssEpHznw0RTr09X_7HqCE"
   },
   {
    "id": "B52",
@@ -11569,8 +11531,7 @@
    "sourceUrl": null,
    "variant": "B",
    "exterior": false,
-   "placeId": "ChIJ8QoUlJFrpw0RXGFGkplsNhM",
-   "wiki": "Tour Hassan"
+   "placeId": "ChIJ8QoUlJFrpw0RXGFGkplsNhM"
   },
   {
    "id": "B78",
@@ -11597,8 +11558,7 @@
    "sourceUrl": null,
    "variant": "B",
    "exterior": false,
-   "placeId": "ChIJIQ_FAZFrpw0RR2twZGQWwOQ",
-   "wiki": "Mausolée Mohammed-V"
+   "placeId": "ChIJIQ_FAZFrpw0RR2twZGQWwOQ"
   },
   {
    "id": "B79",
@@ -11625,8 +11585,7 @@
    "sourceUrl": null,
    "variant": "B",
    "exterior": false,
-   "placeId": "ChIJYb14vdNtpw0RYTlne-0UnEQ",
-   "wiki": "Kasbah des Oudayas"
+   "placeId": "ChIJYb14vdNtpw0RYTlne-0UnEQ"
   },
   {
    "id": "B80",
@@ -11866,8 +11825,7 @@
    "sourceUrl": null,
    "variant": "B",
    "exterior": false,
-   "placeId": "ChIJh0xTTnZrpw0RhT7CpZzXDKc",
-   "wiki": "Chellah"
+   "placeId": "ChIJh0xTTnZrpw0RhT7CpZzXDKc"
   },
   {
    "id": "B89",
@@ -11950,8 +11908,7 @@
    "hours": [
     "Tous les jours 8:30–18:00"
    ],
-   "rating": 4.5,
-   "wiki": "Volubilis"
+   "rating": 4.5
   },
   {
    "id": "N8",
@@ -11976,8 +11933,7 @@
    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Moulay%20Idriss%20Zerhoun%20Maroc&query_place_id=ChIJJQ10qbZpoA0RR4H7X75OTQE",
    "status": "verifie",
    "statusLabel": "✅ site vérifié (position officielle) ; horaires à reconfirmer",
-   "sourceUrl": null,
-   "wiki": "Moulay Idriss Zerhoun"
+   "sourceUrl": null
   }
  ],
  "routes": {

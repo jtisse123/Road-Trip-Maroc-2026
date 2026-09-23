@@ -49,35 +49,6 @@ let addMode = false;
 let popup = null;
 const KEY_ROUTES = "rtm_routes_geo_v2";  // v2 : recalcul des tracés après changement des jours 2/3/4
 let routeGeoCache = LS.get(KEY_ROUTES, {});  // { dayNum: [[lon,lat],…] } vraies routes
-const KEY_PHOTOS = "rtm_photos_v1";      // { id: url } photos Wikipédia résolues (pour l'hors-ligne)
-let photoCache = LS.get(KEY_PHOTOS, {});
-
-/* Récupère la photo d'un lieu via l'API Wikipédia (dans le navigateur de l'utilisateur).
-   L'URL résolue est mémorisée ; le service worker met l'image en cache pour l'hors-ligne. */
-async function resolvePhoto(p) {
-  if (!p || !p.wiki) return null;
-  if (photoCache[p.id]) return photoCache[p.id];
-  if (!navigator.onLine) return null;
-  try {
-    const u = "https://fr.wikipedia.org/api/rest_v1/page/summary/" + encodeURIComponent(p.wiki.replace(/ /g, "_"));
-    const r = await fetch(u, { headers: { Accept: "application/json" } });
-    if (!r.ok) return null;
-    const j = await r.json();
-    let src = (j.thumbnail && j.thumbnail.source) || (j.originalimage && j.originalimage.source) || null;
-    if (src) { src = src.replace(/\/\d+px-/, "/640px-"); photoCache[p.id] = src; LS.set(KEY_PHOTOS, photoCache); }
-    return src;
-  } catch (e) { return null; }
-}
-async function preloadPhotos(statusEl) {
-  const list = PLACES.filter(p => p.wiki);
-  let done = 0, ok = 0;
-  for (const p of list) {
-    const src = await resolvePhoto(p);
-    if (src) { try { await fetch(src, { mode: "no-cors", cache: "reload" }); ok++; } catch (e) {} }
-    done++; if (statusEl) statusEl.innerHTML = `Photos… <b>${done} / ${list.length}</b>`;
-  }
-  if (statusEl) statusEl.innerHTML = `✅ <b>${ok} photos enregistrées</b> pour l'hors-ligne.`;
-}
 let ROUTE_WAYPOINTS = {};                    // points d'origine (corridors) par jour
 
 /* ---------- Chargement des données ---------- */
@@ -465,7 +436,6 @@ function openCard(id, fromList) {
        ${statusBadge ? `<div class="card-badges">${statusBadge}</div>` : ""}
      </div>
      <div class="card-content">
-       ${p.wiki ? `<div id="cardPhoto" class="card-photo${photoCache[p.id] ? "" : " loading"}">${photoCache[p.id] ? `<img src="${photoCache[p.id]}" alt="${esc(p.name)}" loading="lazy" onerror="this.parentNode.style.display='none'">` : `<span class="cp-ph">${p.emoji || "📷"} chargement de la photo…</span>`}</div>` : ""}
        ${p.desc ? `<div class="card-desc">${esc(p.desc)}</div>` : ""}
        <dl class="card-facts">${facts}</dl>
        ${(p.hours && p.hours.length) ? `<div class="hours-box"><div class="hours-title">🕒 Horaires (Google — à reconfirmer sur place)</div>${p.hours.map(h => `<div class="hours-line">${esc(h)}</div>`).join("")}<div class="hours-warn">⚠️ Horaires spéciaux possibles autour du Nouvel An.</div></div>` : ""}
@@ -490,17 +460,61 @@ function openCard(id, fromList) {
     $("#delPlace").addEventListener("click", () => deletePlace(id));
   }
   $("#placeCard").hidden = false;
-  if (p.wiki && !photoCache[p.id]) {
-    resolvePhoto(p).then(src => {
-      const el = document.getElementById("cardPhoto"); if (!el) return;
-      el.classList.remove("loading");
-      if (src) el.innerHTML = `<img src="${src}" alt="${esc(p.name)}" loading="lazy" onerror="this.parentNode.style.display='none'">`;
-      else el.style.display = "none";
-    });
-  }
   if (fromList && p.lat != null) map.flyTo({ center: [p.lon, p.lat], zoom: Math.max(map.getZoom(), 11) });
 }
 function closeCard() { $("#placeCard").hidden = true; }
+
+/* ---------- Recherche : suggestions + aller au lieu sur la carte ---------- */
+function hideSuggest() { const b = $("#searchSuggest"); if (b) { b.hidden = true; b.innerHTML = ""; } }
+function buildSuggest(raw) {
+  const box = $("#searchSuggest"); if (!box) return;
+  const q = norm((raw || "").trim());
+  if (q.length < 2) { hideSuggest(); return; }
+  const places = PLACES.filter(p => !p.hidden && p.lat != null);
+  const regions = [...new Set(places.map(p => p.region).filter(Boolean))].filter(r => norm(r).includes(q)).slice(0, 3);
+  const plHits = places.filter(p => norm(p.name).includes(q)).sort((a, b) => (b.interest || 0) - (a.interest || 0)).slice(0, 7);
+  let html = "";
+  regions.forEach(r => { html += `<button class="sg-row sg-region" data-region="${encodeURIComponent(r)}"><span class="sg-ic">📍</span><span class="sg-tx"><b>${esc(r)}</b><small>Secteur / région — voir la zone</small></span></button>`; });
+  plHits.forEach(p => { html += `<button class="sg-row" data-id="${p.id}"><span class="sg-ic">${p.emoji || "📍"}</span><span class="sg-tx"><b>${esc(p.name)}</b><small>${esc(p.categoryLabel || "")}${p.region ? " · " + esc(p.region) : ""}</small></span></button>`; });
+  if (!html) html = `<div class="sg-empty">Aucun lieu trouvé pour « ${esc(raw)} »</div>`;
+  box.innerHTML = html; box.hidden = false;
+  box.querySelectorAll(".sg-row").forEach(b => b.addEventListener("mousedown", (ev) => {
+    ev.preventDefault();
+    if (b.dataset.id) goToPlace(b.dataset.id);
+    else if (b.dataset.region) goToRegion(decodeURIComponent(b.dataset.region));
+  }));
+}
+function ensureVisibleDay(p) {
+  if (currentDay !== "all") {
+    const dn = Number(currentDay);
+    const inDay = (p.days || []).includes(dn) || (p.days || []).includes(dn + 100);
+    if (!inDay) selectDay("all");
+  }
+}
+function goToPlace(id) {
+  const p = byId[id]; if (!p || p.lat == null) return;
+  hideSuggest();
+  const sb = $("#searchBox"); if (sb) sb.value = p.name;
+  filters.query = "";          // ne pas masquer les autres repères
+  ensureVisibleDay(p);
+  refresh();
+  map.flyTo({ center: [p.lon, p.lat], zoom: 13, essential: true });
+  openCard(id);
+}
+function goToRegion(region) {
+  hideSuggest();
+  const sb = $("#searchBox"); if (sb) sb.value = region;
+  filters.query = "";
+  if (currentDay !== "all") selectDay("all");
+  refresh();
+  const pts = PLACES.filter(p => !p.hidden && p.lat != null && p.region === region);
+  if (!pts.length) return;
+  let minLon = 180, maxLon = -180, minLat = 90, maxLat = -90;
+  pts.forEach(p => { minLon = Math.min(minLon, p.lon); maxLon = Math.max(maxLon, p.lon); minLat = Math.min(minLat, p.lat); maxLat = Math.max(maxLat, p.lat); });
+  if (minLon === maxLon && minLat === maxLat) map.flyTo({ center: [minLon, minLat], zoom: 12, essential: true });
+  else map.fitBounds([[minLon, minLat], [maxLon, maxLat]], { padding: 60, maxZoom: 12, duration: 800 });
+  toast(pts.length + " lieu(x) dans « " + region + " »");
+}
 
 /* ---------- Statuts personnels ---------- */
 function setStatus(id, st) {
@@ -880,9 +894,6 @@ function openManage() {
     <p class="help"><b>📶 Carte hors-ligne</b> — l'application, les journées, les lieux, les fiches, les favoris et les tracés fonctionnent déjà sans réseau. Téléchargez ci-dessous le <b>fond de carte de la zone du voyage</b> (fond « 🗺️ Plan ») pour l'afficher aussi sans réseau — très utile dans le désert et la montagne. À faire de préférence en Wi-Fi.</p>
     <div class="card-actions"><button class="btn primary" id="dlOffline">⬇️ Télécharger la carte de la zone</button></div>
     <div id="offlineStatus" class="help" style="margin-top:8px"></div>
-    <p class="help" style="margin-top:12px"><b>🖼️ Photos des sites</b> — les fiches des grands monuments affichent une photo (Wikipédia) à l'ouverture. Préchargez-les en Wi-Fi pour les voir aussi sans réseau.</p>
-    <div class="card-actions"><button class="btn" id="dlPhotos">🖼️ Précharger les photos des sites</button></div>
-    <div id="photoStatus" class="help" style="margin-top:8px"></div>
     <p class="help" style="margin-top:12px">Le satellite et le relief ne sont pas prévus hors ligne. Journée du jour calculée d'après les dates du voyage. Heure locale du Maroc : GMT (à revérifier avec vos billets).</p>
   `);
   $("#doExport").addEventListener("click", exportData);
@@ -901,12 +912,6 @@ function openManage() {
     dl.disabled = true; dl.textContent = "Téléchargement en cours…";
     await downloadOfflineMap(zooms, st);
     dl.textContent = "✅ Terminé";
-  });
-  const ph = $("#dlPhotos");
-  if (ph) ph.addEventListener("click", async () => {
-    ph.disabled = true; ph.textContent = "Préchargement…";
-    await preloadPhotos($("#photoStatus"));
-    ph.textContent = "✅ Terminé";
   });
 }
 function exportData() {
@@ -1244,7 +1249,15 @@ function wireUI() {
   $("#modal").addEventListener("click", (e) => { if (e.target.id === "modal") closeModal(); });
   $$("#basemapSwitch button").forEach(b => b.addEventListener("click", () => setBasemap(b.dataset.base)));
   const searchBox = $("#searchBox");
-  if (searchBox) searchBox.addEventListener("input", (e) => { filters.query = norm(e.target.value.trim()); refresh(); });
+  if (searchBox) {
+    searchBox.addEventListener("input", (e) => { filters.query = norm(e.target.value.trim()); refresh(); buildSuggest(e.target.value); });
+    searchBox.addEventListener("focus", (e) => { if (e.target.value.trim()) buildSuggest(e.target.value); });
+    searchBox.addEventListener("blur", () => setTimeout(hideSuggest, 150));
+    searchBox.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") { e.preventDefault(); const first = $("#searchSuggest .sg-row"); if (first) first.dispatchEvent(new MouseEvent("mousedown")); }
+      else if (e.key === "Escape") { hideSuggest(); }
+    });
+  }
   // sélecteur de fond de carte : toujours visible, flottant sur la carte
   const bm = $("#basemapSwitch"); if (bm && $("#mapWrap")) { $("#mapWrap").appendChild(bm); bm.classList.add("floating"); }
   document.addEventListener("keydown", (e) => { if (e.key === "Escape") { closeCard(); closeModal(); $("#filtersDrawer").hidden = true; if (addMode) exitAddMode(); } });

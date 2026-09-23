@@ -78,9 +78,19 @@ button{font-family:inherit; cursor:pointer; color:var(--ink)}
 #filterCount{position:absolute; top:-7px; right:-7px; background:var(--terra); color:#fff}
 
 /* Recherche */
-.search-wrap{margin:2px 0 10px}
+.search-wrap{margin:2px 0 10px; position:relative}
 #searchBox{width:100%; border:1px solid var(--line-2); border-radius:11px; padding:10px 12px; font-size:14px; font-family:inherit; background:#fff; box-shadow:var(--sh-sm)}
 #searchBox:focus{outline:none; border-color:var(--terra); background:#fff; box-shadow:0 0 0 3px rgba(193,68,14,.12)}
+.search-suggest{position:absolute; top:calc(100% + 4px); left:0; right:0; z-index:40; background:#fff; border:1px solid var(--line-2); border-radius:12px; box-shadow:0 10px 28px rgba(0,0,0,.16); overflow:hidden; max-height:340px; overflow-y:auto}
+.sg-row{display:flex; align-items:center; gap:10px; width:100%; text-align:left; background:none; border:none; border-bottom:1px solid var(--line); padding:9px 12px; cursor:pointer; font-family:inherit}
+.sg-row:last-child{border-bottom:none}
+.sg-row:hover,.sg-row:focus{background:var(--sand)}
+.sg-ic{font-size:18px; width:24px; text-align:center; flex:none}
+.sg-tx{display:flex; flex-direction:column; min-width:0}
+.sg-tx b{font-size:13.5px; color:var(--ink); white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+.sg-tx small{font-size:11.5px; color:var(--ink-soft)}
+.sg-region .sg-ic{color:var(--terra)}
+.sg-empty{padding:12px; font-size:12.5px; color:var(--ink-soft)}
 
 /* ===== Carte ===== */
 #mapWrap{position:relative; flex:1; min-height:0; background:#e7ddcb}
@@ -179,10 +189,6 @@ body.map-full #panel{display:none}
 .card-facts dd{margin:0; color:var(--ink)}
 .card-desc{font-size:14.5px; line-height:1.55; margin:10px 0; color:var(--ink-soft)}
 .coord-note{font-size:12.5px; color:var(--ink-soft); background:var(--sand); border:1px solid var(--line); border-radius:10px; padding:9px 11px; margin:10px 0}
-.card-photo{margin:0 0 12px; border-radius:12px; overflow:hidden; background:var(--sand); border:1px solid var(--line)}
-.card-photo img{display:block; width:100%; height:auto; max-height:230px; object-fit:cover}
-.card-photo.loading{min-height:64px; display:flex; align-items:center; justify-content:center}
-.card-photo .cp-ph{font-size:12.5px; color:var(--ink-soft); padding:14px}
 .hours-box{font-size:13px; background:var(--sand); border:1px solid var(--line); border-radius:10px; padding:10px 12px; margin:10px 0}
 .hours-title{font-weight:600; margin-bottom:5px}
 .hours-line{color:var(--ink-soft); padding:1px 0}
