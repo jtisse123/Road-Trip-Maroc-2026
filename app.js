@@ -49,6 +49,35 @@ let addMode = false;
 let popup = null;
 const KEY_ROUTES = "rtm_routes_geo_v2";  // v2 : recalcul des tracés après changement des jours 2/3/4
 let routeGeoCache = LS.get(KEY_ROUTES, {});  // { dayNum: [[lon,lat],…] } vraies routes
+const KEY_PHOTOS = "rtm_photos_v1";      // { id: url } photos Wikipédia résolues (pour l'hors-ligne)
+let photoCache = LS.get(KEY_PHOTOS, {});
+
+/* Récupère la photo d'un lieu via l'API Wikipédia (dans le navigateur de l'utilisateur).
+   L'URL résolue est mémorisée ; le service worker met l'image en cache pour l'hors-ligne. */
+async function resolvePhoto(p) {
+  if (!p || !p.wiki) return null;
+  if (photoCache[p.id]) return photoCache[p.id];
+  if (!navigator.onLine) return null;
+  try {
+    const u = "https://fr.wikipedia.org/api/rest_v1/page/summary/" + encodeURIComponent(p.wiki.replace(/ /g, "_"));
+    const r = await fetch(u, { headers: { Accept: "application/json" } });
+    if (!r.ok) return null;
+    const j = await r.json();
+    let src = (j.thumbnail && j.thumbnail.source) || (j.originalimage && j.originalimage.source) || null;
+    if (src) { src = src.replace(/\/\d+px-/, "/640px-"); photoCache[p.id] = src; LS.set(KEY_PHOTOS, photoCache); }
+    return src;
+  } catch (e) { return null; }
+}
+async function preloadPhotos(statusEl) {
+  const list = PLACES.filter(p => p.wiki);
+  let done = 0, ok = 0;
+  for (const p of list) {
+    const src = await resolvePhoto(p);
+    if (src) { try { await fetch(src, { mode: "no-cors", cache: "reload" }); ok++; } catch (e) {} }
+    done++; if (statusEl) statusEl.innerHTML = `Photos… <b>${done} / ${list.length}</b>`;
+  }
+  if (statusEl) statusEl.innerHTML = `✅ <b>${ok} photos enregistrées</b> pour l'hors-ligne.`;
+}
 let ROUTE_WAYPOINTS = {};                    // points d'origine (corridors) par jour
 
 /* ---------- Chargement des données ---------- */
@@ -390,6 +419,7 @@ function openCard(id, fromList) {
   let facts = "";
   facts += fact("📍 Région", esc(p.region));
   facts += fact("⭐ Intérêt", stars);
+  if (p.rating) facts += fact("🌟 Note Google", `${p.rating}/5`);
   facts += fact("⏱️ Temps", esc(p.duree));
   facts += fact("🚗 Détour", esc(p.detour));
   if (p.category === "restaurant") {
@@ -435,8 +465,10 @@ function openCard(id, fromList) {
        ${statusBadge ? `<div class="card-badges">${statusBadge}</div>` : ""}
      </div>
      <div class="card-content">
+       ${p.wiki ? `<div id="cardPhoto" class="card-photo${photoCache[p.id] ? "" : " loading"}">${photoCache[p.id] ? `<img src="${photoCache[p.id]}" alt="${esc(p.name)}" loading="lazy" onerror="this.parentNode.style.display='none'">` : `<span class="cp-ph">${p.emoji || "📷"} chargement de la photo…</span>`}</div>` : ""}
        ${p.desc ? `<div class="card-desc">${esc(p.desc)}</div>` : ""}
        <dl class="card-facts">${facts}</dl>
+       ${(p.hours && p.hours.length) ? `<div class="hours-box"><div class="hours-title">🕒 Horaires (Google — à reconfirmer sur place)</div>${p.hours.map(h => `<div class="hours-line">${esc(h)}</div>`).join("")}<div class="hours-warn">⚠️ Horaires spéciaux possibles autour du Nouvel An.</div></div>` : ""}
        ${coordNote}
        <div class="status-row">
          <button data-st="fav" class="${st === "fav" ? "on" : ""}">❤️ Favori</button>
@@ -458,6 +490,14 @@ function openCard(id, fromList) {
     $("#delPlace").addEventListener("click", () => deletePlace(id));
   }
   $("#placeCard").hidden = false;
+  if (p.wiki && !photoCache[p.id]) {
+    resolvePhoto(p).then(src => {
+      const el = document.getElementById("cardPhoto"); if (!el) return;
+      el.classList.remove("loading");
+      if (src) el.innerHTML = `<img src="${src}" alt="${esc(p.name)}" loading="lazy" onerror="this.parentNode.style.display='none'">`;
+      else el.style.display = "none";
+    });
+  }
   if (fromList && p.lat != null) map.flyTo({ center: [p.lon, p.lat], zoom: Math.max(map.getZoom(), 11) });
 }
 function closeCard() { $("#placeCard").hidden = true; }
@@ -840,6 +880,9 @@ function openManage() {
     <p class="help"><b>📶 Carte hors-ligne</b> — l'application, les journées, les lieux, les fiches, les favoris et les tracés fonctionnent déjà sans réseau. Téléchargez ci-dessous le <b>fond de carte de la zone du voyage</b> (fond « 🗺️ Plan ») pour l'afficher aussi sans réseau — très utile dans le désert et la montagne. À faire de préférence en Wi-Fi.</p>
     <div class="card-actions"><button class="btn primary" id="dlOffline">⬇️ Télécharger la carte de la zone</button></div>
     <div id="offlineStatus" class="help" style="margin-top:8px"></div>
+    <p class="help" style="margin-top:12px"><b>🖼️ Photos des sites</b> — les fiches des grands monuments affichent une photo (Wikipédia) à l'ouverture. Préchargez-les en Wi-Fi pour les voir aussi sans réseau.</p>
+    <div class="card-actions"><button class="btn" id="dlPhotos">🖼️ Précharger les photos des sites</button></div>
+    <div id="photoStatus" class="help" style="margin-top:8px"></div>
     <p class="help" style="margin-top:12px">Le satellite et le relief ne sont pas prévus hors ligne. Journée du jour calculée d'après les dates du voyage. Heure locale du Maroc : GMT (à revérifier avec vos billets).</p>
   `);
   $("#doExport").addEventListener("click", exportData);
@@ -858,6 +901,12 @@ function openManage() {
     dl.disabled = true; dl.textContent = "Téléchargement en cours…";
     await downloadOfflineMap(zooms, st);
     dl.textContent = "✅ Terminé";
+  });
+  const ph = $("#dlPhotos");
+  if (ph) ph.addEventListener("click", async () => {
+    ph.disabled = true; ph.textContent = "Préchargement…";
+    await preloadPhotos($("#photoStatus"));
+    ph.textContent = "✅ Terminé";
   });
 }
 function exportData() {

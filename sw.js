@@ -1,7 +1,9 @@
 /* Road Trip Maroc — Service Worker (cache PWA + tuiles hors ligne) */
-const APP_CACHE = "rtm-app-v5";
-const TILE_CACHE = "rtm-tiles-v5";
+const APP_CACHE = "rtm-app-v6";
+const TILE_CACHE = "rtm-tiles-v6";
+const PHOTO_CACHE = "rtm-photos-v6";
 const TILE_MAX = 6000; // nb max de tuiles conservées (permet le téléchargement hors-ligne de la zone)
+const PHOTO_HOSTS = ["upload.wikimedia.org"];
 
 const APP_ASSETS = [
   "./", "./index.html", "./styles.css", "./app.js", "./manifest.webmanifest",
@@ -27,7 +29,7 @@ self.addEventListener("install", (e) => {
 self.addEventListener("activate", (e) => {
   e.waitUntil(
     caches.keys().then(keys => Promise.all(
-      keys.filter(k => k !== APP_CACHE && k !== TILE_CACHE).map(k => caches.delete(k))
+      keys.filter(k => k !== APP_CACHE && k !== TILE_CACHE && k !== PHOTO_CACHE).map(k => caches.delete(k))
     )).then(() => self.clients.claim())
   );
 });
@@ -44,6 +46,21 @@ self.addEventListener("fetch", (e) => {
   const req = e.request;
   if (req.method !== "GET") return;
   const url = new URL(req.url);
+
+  // Photos des sites (Wikimedia) : cache d'abord, sinon réseau (et on met en cache)
+  if (PHOTO_HOSTS.includes(url.hostname)) {
+    e.respondWith((async () => {
+      const c = await caches.open(PHOTO_CACHE);
+      const hit = await c.match(req);
+      if (hit) return hit;
+      try {
+        const res = await fetch(req);
+        if (res && (res.ok || res.type === "opaque")) c.put(req, res.clone());
+        return res;
+      } catch (err) { return hit || Response.error(); }
+    })());
+    return;
+  }
 
   // Tuiles cartographiques : cache d'abord, sinon réseau (et on met en cache)
   if (TILE_HOSTS.includes(url.hostname)) {
