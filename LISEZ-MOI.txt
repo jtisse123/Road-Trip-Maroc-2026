@@ -1,19 +1,15 @@
 ROAD TRIP MAROC — dossier complet (a jour)
 ==========================================
-NOUVEAU :
-- Timeline cliquable : dans l'onglet Timeline, cliquez une ville/etape
-  -> la carte s'y rend directement (ville = secteur, monument = repere+fiche).
-- Recherche : tapez un nom (ex. "Skoura") -> liste de suggestions -> clic
-  -> la carte s'y rend.
+CORRECTIONS de cette version :
+- Lieux mal places recadres sur le centre de leur ville (Tamellalt, Ait
+  Baha, Skoura, Merzouga, Sale...) ; cols/routes/randos laisses a leur place.
+- Entrees generiques non trouvables (Echoppes de X, Petites tables,
+  Cultures de X, Epiceries...) MASQUEES : la carte n'affiche plus que des
+  lieux reels (350 lieux). Tout ce qui est verifie sur Google est conserve.
+- "Tizgui Todra" et "Touama" : ne pointent plus vers un commerce du meme
+  nom ; ouvrent une recherche du village.
+- Timeline cliquable + recherche qui amene sur la carte (deja en place).
+- Mise a jour automatique (cache v10).
 
-Deja en place :
-- 241 reperes a leur position officielle Google (clic = lieu officiel).
-- Horaires + note Google reels sur les principaux sites (a reconfirmer).
-- Interets (etoiles) sur les fiches Option B jours 8/9/10.
-- Coordonnees corrigees, points de vue recales, Volubilis + Moulay Idriss.
-- Traces routiers figes (affiches meme hors-ligne).
-- Mise a jour automatique (cache v9).
-
-OUVRIR SUR L'ORDINATEUR : double-cliquez "index.html".
 METTRE EN LIGNE (GitHub) : Add file > Upload files > deposez TOUT le
-contenu du dossier > Commit. Puis Ctrl+Maj+R sur l'appareil.
+contenu du dossier > Commit. Puis Ctrl+Maj+R.

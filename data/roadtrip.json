@@ -953,7 +953,8 @@
    "mapsQuery": "Fondouks de la rue Dar el Bacha Marrakech Maroc",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "hidden": true
   },
   {
    "id": "L025",
@@ -1161,7 +1162,8 @@
    "sourceUrl": null,
    "restoType": "street food, secteur à choisir sur place",
    "budget": "40–100 MAD / personne, estimation",
-   "commander": "harira, brochettes ou légumes cuits"
+   "commander": "harira, brochettes ou légumes cuits",
+   "hidden": true
   },
   {
    "id": "L032",
@@ -1216,7 +1218,8 @@
    "sourceUrl": null,
    "restoType": "spécialité, secteur",
    "budget": "20–60 MAD / personne, estimation",
-   "commander": "cornes de gazelle, ghriba, thé"
+   "commander": "cornes de gazelle, ghriba, thé",
+   "hidden": true
   },
   {
    "id": "L034",
@@ -1243,7 +1246,8 @@
    "sourceUrl": null,
    "restoType": "café de musée",
    "budget": "30–100 MAD hors billet / personne, estimation",
-   "commander": "thé et pâtisserie selon offre"
+   "commander": "thé et pâtisserie selon offre",
+   "hidden": true
   },
   {
    "id": "L035",
@@ -1435,7 +1439,8 @@
    "mapsQuery": "Commerces du centre d’Asni Imlil et Asni Maroc",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "hidden": true
   },
   {
    "id": "L043",
@@ -1459,7 +1464,8 @@
    "mapsQuery": "Commerces d’Imlil Imlil et Asni Maroc",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "hidden": true
   },
   {
    "id": "L044",
@@ -1684,7 +1690,8 @@
    "sourceUrl": null,
    "restoType": "restauration locale, secteur",
    "budget": "60–120 MAD / personne, estimation",
-   "commander": "omelette, soupe, tajine disponible"
+   "commander": "omelette, soupe, tajine disponible",
+   "hidden": true
   },
   {
    "id": "L053",
@@ -1711,7 +1718,8 @@
    "sourceUrl": null,
    "restoType": "café local, secteur",
    "budget": "15–50 MAD / personne, estimation",
-   "commander": "thé, pain, œufs selon service"
+   "commander": "thé, pain, œufs selon service",
+   "hidden": true
   },
   {
    "id": "L054",
@@ -1738,7 +1746,8 @@
    "sourceUrl": null,
    "restoType": "produits locaux à sélectionner",
    "budget": "20–60 MAD / personne, estimation",
-   "commander": "noix, fruits et pain pour pique-nique"
+   "commander": "noix, fruits et pain pour pique-nique",
+   "hidden": true
   },
   {
    "id": "L055",
@@ -1811,7 +1820,8 @@
    "mapsQuery": "Maisons ouvertes à la visite dans le ksar Aït-Ben-Haddou et Tichka Maroc",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "hidden": true
   },
   {
    "id": "L058",
@@ -1909,7 +1919,8 @@
    "mapsQuery": "Boutiques du village moderne d’Aït-Ben-Haddou Aït-Ben-Haddou et Tichka Maroc",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "hidden": true
   },
   {
    "id": "L062",
@@ -1933,7 +1944,8 @@
    "mapsQuery": "Échoppes du ksar d’Aït-Ben-Haddou Aït-Ben-Haddou et Tichka Maroc",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "hidden": true
   },
   {
    "id": "L063",
@@ -1957,7 +1969,8 @@
    "mapsQuery": "Ateliers de peinture à Aït-Ben-Haddou Aït-Ben-Haddou et Tichka Maroc",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "hidden": true
   },
   {
    "id": "L064",
@@ -1981,7 +1994,8 @@
    "mapsQuery": "Commerces de Tabourahte Aït-Ben-Haddou et Tichka Maroc",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "hidden": true
   },
   {
    "id": "L065",
@@ -2155,7 +2169,8 @@
    "sourceUrl": null,
    "restoType": "petite restauration, secteur",
    "budget": "70–140 MAD / personne, estimation",
-   "commander": "tajine prêt, omelette ou soupe"
+   "commander": "tajine prêt, omelette ou soupe",
+   "hidden": true
   },
   {
    "id": "L072",
@@ -2182,7 +2197,8 @@
    "sourceUrl": null,
    "restoType": "cuisine familiale",
    "budget": "110–200 MAD / personne, estimation",
-   "commander": "poulet au citron ou légumes de saison"
+   "commander": "poulet au citron ou légumes de saison",
+   "hidden": true
   },
   {
    "id": "L073",
@@ -2209,7 +2225,8 @@
    "sourceUrl": null,
    "restoType": "café panoramique, secteur",
    "budget": "20–60 MAD / personne, estimation",
-   "commander": "thé, café, pâtisserie selon offre"
+   "commander": "thé, café, pâtisserie selon offre",
+   "hidden": true
   },
   {
    "id": "L074",
@@ -2236,7 +2253,8 @@
    "sourceUrl": null,
    "restoType": "restauration routière, secteur",
    "budget": "60–120 MAD / personne, estimation",
-   "commander": "kefta ou brochettes cuites à la commande"
+   "commander": "kefta ou brochettes cuites à la commande",
+   "hidden": true
   },
   {
    "id": "L075",
@@ -2263,7 +2281,8 @@
    "sourceUrl": null,
    "restoType": "provisions et spécialités simples",
    "budget": "20–60 MAD / personne, estimation",
-   "commander": "pain, olives, fruits, fromage emballé"
+   "commander": "pain, olives, fruits, fromage emballé",
+   "hidden": true
   },
   {
    "id": "L076",
@@ -2475,7 +2494,8 @@
    "mapsQuery": "Quartier commerçant de l’avenue Mohammed V Ouarzazate Maroc",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "hidden": true
   },
   {
    "id": "L084",
@@ -2499,7 +2519,8 @@
    "mapsQuery": "Artisanat autour de Taourirt Ouarzazate Maroc",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "hidden": true
   },
   {
    "id": "L085",
@@ -2523,7 +2544,8 @@
    "mapsQuery": "Quartier de Tassoumaat Ouarzazate Maroc",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "hidden": true
   },
   {
    "id": "L086",
@@ -2547,7 +2569,8 @@
    "mapsQuery": "Ancien mellah de Taourirt Ouarzazate Maroc",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "hidden": true
   },
   {
    "id": "L087",
@@ -2584,8 +2607,8 @@
    "days": [
     4
    ],
-   "lat": 30.91613,
-   "lon": -6.89115,
+   "lat": 30.922549,
+   "lon": -6.910758,
    "coordPrecision": "zone",
    "interest": 3,
    "duree": "20–30 min",
@@ -2596,7 +2619,8 @@
    "mapsQuery": "Rives accessibles de l’oued Ouarzazate Ouarzazate Maroc",
    "status": "incertain",
    "statusLabel": "⚠️ saisonnier / accès incertain",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "hidden": true
   },
   {
    "id": "L089",
@@ -2632,8 +2656,8 @@
    "days": [
     4
    ],
-   "lat": 30.91876,
-   "lon": -6.88991,
+   "lat": 30.917964,
+   "lon": -6.910251,
    "coordPrecision": "zone",
    "interest": null,
    "duree": null,
@@ -2647,7 +2671,8 @@
    "sourceUrl": null,
    "restoType": "marché alimentaire, secteur",
    "budget": "40–90 MAD / personne, estimation",
-   "commander": "pain, olives, soupe ou grillades disponibles"
+   "commander": "pain, olives, soupe ou grillades disponibles",
+   "hidden": true
   },
   {
    "id": "L091",
@@ -2701,7 +2726,8 @@
    "sourceUrl": null,
    "restoType": "café local, secteur",
    "budget": "15–50 MAD / personne, estimation",
-   "commander": "nous-nous, thé et petite pâtisserie"
+   "commander": "nous-nous, thé et petite pâtisserie",
+   "hidden": true
   },
   {
    "id": "L093",
@@ -2713,8 +2739,8 @@
    "days": [
     4
    ],
-   "lat": 30.91679,
-   "lon": -6.89003,
+   "lat": 30.915323,
+   "lon": -6.915997,
    "coordPrecision": "zone",
    "interest": null,
    "duree": null,
@@ -2728,7 +2754,8 @@
    "sourceUrl": null,
    "restoType": "repas familial sur réservation",
    "budget": "120–220 MAD / personne, estimation",
-   "commander": "couscous ou tajine de saison"
+   "commander": "couscous ou tajine de saison",
+   "hidden": true
   },
   {
    "id": "L094",
@@ -2940,8 +2967,8 @@
    "days": [
     4
    ],
-   "lat": 31.06333,
-   "lon": -6.55925,
+   "lat": 31.043009,
+   "lon": -6.577571,
    "coordPrecision": "zone",
    "interest": 3,
    "duree": "20–30 min",
@@ -2952,7 +2979,8 @@
    "mapsQuery": "Commerces alimentaires de Skoura Skoura et vallée des Roses Maroc",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "hidden": true
   },
   {
    "id": "L103",
@@ -2976,7 +3004,8 @@
    "mapsQuery": "Boutiques de produits de rose à Kelaat M’Gouna Skoura et vallée des Roses Maroc",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "hidden": true
   },
   {
    "id": "L104",
@@ -3024,7 +3053,8 @@
    "mapsQuery": "Artisanat du centre de Kelaat M’Gouna Skoura et vallée des Roses Maroc",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "hidden": true
   },
   {
    "id": "L106",
@@ -3060,8 +3090,8 @@
    "days": [
     4
    ],
-   "lat": 31.06546,
-   "lon": -6.55119,
+   "lat": 31.045965,
+   "lon": -6.577324,
    "coordPrecision": "zone",
    "interest": 4,
    "duree": "45–60 min",
@@ -3072,7 +3102,8 @@
    "mapsQuery": "Seguias de Skoura Skoura et vallée des Roses Maroc",
    "status": "incertain",
    "statusLabel": "⚠️ saisonnier / accès incertain",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "hidden": true
   },
   {
    "id": "L108",
@@ -3109,8 +3140,8 @@
    "days": [
     4
    ],
-   "lat": 31.05764,
-   "lon": -6.5601,
+   "lat": 31.046632,
+   "lon": -6.57276,
    "coordPrecision": "zone",
    "interest": null,
    "duree": null,
@@ -3124,7 +3155,8 @@
    "sourceUrl": null,
    "restoType": "restauration locale, secteur",
    "budget": "60–120 MAD / personne, estimation",
-   "commander": "kefta ou tajine déjà prêt"
+   "commander": "kefta ou tajine déjà prêt",
+   "hidden": true
   },
   {
    "id": "L110",
@@ -3151,7 +3183,8 @@
    "sourceUrl": null,
    "restoType": "cuisine familiale à réserver",
    "budget": "120–220 MAD / personne, estimation",
-   "commander": "légumes, poulet au citron, pain maison"
+   "commander": "légumes, poulet au citron, pain maison",
+   "hidden": true
   },
   {
    "id": "L111",
@@ -3178,7 +3211,8 @@
    "sourceUrl": null,
    "restoType": "café local, secteur",
    "budget": "15–45 MAD / personne, estimation",
-   "commander": "thé ou café et pain"
+   "commander": "thé ou café et pain",
+   "hidden": true
   },
   {
    "id": "L112",
@@ -3205,7 +3239,8 @@
    "sourceUrl": null,
    "restoType": "spécialité à vérifier",
    "budget": "20–80 MAD / personne, estimation",
-   "commander": "eau de rose alimentaire ou pâtisserie si proposée"
+   "commander": "eau de rose alimentaire ou pâtisserie si proposée",
+   "hidden": true
   },
   {
    "id": "L113",
@@ -3217,8 +3252,8 @@
    "days": [
     4
    ],
-   "lat": 31.05916,
-   "lon": -6.55285,
+   "lat": 31.040982,
+   "lon": -6.56992,
    "coordPrecision": "zone",
    "interest": null,
    "duree": null,
@@ -3232,7 +3267,8 @@
    "sourceUrl": null,
    "restoType": "marché et provisions",
    "budget": "25–60 MAD / personne, estimation",
-   "commander": "olives, pain, fruits et noix selon disponibilité"
+   "commander": "olives, pain, fruits et noix selon disponibilité",
+   "hidden": true
   },
   {
    "id": "L114",
@@ -3411,7 +3447,8 @@
    "mapsQuery": "Commerces alimentaires de Boumalne Vallée du Dadès Maroc",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "hidden": true
   },
   {
    "id": "L121",
@@ -3424,8 +3461,8 @@
     4,
     5
    ],
-   "lat": 31.49422,
-   "lon": -5.90389,
+   "lat": 31.443088,
+   "lon": -5.981824,
    "coordPrecision": "zone",
    "interest": 3,
    "duree": "15–25 min",
@@ -3436,7 +3473,8 @@
    "mapsQuery": "Échoppes de Tamellalt Vallée du Dadès Maroc",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "hidden": true
   },
   {
    "id": "L122",
@@ -3461,7 +3499,8 @@
    "mapsQuery": "Textiles et tapis à Boumalne Vallée du Dadès Maroc",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "hidden": true
   },
   {
    "id": "L123",
@@ -3602,8 +3641,8 @@
     4,
     5
    ],
-   "lat": 31.48628,
-   "lon": -5.90264,
+   "lat": 31.443232,
+   "lon": -5.984787,
    "coordPrecision": "zone",
    "interest": 4,
    "duree": "1–2 h",
@@ -3614,7 +3653,8 @@
    "mapsQuery": "Cultures de Tamellalt Vallée du Dadès Maroc",
    "status": "incertain",
    "statusLabel": "⚠️ saisonnier / accès incertain",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "hidden": true
   },
   {
    "id": "L129",
@@ -3656,8 +3696,8 @@
     4,
     5
    ],
-   "lat": 31.48911,
-   "lon": -5.89587,
+   "lat": 31.44777,
+   "lon": -5.985613,
    "coordPrecision": "zone",
    "interest": null,
    "duree": null,
@@ -3671,7 +3711,8 @@
    "sourceUrl": null,
    "restoType": "cuisine familiale",
    "budget": "100–180 MAD / personne, estimation",
-   "commander": "soupe et tajine de saison"
+   "commander": "soupe et tajine de saison",
+   "hidden": true
   },
   {
    "id": "L131",
@@ -3699,7 +3740,8 @@
    "sourceUrl": null,
    "restoType": "petite table locale, secteur",
    "budget": "60–110 MAD / personne, estimation",
-   "commander": "kefta ou brochettes"
+   "commander": "kefta ou brochettes",
+   "hidden": true
   },
   {
    "id": "L132",
@@ -3756,7 +3798,8 @@
    "sourceUrl": null,
    "restoType": "provisions et petit-déjeuner",
    "budget": "20–50 MAD / personne, estimation",
-   "commander": "pain, msemen, thé selon boutique"
+   "commander": "pain, msemen, thé selon boutique",
+   "hidden": true
   },
   {
    "id": "L134",
@@ -3952,18 +3995,17 @@
    ],
    "lat": 31.5765506,
    "lon": -5.5829986,
-   "coordPrecision": "precise",
+   "coordPrecision": "zone",
    "interest": 4,
    "duree": "30–45 min",
    "detour": "sur l’accès aux gorges",
    "detourClass": null,
    "desc": "Village au pied des falaises ; rues et chemins publics.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tizgui%20Todra%20Maroc&query_place_id=ChIJFQAAADDNog0RBrKyxx2uL24",
-   "mapsQuery": "Tizgui Todra",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tizgui%20Maroc",
+   "mapsQuery": "Tizgui",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null,
-   "placeId": "ChIJFQAAADDNog0RBrKyxx2uL24"
+   "sourceUrl": null
   },
   {
    "id": "L142",
@@ -4013,7 +4055,8 @@
    "mapsQuery": "Commerces autour de la place du centre de Tinghir Tinghir et Todra Maroc",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "hidden": true
   },
   {
    "id": "L144",
@@ -4038,7 +4081,8 @@
    "mapsQuery": "Bijouteries de Tinghir Tinghir et Todra Maroc",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "hidden": true
   },
   {
    "id": "L145",
@@ -4063,7 +4107,8 @@
    "mapsQuery": "Échoppes de tapis à Tinghir Tinghir et Todra Maroc",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "hidden": true
   },
   {
    "id": "L146",
@@ -4076,8 +4121,8 @@
     5,
     6
    ],
-   "lat": 31.5137,
-   "lon": -5.53116,
+   "lat": 31.595337,
+   "lon": -5.594499,
    "coordPrecision": "zone",
    "interest": 3,
    "duree": "15–30 min",
@@ -4088,7 +4133,8 @@
    "mapsQuery": "Commerces d’Aït Baha Tinghir et Todra Maroc",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "hidden": true
   },
   {
    "id": "L147",
@@ -4179,8 +4225,8 @@
     5,
     6
    ],
-   "lat": 31.51,
-   "lon": -5.53317,
+   "lat": 31.589384,
+   "lon": -5.594779,
    "coordPrecision": "zone",
    "interest": 4,
    "duree": "30–60 min",
@@ -4258,8 +4304,8 @@
     5,
     6
    ],
-   "lat": 31.51961,
-   "lon": -5.53231,
+   "lat": 31.586418,
+   "lon": -5.594819,
    "coordPrecision": "zone",
    "interest": null,
    "duree": null,
@@ -4273,7 +4319,8 @@
    "sourceUrl": null,
    "restoType": "cuisine familiale",
    "budget": "100–180 MAD / personne, estimation",
-   "commander": "harira, tajine, pain"
+   "commander": "harira, tajine, pain",
+   "hidden": true
   },
   {
    "id": "L154",
@@ -4301,7 +4348,8 @@
    "sourceUrl": null,
    "restoType": "petite restauration, secteur",
    "budget": "60–110 MAD / personne, estimation",
-   "commander": "kefta, brochettes"
+   "commander": "kefta, brochettes",
+   "hidden": true
   },
   {
    "id": "L155",
@@ -4329,7 +4377,8 @@
    "sourceUrl": null,
    "restoType": "marché alimentaire",
    "budget": "25–60 MAD / personne, estimation",
-   "commander": "pain, olives, fruits"
+   "commander": "pain, olives, fruits",
+   "hidden": true
   },
   {
    "id": "L156",
@@ -4357,7 +4406,8 @@
    "sourceUrl": null,
    "restoType": "café local",
    "budget": "15–45 MAD / personne, estimation",
-   "commander": "thé, café, msemen si disponible"
+   "commander": "thé, café, msemen si disponible",
+   "hidden": true
   },
   {
    "id": "L157",
@@ -4606,7 +4656,8 @@
    "mapsQuery": "Marché aux bestiaux de Rissani Tinjdad, Jorf et Rissani Maroc",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "hidden": true
   },
   {
    "id": "L167",
@@ -4630,7 +4681,8 @@
    "mapsQuery": "Fours et medfouna de Rissani Tinjdad, Jorf et Rissani Maroc",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "hidden": true
   },
   {
    "id": "L168",
@@ -4678,7 +4730,8 @@
    "mapsQuery": "Commerces de Jorf Tinjdad, Jorf et Rissani Maroc",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "hidden": true
   },
   {
    "id": "L170",
@@ -4702,7 +4755,8 @@
    "mapsQuery": "Étal de dattes au souk de Rissani Tinjdad, Jorf et Rissani Maroc",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "hidden": true
   },
   {
    "id": "L171",
@@ -4740,19 +4794,17 @@
    ],
    "lat": 31.5763088,
    "lon": -4.7395329,
-   "coordPrecision": "precise",
+   "coordPrecision": "zone",
    "interest": 3,
    "duree": "20–40 min",
    "detour": "sur la route choisie",
    "detourClass": "sur_la_route",
    "desc": "Village et oasis le long de la liaison vers Jorf ; courte halte depuis le goudron.",
-   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Touroug%20Maroc&query_place_id=ChIJPfhbvpofmA0RnItl3f3J-3M",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Touroug%20Maroc",
    "mapsQuery": "Touroug",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null,
-   "placeId": "ChIJPfhbvpofmA0RnItl3f3J-3M",
-   "rating": 3.7
+   "sourceUrl": null
   },
   {
    "id": "L173",
@@ -4835,7 +4887,8 @@
    "sourceUrl": null,
    "restoType": "spécialité régionale, four à choisir",
    "budget": "60–130 MAD / personne, estimation",
-   "commander": "pain farci, composition et nombre de parts à convenir"
+   "commander": "pain farci, composition et nombre de parts à convenir",
+   "hidden": true
   },
   {
    "id": "L176",
@@ -4862,7 +4915,8 @@
    "sourceUrl": null,
    "restoType": "dégustation et achat",
    "budget": "20–80 MAD selon quantité / personne, estimation",
-   "commander": "variétés locales proposées"
+   "commander": "variétés locales proposées",
+   "hidden": true
   },
   {
    "id": "L177",
@@ -4889,7 +4943,8 @@
    "sourceUrl": null,
    "restoType": "petite table locale, secteur",
    "budget": "60–110 MAD / personne, estimation",
-   "commander": "brochettes, kefta, pain"
+   "commander": "brochettes, kefta, pain",
+   "hidden": true
   },
   {
    "id": "L178",
@@ -4943,7 +4998,8 @@
    "sourceUrl": null,
    "restoType": "café local",
    "budget": "15–45 MAD / personne, estimation",
-   "commander": "thé et pain selon offre"
+   "commander": "thé et pain selon offre",
+   "hidden": true
   },
   {
    "id": "L180",
@@ -5064,8 +5120,8 @@
     6,
     7
    ],
-   "lat": 31.0993,
-   "lon": -4.01305,
+   "lat": 31.076385,
+   "lon": -4.016316,
    "coordPrecision": "zone",
    "interest": 3,
    "duree": "20–30 min",
@@ -5076,7 +5132,8 @@
    "mapsQuery": "Commerces alimentaires de Merzouga Merzouga, Hassilabied et Erg Chebbi Maroc",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "hidden": true
   },
   {
    "id": "L185",
@@ -5101,7 +5158,8 @@
    "mapsQuery": "Boutiques de Hassilabied Merzouga, Hassilabied et Erg Chebbi Maroc",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "hidden": true
   },
   {
    "id": "L186",
@@ -5114,8 +5172,8 @@
     6,
     7
    ],
-   "lat": 31.10376,
-   "lon": -4.00857,
+   "lat": 31.081824,
+   "lon": -4.019543,
    "coordPrecision": "zone",
    "interest": 3,
    "duree": "20–40 min",
@@ -5126,7 +5184,8 @@
    "mapsQuery": "Artisanat du centre de Merzouga Merzouga, Hassilabied et Erg Chebbi Maroc",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "hidden": true
   },
   {
    "id": "L187",
@@ -5176,7 +5235,8 @@
    "mapsQuery": "Commerces de Khamlia Merzouga, Hassilabied et Erg Chebbi Maroc",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "hidden": true
   },
   {
    "id": "L189",
@@ -5239,8 +5299,8 @@
     6,
     7
    ],
-   "lat": 31.1028,
-   "lon": -4.01651,
+   "lat": 31.081752,
+   "lon": -4.013584,
    "coordPrecision": "zone",
    "interest": 5,
    "duree": "45–90 min",
@@ -5303,7 +5363,8 @@
    "mapsQuery": "Terrasse nocturne face à l’Erg Chebbi Merzouga, Hassilabied et Erg Chebbi Maroc",
    "status": "incertain",
    "statusLabel": "⚠️ saisonnier / accès incertain",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "hidden": true
   },
   {
    "id": "L194",
@@ -5374,8 +5435,8 @@
     6,
     7
    ],
-   "lat": 31.10183,
-   "lon": -4.01602,
+   "lat": 31.081816,
+   "lon": -4.010618,
    "coordPrecision": "zone",
    "interest": null,
    "duree": null,
@@ -5389,7 +5450,8 @@
    "sourceUrl": null,
    "restoType": "restauration locale, secteur",
    "budget": "60–120 MAD / personne, estimation",
-   "commander": "omelette, kefta ou soupe"
+   "commander": "omelette, kefta ou soupe",
+   "hidden": true
   },
   {
    "id": "L197",
@@ -5417,7 +5479,8 @@
    "sourceUrl": null,
    "restoType": "cuisine familiale",
    "budget": "100–180 MAD / personne, estimation",
-   "commander": "harira et tajine de saison"
+   "commander": "harira et tajine de saison",
+   "hidden": true
   },
   {
    "id": "L198",
@@ -5430,8 +5493,8 @@
     6,
     7
    ],
-   "lat": 31.10189,
-   "lon": -4.00982,
+   "lat": 31.077346,
+   "lon": -4.009478,
    "coordPrecision": "zone",
    "interest": null,
    "duree": null,
@@ -5445,7 +5508,8 @@
    "sourceUrl": null,
    "restoType": "provisions et petit-déjeuner",
    "budget": "20–60 MAD / personne, estimation",
-   "commander": "pain, dattes, fruits et eau"
+   "commander": "pain, dattes, fruits et eau",
+   "hidden": true
   },
   {
    "id": "L199",
@@ -5674,7 +5738,8 @@
    "mapsQuery": "Commerces d’Aoufous Erfoud, vallée du Ziz et Rich Maroc",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "hidden": true
   },
   {
    "id": "L208",
@@ -5746,7 +5811,8 @@
    "mapsQuery": "Boutiques de pierre polie d’Erfoud Erfoud, vallée du Ziz et Rich Maroc",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "hidden": true
   },
   {
    "id": "L211",
@@ -5921,7 +5987,8 @@
    "sourceUrl": null,
    "restoType": "spécialité régionale",
    "budget": "20–80 MAD selon quantité / personne, estimation",
-   "commander": "dattes de différentes variétés"
+   "commander": "dattes de différentes variétés",
+   "hidden": true
   },
   {
    "id": "L218",
@@ -5948,7 +6015,8 @@
    "sourceUrl": null,
    "restoType": "petite restauration, secteur",
    "budget": "60–110 MAD / personne, estimation",
-   "commander": "brochettes ou kefta"
+   "commander": "brochettes ou kefta",
+   "hidden": true
   },
   {
    "id": "L219",
@@ -6029,7 +6097,8 @@
    "sourceUrl": null,
    "restoType": "restauration routière, secteur",
    "budget": "60–110 MAD / personne, estimation",
-   "commander": "plat prêt ou brochettes"
+   "commander": "plat prêt ou brochettes",
+   "hidden": true
   },
   {
    "id": "L222",
@@ -6160,7 +6229,8 @@
    "mapsQuery": "Boutiques de tapis de Midelt Midelt Maroc",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "hidden": true
   },
   {
    "id": "L227",
@@ -6185,7 +6255,8 @@
    "mapsQuery": "Boutiques de minéraux de Midelt Midelt Maroc",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "hidden": true
   },
   {
    "id": "L228",
@@ -6210,7 +6281,8 @@
    "mapsQuery": "Vendeurs de pommes de Midelt Midelt Maroc",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "hidden": true
   },
   {
    "id": "L229",
@@ -6235,7 +6307,8 @@
    "mapsQuery": "Boulangeries du centre de Midelt Midelt Maroc",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "hidden": true
   },
   {
    "id": "L230",
@@ -6338,7 +6411,8 @@
    "sourceUrl": null,
    "restoType": "petite table locale",
    "budget": "60–110 MAD / personne, estimation",
-   "commander": "kefta et brochettes"
+   "commander": "kefta et brochettes",
+   "hidden": true
   },
   {
    "id": "L234",
@@ -6366,7 +6440,8 @@
    "sourceUrl": null,
    "restoType": "cuisine familiale",
    "budget": "100–200 MAD / personne, estimation",
-   "commander": "soupe et tajine"
+   "commander": "soupe et tajine",
+   "hidden": true
   },
   {
    "id": "L235",
@@ -6394,7 +6469,8 @@
    "sourceUrl": null,
    "restoType": "spécialité régionale",
    "budget": "10–40 MAD selon quantité / personne, estimation",
-   "commander": "pommes disponibles, jus si proposé"
+   "commander": "pommes disponibles, jus si proposé",
+   "hidden": true
   },
   {
    "id": "L236",
@@ -6422,7 +6498,8 @@
    "sourceUrl": null,
    "restoType": "café local",
    "budget": "15–45 MAD / personne, estimation",
-   "commander": "thé, café, pain"
+   "commander": "thé, café, pain",
+   "hidden": true
   },
   {
    "id": "L237",
@@ -6450,7 +6527,8 @@
    "sourceUrl": null,
    "restoType": "petit-déjeuner/provisions",
    "budget": "20–50 MAD / personne, estimation",
-   "commander": "msemen, pain et œufs selon offre"
+   "commander": "msemen, pain et œufs selon offre",
+   "hidden": true
   },
   {
    "id": "L238",
@@ -6647,7 +6725,8 @@
    "mapsQuery": "Artisanat du centre d’Azrou Moyen Atlas, Azrou et El Hajeb Maroc",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "hidden": true
   },
   {
    "id": "L246",
@@ -6671,7 +6750,8 @@
    "mapsQuery": "Commerces de Timahdite Moyen Atlas, Azrou et El Hajeb Maroc",
    "status": "a_reconfirmer",
    "statusLabel": "🟡 plausible / à reconfirmer localement",
-   "sourceUrl": null
+   "sourceUrl": null,
+   "hidden": true
   },
   {
    "id": "L247",
@@ -6843,7 +6923,8 @@
    "sourceUrl": null,
    "restoType": "petite table locale, secteur",
    "budget": "60–120 MAD / personne, estimation",
-   "commander": "kefta ou grillades"
+   "commander": "kefta ou grillades",
+   "hidden": true
   },
   {
    "id": "L254",
@@ -6870,7 +6951,8 @@
    "sourceUrl": null,
    "restoType": "street food, secteur",
    "budget": "20–50 MAD / personne, estimation",
-   "commander": "bissara si disponible, pain et huile"
+   "commander": "bissara si disponible, pain et huile",
+   "hidden": true
   },
   {
    "id": "L255",
@@ -6897,7 +6979,8 @@
    "sourceUrl": null,
    "restoType": "café local, secteur",
    "budget": "15–45 MAD / personne, estimation",
-   "commander": "thé ou nous-nous"
+   "commander": "thé ou nous-nous",
+   "hidden": true
   },
   {
    "id": "L256",
@@ -6924,7 +7007,8 @@
    "sourceUrl": null,
    "restoType": "restauration routière, secteur",
    "budget": "50–110 MAD / personne, estimation",
-   "commander": "soupe, omelette ou grillades"
+   "commander": "soupe, omelette ou grillades",
+   "hidden": true
   },
   {
    "id": "L257",
@@ -6951,7 +7035,8 @@
    "sourceUrl": null,
    "restoType": "marché alimentaire",
    "budget": "25–60 MAD / personne, estimation",
-   "commander": "olives, pain, fruits"
+   "commander": "olives, pain, fruits",
+   "hidden": true
   },
   {
    "id": "L258",
@@ -7734,7 +7819,8 @@
    "sourceUrl": "https://visit-meknes.com/en/souks-and-medina/",
    "restoType": "marché alimentaire",
    "budget": "25–70 MAD / personne, estimation",
-   "commander": "plusieurs préparations d’olives"
+   "commander": "plusieurs préparations d’olives",
+   "hidden": true
   },
   {
    "id": "L287",
@@ -7762,7 +7848,8 @@
    "sourceUrl": null,
    "restoType": "street food, secteur",
    "budget": "20–60 MAD / personne, estimation",
-   "commander": "bissara ou harira selon offre"
+   "commander": "bissara ou harira selon offre",
+   "hidden": true
   },
   {
    "id": "L288",
@@ -7790,7 +7877,8 @@
    "sourceUrl": null,
    "restoType": "café panoramique, secteur",
    "budget": "20–60 MAD / personne, estimation",
-   "commander": "thé, café et pâtisserie"
+   "commander": "thé, café et pâtisserie",
+   "hidden": true
   },
   {
    "id": "L289",
@@ -7818,7 +7906,8 @@
    "sourceUrl": null,
    "restoType": "salon de thé et pâtisserie, secteur",
    "budget": "25–70 MAD / personne, estimation",
-   "commander": "ghriba, cornes de gazelle, thé"
+   "commander": "ghriba, cornes de gazelle, thé",
+   "hidden": true
   },
   {
    "id": "L290",
@@ -8217,8 +8306,8 @@
     1,
     10
    ],
-   "lat": 34.02182,
-   "lon": -6.83687,
+   "lat": 34.033606,
+   "lon": -6.828733,
    "coordPrecision": "zone",
    "interest": 3,
    "duree": "20–40 min",
@@ -8383,7 +8472,8 @@
    "sourceUrl": null,
    "restoType": "street food, secteur",
    "budget": "40–90 MAD / personne, estimation",
-   "commander": "soupe, brochettes ou sandwich"
+   "commander": "soupe, brochettes ou sandwich",
+   "hidden": true
   },
   {
    "id": "L310",
@@ -8396,8 +8486,8 @@
     1,
     10
    ],
-   "lat": 34.02088,
-   "lon": -6.83667,
+   "lat": 34.039564,
+   "lon": -6.828869,
    "coordPrecision": "zone",
    "interest": null,
    "duree": null,
@@ -8411,7 +8501,8 @@
    "sourceUrl": null,
    "restoType": "boutiques locales, secteur",
    "budget": "20–60 MAD / personne, estimation",
-   "commander": "ghriba, cornes de gazelle, thé"
+   "commander": "ghriba, cornes de gazelle, thé",
+   "hidden": true
   },
   {
    "id": "L311",
@@ -8424,8 +8515,8 @@
     1,
     10
    ],
-   "lat": 34.01696,
-   "lon": -6.84416,
+   "lat": 34.042526,
+   "lon": -6.829037,
    "coordPrecision": "zone",
    "interest": null,
    "duree": null,
@@ -8452,8 +8543,8 @@
     1,
     10
    ],
-   "lat": 34.01797,
-   "lon": -6.84613,
+   "lat": 34.028057,
+   "lon": -6.820233,
    "coordPrecision": "zone",
    "interest": null,
    "duree": null,
@@ -8467,7 +8558,8 @@
    "sourceUrl": null,
    "restoType": "table marocaine plus soignée, à choisir",
    "budget": "180–350 MAD / personne, estimation",
-   "commander": "menu marocain"
+   "commander": "menu marocain",
+   "hidden": true
   },
   {
    "id": "L313",
@@ -9075,8 +9167,8 @@
    "days": [
     4
    ],
-   "lat": 31.49,
-   "lon": -5.9,
+   "lat": 31.443463,
+   "lon": -5.975653,
    "coordPrecision": "zone",
    "interest": null,
    "desc": "Étape-nuit du programme. Épingle exacte de l'hébergement et parking à confirmer avant le départ.",
@@ -9094,8 +9186,8 @@
    "days": [
     5
    ],
-   "lat": 31.56,
-   "lon": -5.6,
+   "lat": 31.587651,
+   "lon": -5.596037,
    "coordPrecision": "zone",
    "interest": null,
    "desc": "Étape-nuit du programme. Épingle exacte de l'hébergement et parking à confirmer avant le départ.",
@@ -9113,8 +9205,8 @@
    "days": [
     6
    ],
-   "lat": 31.099,
-   "lon": -4.012,
+   "lat": 31.078332,
+   "lon": -4.015982,
    "coordPrecision": "zone",
    "interest": null,
    "desc": "Étape-nuit du programme. Épingle exacte de l'hébergement et parking à confirmer avant le départ.",
@@ -9132,8 +9224,8 @@
    "days": [
     7
    ],
-   "lat": 31.128,
-   "lon": -4.011,
+   "lat": 31.082711,
+   "lon": -4.017432,
    "coordPrecision": "zone",
    "interest": null,
    "desc": "Étape-nuit du programme. Épingle exacte de l'hébergement et parking à confirmer avant le départ.",
@@ -10906,7 +10998,8 @@
    "statusLabel": "🟡 Accès / créneau / rendez-vous à confirmer",
    "sourceUrl": null,
    "variant": "B",
-   "exterior": false
+   "exterior": false,
+   "hidden": true
   },
   {
    "id": "B55",
