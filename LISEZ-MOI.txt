@@ -1,13 +1,14 @@
 ROAD TRIP MAROC — dossier complet (a jour)
 ==========================================
-NOUVEAU : tous les reperes ont ete remplaces par les 254 fiches de ton
-fichier (adresses Google verifiees). Meme presentation, meme format de fiche.
-- Clic sur un repere -> fiche identique (interet, temps, detour, acces,
-  infos, journees).
-- "Voir le repere" ouvre la FICHE GOOGLE EXACTE du fichier.
-- "Sources :" affiche tous les liens sources en bas de la fiche.
-- Recherche + timeline cliquables : inchanges.
-- Mise a jour automatique (cache v11).
+AJOUTS de ton nouveau fichier (285 reperes au total) :
+- 14 stations Afriquia (⛽) geolocalisees
+- 6 distributeurs CIH Bank (🏧, nouvelle categorie)
+- 3 marches geolocalises + 2 belvederes
+- 6 randonnees Wikiloc (🥾) avec distance, denivele, duree, difficulte
+  et le lien Wikiloc dans les sources
+Meme presentation, meme format de fiche. "Voir le repere" ouvre la fiche
+Google exacte ; "Sources :" liste tous les liens.
+Mise a jour automatique (cache v12).
 
 METTRE EN LIGNE (GitHub) : Add file > Upload files > deposez TOUT le
 contenu du dossier > Commit. Puis Ctrl+Maj+R.

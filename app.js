@@ -126,6 +126,7 @@ const CAT_COLORS = {
   desert: "#D99A2B", oasis: "#2E8B57", gorge: "#2E8B8B", nature: "#4C7A34",
   activite: "#7048E8", escalade: "#7048E8", musique: "#7048E8", bonus: "#B5651D",
   station: "#6C6459", parking: "#6C6459", vigilance: "#E23E57", aventure: "#D2691E",
+  distributeur: "#2F6F4E",
 };
 
 function makeClusterIcon() {
