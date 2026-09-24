@@ -1,16 +1,21 @@
-ROAD TRIP MAROC — dossier complet (a jour)
-==========================================
-Base : ton fichier "guide 287" -> 293 reperes (287 fiches + 6 randos Wikiloc).
-Inclus : les 8 nouveaux lieux/randos, tes corrections (lacets du Dades,
-marche central Ouarzazate distingue du souk dominical, departs des randos
-de Merzouga), 14 stations Afriquia, 6 distributeurs CIH.
+ROAD TRIP MAROC — rendu final
+=============================
+293 reperes (287 fiches + 6 randos) + selection de 50 lieux par nuit (⭐).
 
-NOUVEAU : Selection de 50 lieux "par nuit".
-- Les 50 lieux sont marques d'une etoile (chip "⭐ Selection") dans la liste.
-- Leur fiche affiche l'etape/nuit + pourquoi les garder.
-- Un filtre "⭐ Selection (lieux cles par nuit)" permet de n'afficher qu'eux.
-"Voir le repere" ouvre la fiche Google exacte ; "Sources :" liste les liens.
-Mise a jour automatique (cache v13).
+CORRECTIONS de cette version :
+- Timeline : chaque etape mene au bon endroit sur la carte (table de villes
+  fiable) ; plus aucune etape "indisponible".
+- Recherche : toutes les villes fonctionnent (suggestion "🏙️ Ville / etape"
+  en tete), en plus des lieux et secteurs.
+- Audit complet des donnees : 0 erreur (coordonnees, categories, doublons,
+  sources).
+
+RAPPELS :
+- Clic sur un repere -> fiche (interet, temps, detour, acces, infos, jours,
+  etape/nuit pour la selection). "Voir le repere" ouvre la fiche Google
+  exacte ; "Sources :" liste tous les liens.
+- Filtre "⭐ Selection (lieux cles par nuit)" dans Filtres.
+- Mise a jour automatique (cache v14).
 
 METTRE EN LIGNE (GitHub) : Add file > Upload files > deposez TOUT le
 contenu du dossier > Commit. Puis Ctrl+Maj+R.

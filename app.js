@@ -357,6 +357,31 @@ function renderTimeline() {
   });
 }
 // noms de villes-étapes d'une journée (à partir des coordonnées du tracé, reliées aux villes connues)
+/* Coordonnées fiables des villes/étapes (timeline + recherche) */
+const CITY_COORDS = {
+  "Rabat aéroport": [34.0515, -6.7515], "Rabat": [34.0209, -6.8416], "Salé": [34.0400, -6.8100],
+  "Casablanca (contournement)": [33.5731, -7.5898], "Casablanca": [33.5731, -7.5898],
+  "Settat": [33.0022, -7.6196], "Ben Guerir": [32.2359, -7.9538],
+  "Marrakech": [31.6295, -7.9811], "Marrakech (journée libre)": [31.6295, -7.9811],
+  "Aït Ourir": [31.5640, -7.6640], "Tahannaout": [31.3547, -7.9505], "Moulay Brahim": [31.2855, -7.9668],
+  "Taddert": [31.2940, -7.4020], "Tizi n'Tichka": [31.2917, -7.3806], "Agouim": [31.1572, -7.4632],
+  "Télouet": [31.2870, -7.2368], "Aït-Ben-Haddou": [31.0472, -7.1316], "Aït Ben Haddou": [31.0472, -7.1316],
+  "Ouarzazate": [30.9213, -6.9137], "Skoura": [31.0610, -6.5560], "Kelaat M'Gouna": [31.2378, -6.1285],
+  "Boumalne": [31.3724, -5.9864], "Boumalne Dadès": [31.3724, -5.9864], "Tamellalt": [31.4447, -5.9819],
+  "Lacets du Dadès": [31.5351, -5.9227], "Dadès": [31.4447, -5.9819],
+  "Tinghir": [31.5147, -5.5330], "Todra": [31.5896, -5.5964], "Todgha": [31.5896, -5.5964],
+  "Tinjdad": [31.5094, -5.0322], "Tinejdad": [31.5094, -5.0322], "Jorf": [31.5305, -4.4986],
+  "Rissani": [31.2810, -4.2663], "Erfoud": [31.4347, -4.2337], "Merzouga": [31.0989, -4.0129],
+  "Hassilabied": [31.1402, -4.0254], "Khamlia": [31.0260, -4.0057],
+  "Aoufous": [31.6891, -4.1789], "Errachidia": [31.9230, -4.4337], "Rich": [32.2611, -4.4954],
+  "Tizi n'Talghamt": [32.3600, -4.6600], "Midelt": [32.6799, -4.7329], "Zaïda": [32.8176, -4.9611],
+  "Timahdite": [33.2372, -5.0600], "Azrou": [33.4347, -5.2319], "Ifrane": [33.5272, -5.1172],
+  "Imouzzer Kandar": [33.7312, -5.0156], "El Hajeb": [33.6857, -5.3678], "Khémisset": [33.8260, -6.0711],
+  "Tiflet": [33.8955, -6.3207], "Meknès": [33.8931, -5.5545], "Volubilis": [34.0720, -5.5523],
+  "Moulay Idriss": [34.0568, -5.5230], "Fès": [34.0625, -4.9836], "Fès — Bab Boujloud": [34.0625, -4.9836],
+  "Bou Inania": [34.0647, -4.9797], "Nejjarine": [34.0647, -4.9770], "Al-Attarine": [34.0650, -4.9730],
+  "Place Seffarine": [34.0645, -4.9737], "Tanneries Chouara": [34.0658, -4.9720],
+};
 const STOP_LABELS = {
   1: ["Rabat aéroport", "Casablanca (contournement)", "Settat", "Ben Guerir", "Marrakech"],
   2: ["Marrakech (journée libre)"],
@@ -373,21 +398,18 @@ const STOP_LABELS = {
   110: ["Fès", "Meknès", "Khémisset", "Rabat aéroport"],
 };
 function goToStop(s) {
-  const base = norm(String(s.name).split("(")[0].split("—")[0].trim());
-  const cands = [base, base.split(" ")[0]].filter((v, i, a) => v && a.indexOf(v) === i);
-  const active = PLACES.filter(x => !x.hidden && x.lat != null);
-  const regions = [...new Set(active.map(x => x.region).filter(Boolean))];
-  for (const q of cands) {
-    if (q.length < 3) continue;
-    const exact = active.find(x => norm(x.name) === q);
-    if (exact) { goToPlace(exact.id); return afterStopNav(); }
-    const reg = regions.find(r => norm(r).includes(q));
-    if (reg) { goToRegion(reg); return afterStopNav(); }
-    const contains = active.filter(x => norm(x.name).includes(q)).sort((a, b) => (b.interest || 0) - (a.interest || 0))[0];
-    if (contains) { goToPlace(contains.id); return afterStopNav(); }
+  // 1) coordonnée fiable de la ville (toujours définie via CITY_COORDS ou le tracé)
+  if (s.lat != null && s.lon != null) {
+    map.flyTo({ center: [s.lon, s.lat], zoom: 12, essential: true });
+    afterStopNav();
+    // ouvre la fiche si un lieu porte exactement ce nom
+    const q = norm(String(s.name).split("(")[0].split("—")[0].trim());
+    const exact = PLACES.find(x => !x.hidden && x.lat != null && norm(x.name) === q);
+    if (exact) openCard(exact.id);
+    else toast("Sur la carte : " + s.name);
+    return;
   }
-  if (s.lat != null) { map.flyTo({ center: [s.lon, s.lat], zoom: 11, essential: true }); toast("Sur la carte : " + s.name); afterStopNav(); }
-  else toast("Emplacement approximatif indisponible pour « " + s.name + " »");
+  toast("Sur la carte : " + s.name);
 }
 function afterStopNav() { if (window.innerWidth < 900 && typeof setSheet === "function") setSheet("half"); }
 function routeStopNames(num) {
@@ -395,6 +417,8 @@ function routeStopNames(num) {
   const labels = STOP_LABELS[num] || [];
   const coords = route ? route.geometry.coordinates : [];
   return labels.map((name, i) => {
+    const cc = CITY_COORDS[name];                    // priorité : coordonnée ville fiable
+    if (cc) return { name, lat: cc[0], lon: cc[1] };
     const c = coords[Math.min(i, coords.length - 1)] || [null, null];
     return { name, lon: c[0], lat: c[1] };
   });
@@ -498,9 +522,14 @@ function buildSuggest(raw) {
   const q = norm((raw || "").trim());
   if (q.length < 2) { hideSuggest(); return; }
   const places = PLACES.filter(p => !p.hidden && p.lat != null);
-  const regions = [...new Set(places.map(p => p.region).filter(Boolean))].filter(r => norm(r).includes(q)).slice(0, 3);
+  // villes (table fiable) — priorité en tête
+  const cityHits = Object.keys(CITY_COORDS).filter(c => norm(c).includes(q) && !/aéroport|contournement|journée/i.test(c));
+  const seenCity = new Set();
+  const cities = cityHits.filter(c => { const k = norm(c); if (seenCity.has(k)) return false; seenCity.add(k); return true; }).slice(0, 4);
+  const regions = [...new Set(places.map(p => p.region).filter(Boolean))].filter(r => norm(r).includes(q)).slice(0, 2);
   const plHits = places.filter(p => norm(p.name).includes(q)).sort((a, b) => (b.interest || 0) - (a.interest || 0)).slice(0, 7);
   let html = "";
+  cities.forEach(c => { html += `<button class="sg-row sg-region" data-city="${encodeURIComponent(c)}"><span class="sg-ic">🏙️</span><span class="sg-tx"><b>${esc(c)}</b><small>Ville / étape — aller sur la carte</small></span></button>`; });
   regions.forEach(r => { html += `<button class="sg-row sg-region" data-region="${encodeURIComponent(r)}"><span class="sg-ic">📍</span><span class="sg-tx"><b>${esc(r)}</b><small>Secteur / région — voir la zone</small></span></button>`; });
   plHits.forEach(p => { html += `<button class="sg-row" data-id="${p.id}"><span class="sg-ic">${p.emoji || "📍"}</span><span class="sg-tx"><b>${esc(p.name)}</b><small>${esc(p.categoryLabel || "")}${p.region ? " · " + esc(p.region) : ""}</small></span></button>`; });
   if (!html) html = `<div class="sg-empty">Aucun lieu trouvé pour « ${esc(raw)} »</div>`;
@@ -508,8 +537,21 @@ function buildSuggest(raw) {
   box.querySelectorAll(".sg-row").forEach(b => b.addEventListener("mousedown", (ev) => {
     ev.preventDefault();
     if (b.dataset.id) goToPlace(b.dataset.id);
+    else if (b.dataset.city) goToCity(decodeURIComponent(b.dataset.city));
     else if (b.dataset.region) goToRegion(decodeURIComponent(b.dataset.region));
   }));
+}
+function goToCity(name) {
+  hideSuggest();
+  const c = CITY_COORDS[name]; if (!c) return;
+  const sb = $("#searchBox"); if (sb) sb.value = name;
+  filters.query = "";
+  if (currentDay !== "all") selectDay("all");
+  refresh();
+  map.flyTo({ center: [c[1], c[0]], zoom: 12, essential: true });
+  // ouvre la fiche si un lieu porte exactement ce nom
+  const exact = PLACES.find(x => !x.hidden && x.lat != null && norm(x.name) === norm(name));
+  if (exact) openCard(exact.id); else toast("Sur la carte : " + name);
 }
 function ensureVisibleDay(p) {
   if (currentDay !== "all") {

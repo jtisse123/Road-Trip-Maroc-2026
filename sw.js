@@ -1,6 +1,6 @@
 /* Road Trip Maroc — Service Worker (cache PWA + tuiles hors ligne) */
-const APP_CACHE = "rtm-app-v13";
-const TILE_CACHE = "rtm-tiles-v13";
+const APP_CACHE = "rtm-app-v14";
+const TILE_CACHE = "rtm-tiles-v14";
 const TILE_MAX = 6000; // nb max de tuiles conservées (permet le téléchargement hors-ligne de la zone)
 
 const APP_ASSETS = [
