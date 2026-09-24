@@ -37,6 +37,7 @@ let filters = {
   detour: "all",              // all | sur_la_route | petit_detour | detour_interessant
   status: "all",              // all | verifie | a_reconfirmer | incertain
   favOnly: false,
+  selOnly: false,             // ⭐ sélection de lieux par nuit
   around: null,               // {lat,lon,km}
   maxVisitMin: null,          // "Que faire maintenant ?"
   query: "",                  // recherche par nom
@@ -218,6 +219,7 @@ function placeMatches(p) {
   }
   if (filters.status !== "all" && p.status !== filters.status) return false;
   if (filters.favOnly) { const s = statuses[p.id]; if (s !== "fav" && s !== "want") return false; }
+  if (filters.selOnly && !p.selection) return false;
   if (filters.maxVisitMin != null) {
     const v = durationToMin(p.duree); if (v != null && v > filters.maxVisitMin) return false;
     const dm = detourMaxMin(p); if (dm != null && dm > 20) return false;
@@ -287,11 +289,12 @@ function placeItem(p) {
       p.detourClass === "detour_interessant" ? `<span class="chip">Détour</span>` : "";
   const warn = p.status === "incertain" ? `<span class="chip warn">⚠️</span>` : "";
   const zone = p.coordPrecision === "zone" ? `<span class="chip">≈ secteur</span>` : (p.coordPrecision == null ? `<span class="chip warn">position à compléter</span>` : "");
+  const selTag = p.selection ? `<span class="chip sel">⭐ Sélection</span>` : "";
   it.innerHTML =
     `<div class="pi-emoji">${p.emoji || "📍"}</div>
      <div class="pi-main">
-       <div class="pi-name">${esc(p.name)}</div>
-       <div class="pi-meta">${stars} ${dayTags} ${detourTag} ${warn} ${extTag} ${zone}
+       <div class="pi-name">${p.selection ? "⭐ " : ""}${esc(p.name)}</div>
+       <div class="pi-meta">${stars} ${selTag} ${dayTags} ${detourTag} ${warn} ${extTag} ${zone}
          <span class="chip">${esc(p.categoryLabel || "")}</span></div>
      </div>
      <button class="pi-fav" title="Statut">${favIcon}</button>`;
@@ -460,6 +463,7 @@ function openCard(id, fromList) {
        ${statusBadge ? `<div class="card-badges">${statusBadge}</div>` : ""}
      </div>
      <div class="card-content">
+       ${p.selection ? `<div class="sel-banner">⭐ <b>Sélection</b>${p.selEtape ? " — " + esc(p.selEtape) : ""}${p.selWhy ? `<div class="sel-why">${esc(p.selWhy)}</div>` : ""}</div>` : ""}
        ${p.desc ? `<div class="card-desc">${esc(p.desc)}</div>` : ""}
        <dl class="card-facts">${facts}</dl>
        ${(p.hours && p.hours.length) ? `<div class="hours-box"><div class="hours-title">🕒 Horaires (Google — à reconfirmer sur place)</div>${p.hours.map(h => `<div class="hours-line">${esc(h)}</div>`).join("")}<div class="hours-warn">⚠️ Horaires spéciaux possibles autour du Nouvel An.</div></div>` : ""}
@@ -699,6 +703,12 @@ function buildFilters() {
   const cb = el("input"); cb.type = "checkbox"; cb.checked = filters.favOnly;
   cb.addEventListener("change", () => { filters.favOnly = cb.checked; liveApply(); });
   sw.appendChild(cb); g5.appendChild(sw); body.appendChild(g5);
+  // sélection de lieux par nuit
+  const g6 = el("div", "filter-group");
+  const sw2 = el("div", "switch-row", `<span>⭐ Sélection (lieux clés par nuit)</span>`);
+  const cb2 = el("input"); cb2.type = "checkbox"; cb2.checked = filters.selOnly;
+  cb2.addEventListener("change", () => { filters.selOnly = cb2.checked; liveApply(); });
+  sw2.appendChild(cb2); g6.appendChild(sw2); body.appendChild(g6);
 }
 function liveApply() { refresh(); }
 function updateFilterBadge() {
@@ -708,6 +718,7 @@ function updateFilterBadge() {
   if (filters.detour !== "all") n++;
   if (filters.status !== "all") n++;
   if (filters.favOnly) n++;
+  if (filters.selOnly) n++;
   if (filters.around) n++;
   if (filters.maxVisitMin != null) n++;
   const b = $("#filterCount"); b.hidden = n === 0; b.textContent = n;

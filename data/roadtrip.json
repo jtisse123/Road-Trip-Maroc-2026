@@ -19,7 +19,7 @@
    "a_reconfirmer": "🟡 Plausible / à reconfirmer localement",
    "incertain": "⚠️ Saisonnier / accès incertain"
   },
-  "placesCount": 285
+  "placesCount": 293
  },
  "categories": {
   "restaurant": {
@@ -2407,10 +2407,50 @@
      "label": "ONMT Marrakech",
      "url": "https://www.visitmorocco.com/fr/voyage/marrakech"
     }
-   ]
+   ],
+   "selection": true,
+   "selEtape": "J1–J2 Marrakech",
+   "selWhy": "Place animée le soir ; accès piéton."
   },
   {
    "id": "P071",
+   "name": "Musée Jamaâ el-Fna du patrimoine immatériel",
+   "category": "patrimoine",
+   "categoryLabel": "Monument / patrimoine",
+   "emoji": "🏛️",
+   "theme": "Musée",
+   "region": "Marrakech, nuit J1/J2",
+   "days": [
+    1,
+    2
+   ],
+   "interest": 5,
+   "desc": "Ancien bâtiment de Bank Al-Maghrib consacré à la place et à ses traditions orales.",
+   "duree": "45–60 min",
+   "detour": "Pas de détour routier si visite du quartier ; marche locale",
+   "acces": "À pied",
+   "info": "La FNM annonce mardi–dimanche 10 h–18 h, fermé lundi ; billet étranger 40 DH. Nouvelle fiche ; coordonnées OSM du bâtiment, non de la place.",
+   "lat": 31.625,
+   "lon": -7.98919,
+   "coordPrecision": "precise",
+   "mapsQuery": "Musée Jamaâ el-Fna du patrimoine immatériel",
+   "mapsUrl": "https://www.google.com/maps?q=31.62500,-7.98919",
+   "sources": [
+    {
+     "label": "FNM — adresse, horaires, tarif et collection",
+     "url": "https://fnm.ma/museums/40"
+    },
+    {
+     "label": "OpenStreetMap via Mapcarta — bâtiment et coordonnées",
+     "url": "https://mapcarta.com/fr/W476368906"
+    }
+   ],
+   "selection": true,
+   "selEtape": "J1–J2 Marrakech",
+   "selWhy": "Histoire de la place ; musée sur place."
+  },
+  {
+   "id": "P072",
    "name": "Koutoubia Marrakech",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -2441,10 +2481,13 @@
      "label": "ONMT Marrakech",
      "url": "https://www.visitmorocco.com/fr/voyage/marrakech"
     }
-   ]
+   ],
+   "selection": true,
+   "selEtape": "J1–J2 Marrakech",
+   "selWhy": "Minaret et jardins extérieurs."
   },
   {
-   "id": "P072",
+   "id": "P073",
    "name": "Palais de la Bahia",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -2475,10 +2518,13 @@
      "label": "ONMT Marrakech",
      "url": "https://www.visitmorocco.com/fr/voyage/marrakech"
     }
-   ]
+   ],
+   "selection": true,
+   "selEtape": "J1–J2 Marrakech",
+   "selWhy": "Cours et décors intérieurs."
   },
   {
-   "id": "P073",
+   "id": "P074",
    "name": "Palais El Badiî",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -2512,7 +2558,7 @@
    ]
   },
   {
-   "id": "P074",
+   "id": "P075",
    "name": "Les Tombeaux Saadiens",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -2546,7 +2592,7 @@
    ]
   },
   {
-   "id": "P075",
+   "id": "P076",
    "name": "Bab Agnaou",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -2576,7 +2622,7 @@
    ]
   },
   {
-   "id": "P076",
+   "id": "P077",
    "name": "Synagogue Salat Al Azama",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -2606,7 +2652,7 @@
    ]
   },
   {
-   "id": "P077",
+   "id": "P078",
    "name": "Musée Dar Si Said",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -2640,7 +2686,7 @@
    ]
   },
   {
-   "id": "P078",
+   "id": "P079",
    "name": "Marrakesh-Timbuktu",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -2674,7 +2720,7 @@
    ]
   },
   {
-   "id": "P079",
+   "id": "P080",
    "name": "Moroccan culinary arts muséum",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -2704,7 +2750,7 @@
    ]
   },
   {
-   "id": "P080",
+   "id": "P081",
    "name": "Monde des Arts de la Parure",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -2734,7 +2780,7 @@
    ]
   },
   {
-   "id": "P081",
+   "id": "P082",
    "name": "Medersa Ben Youssef",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -2765,10 +2811,13 @@
      "label": "ONMT Marrakech",
      "url": "https://www.visitmorocco.com/fr/voyage/marrakech"
     }
-   ]
+   ],
+   "selection": true,
+   "selEtape": "J1–J2 Marrakech",
+   "selWhy": "Architecture et décors de la médersa."
   },
   {
-   "id": "P082",
+   "id": "P083",
    "name": "Dôme des Almoravides",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -2798,7 +2847,7 @@
    ]
   },
   {
-   "id": "P083",
+   "id": "P084",
    "name": "Musée de Marrakech",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -2828,7 +2877,7 @@
    ]
   },
   {
-   "id": "P084",
+   "id": "P085",
    "name": "Maison de la Photographie de Marrakech",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -2858,7 +2907,7 @@
    ]
   },
   {
-   "id": "P085",
+   "id": "P086",
    "name": "The Orientalist Museum of Marrakech",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -2888,7 +2937,7 @@
    ]
   },
   {
-   "id": "P086",
+   "id": "P087",
    "name": "Musée du Parfum",
    "category": "artisanat",
    "categoryLabel": "Artisanat / coopérative",
@@ -2918,7 +2967,7 @@
    ]
   },
   {
-   "id": "P087",
+   "id": "P088",
    "name": "Le Jardin Secret Médina Marrakech",
    "category": "oasis",
    "categoryLabel": "Oasis / palmeraie",
@@ -2945,10 +2994,13 @@
      "label": "Le Jardin Secret officiel",
      "url": "https://www.lejardinsecretmarrakech.com/info-pratique/"
     }
-   ]
+   ],
+   "selection": true,
+   "selEtape": "J1–J2 Marrakech",
+   "selWhy": "Jardin dans la médina."
   },
   {
-   "id": "P088",
+   "id": "P089",
    "name": "Musée Dar El Bacha",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -2978,7 +3030,7 @@
    ]
   },
   {
-   "id": "P089",
+   "id": "P090",
    "name": "Musée de la Musique de Marrakech",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -3008,7 +3060,7 @@
    ]
   },
   {
-   "id": "P090",
+   "id": "P091",
    "name": "Dar Cherifa",
    "category": "restaurant",
    "categoryLabel": "Restaurant",
@@ -3038,7 +3090,7 @@
    ]
   },
   {
-   "id": "P091",
+   "id": "P092",
    "name": "Souk Semmarine",
    "category": "souk",
    "categoryLabel": "Souk / marché",
@@ -3065,10 +3117,13 @@
      "label": "ONMT Marrakech",
      "url": "https://www.visitmorocco.com/fr/voyage/marrakech"
     }
-   ]
+   ],
+   "selection": true,
+   "selEtape": "J1–J2 Marrakech",
+   "selWhy": "Artisanat et rues commerçantes."
   },
   {
-   "id": "P092",
+   "id": "P093",
    "name": "Souk des teinturiers",
    "category": "souk",
    "categoryLabel": "Souk / marché",
@@ -3098,7 +3153,7 @@
    ]
   },
   {
-   "id": "P093",
+   "id": "P094",
    "name": "Souk Cheratin",
    "category": "souk",
    "categoryLabel": "Souk / marché",
@@ -3128,7 +3183,7 @@
    ]
   },
   {
-   "id": "P094",
+   "id": "P095",
    "name": "Souk Haddadine – Lampshades, lanterns",
    "category": "souk",
    "categoryLabel": "Souk / marché",
@@ -3158,7 +3213,7 @@
    ]
   },
   {
-   "id": "P095",
+   "id": "P096",
    "name": "Souk des Tapis",
    "category": "souk",
    "categoryLabel": "Souk / marché",
@@ -3188,7 +3243,7 @@
    ]
   },
   {
-   "id": "P096",
+   "id": "P097",
    "name": "Souk bab el Khemis",
    "category": "souk",
    "categoryLabel": "Souk / marché",
@@ -3222,7 +3277,7 @@
    ]
   },
   {
-   "id": "P097",
+   "id": "P098",
    "name": "Marché El Mellah",
    "category": "souk",
    "categoryLabel": "Souk / marché",
@@ -3252,7 +3307,7 @@
    ]
   },
   {
-   "id": "P098",
+   "id": "P099",
    "name": "Plaza Rahba Kedima",
    "category": "nature",
    "categoryLabel": "Nature",
@@ -3282,7 +3337,7 @@
    ]
   },
   {
-   "id": "P099",
+   "id": "P100",
    "name": "Café Des Épices",
    "category": "restaurant",
    "categoryLabel": "Restaurant",
@@ -3312,7 +3367,7 @@
    ]
   },
   {
-   "id": "P100",
+   "id": "P101",
    "name": "Nomad Marrakech",
    "category": "restaurant",
    "categoryLabel": "Restaurant",
@@ -3342,7 +3397,7 @@
    ]
   },
   {
-   "id": "P101",
+   "id": "P102",
    "name": "La terrasse des épices - Restaurant Marrakech",
    "category": "restaurant",
    "categoryLabel": "Restaurant",
@@ -3372,7 +3427,7 @@
    ]
   },
   {
-   "id": "P102",
+   "id": "P103",
    "name": "Place des Ferblantiers",
    "category": "nature",
    "categoryLabel": "Nature",
@@ -3402,7 +3457,7 @@
    ]
   },
   {
-   "id": "P103",
+   "id": "P104",
    "name": "Jardin Majorelle",
    "category": "oasis",
    "categoryLabel": "Oasis / palmeraie",
@@ -3429,10 +3484,13 @@
      "label": "Jardin Majorelle officiel",
      "url": "https://www.jardinmajorelle.com/"
     }
-   ]
+   ],
+   "selection": true,
+   "selEtape": "J1–J2 Marrakech",
+   "selWhy": "Jardin hors médina ; trajet urbain à prévoir."
   },
   {
-   "id": "P104",
+   "id": "P105",
    "name": "Musée Pierre Bergé des arts berbères",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -3462,7 +3520,7 @@
    ]
   },
   {
-   "id": "P105",
+   "id": "P106",
    "name": "musée YVES SAINT LAURENT marrakech",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -3496,7 +3554,7 @@
    ]
   },
   {
-   "id": "P106",
+   "id": "P107",
    "name": "Les Jardins de la Ménara",
    "category": "oasis",
    "categoryLabel": "Oasis / palmeraie",
@@ -3526,7 +3584,7 @@
    ]
   },
   {
-   "id": "P107",
+   "id": "P108",
    "name": "Cyber Parc Arsat Moulay Abdeslam",
    "category": "oasis",
    "categoryLabel": "Oasis / palmeraie",
@@ -3556,7 +3614,7 @@
    ]
   },
   {
-   "id": "P108",
+   "id": "P109",
    "name": "Al Fassia Aguedal",
    "category": "restaurant",
    "categoryLabel": "Restaurant",
@@ -3586,7 +3644,7 @@
    ]
   },
   {
-   "id": "P109",
+   "id": "P110",
    "name": "Association Amal pour les Arts culinaires en faveur des femmes nécessiteuses",
    "category": "restaurant",
    "categoryLabel": "Restaurant",
@@ -3616,7 +3674,7 @@
    ]
   },
   {
-   "id": "P110",
+   "id": "P111",
    "name": "Sahbi Sahbi",
    "category": "restaurant",
    "categoryLabel": "Restaurant",
@@ -3646,7 +3704,7 @@
    ]
   },
   {
-   "id": "P111",
+   "id": "P112",
    "name": "Cafe Clock",
    "category": "restaurant",
    "categoryLabel": "Restaurant",
@@ -3676,7 +3734,7 @@
    ]
   },
   {
-   "id": "P112",
+   "id": "P113",
    "name": "Chez Lamine Hadj Mustapha Jemaa El Fna",
    "category": "restaurant",
    "categoryLabel": "Restaurant",
@@ -3706,7 +3764,7 @@
    ]
   },
   {
-   "id": "P113",
+   "id": "P114",
    "name": "Hammam De La Rose - Marrakech",
    "category": "activite",
    "categoryLabel": "Activité",
@@ -3736,7 +3794,7 @@
    ]
   },
   {
-   "id": "P114",
+   "id": "P115",
    "name": "Les Bains De Marrakech",
    "category": "activite",
    "categoryLabel": "Activité",
@@ -3766,7 +3824,7 @@
    ]
   },
   {
-   "id": "P115",
+   "id": "P116",
    "name": "Hammam Mouassine",
    "category": "activite",
    "categoryLabel": "Activité",
@@ -3796,7 +3854,7 @@
    ]
   },
   {
-   "id": "P116",
+   "id": "P117",
    "name": "Museum De L'Art De Vivre",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -3826,7 +3884,7 @@
    ]
   },
   {
-   "id": "P117",
+   "id": "P118",
    "name": "Maison culturelle du tapis",
    "category": "artisanat",
    "categoryLabel": "Artisanat / coopérative",
@@ -3856,7 +3914,7 @@
    ]
   },
   {
-   "id": "P118",
+   "id": "P119",
    "name": "Musée d’Art Contemporain Africain Al Maaden (MACAAL)",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -3890,7 +3948,7 @@
    ]
   },
   {
-   "id": "P119",
+   "id": "P120",
    "name": "Al Fassia",
    "category": "restaurant",
    "categoryLabel": "Restaurant",
@@ -3920,7 +3978,7 @@
    ]
   },
   {
-   "id": "P120",
+   "id": "P121",
    "name": "Dar Yacout",
    "category": "restaurant",
    "categoryLabel": "Restaurant",
@@ -3950,7 +4008,7 @@
    ]
   },
   {
-   "id": "P121",
+   "id": "P122",
    "name": "Afriquia AIT OURIR 2",
    "category": "station",
    "categoryLabel": "Station-service",
@@ -3980,7 +4038,7 @@
    ]
   },
   {
-   "id": "P122",
+   "id": "P123",
    "name": "Agence Gueliz central — CIH BANK",
    "category": "distributeur",
    "categoryLabel": "Distributeur / banque",
@@ -4010,7 +4068,7 @@
    ]
   },
   {
-   "id": "P123",
+   "id": "P124",
    "name": "Tizi n'Tichka",
    "category": "panorama",
    "categoryLabel": "Panorama / belvédère",
@@ -4039,7 +4097,7 @@
    ]
   },
   {
-   "id": "P124",
+   "id": "P125",
    "name": "Kasbah de Telouet",
    "category": "kasbah",
    "categoryLabel": "Kasbah / ksar",
@@ -4072,7 +4130,7 @@
    ]
   },
   {
-   "id": "P125",
+   "id": "P126",
    "name": "Anmiter",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -4105,7 +4163,7 @@
    ]
   },
   {
-   "id": "P126",
+   "id": "P127",
    "name": "Aussichtspunkt Ounila-Tal",
    "category": "panorama",
    "categoryLabel": "Panorama / belvédère",
@@ -4138,7 +4196,7 @@
    ]
   },
   {
-   "id": "P127",
+   "id": "P128",
    "name": "Ait Benhaddou Bridge (Main Entrance)",
    "category": "kasbah",
    "categoryLabel": "Kasbah / ksar",
@@ -4167,7 +4225,7 @@
    ]
   },
   {
-   "id": "P128",
+   "id": "P129",
    "name": "Kasbah Tifoultoute",
    "category": "kasbah",
    "categoryLabel": "Kasbah / ksar",
@@ -4193,10 +4251,13 @@
      "label": "ONMT Ouarzazate–Tinghir",
      "url": "https://www.visitmorocco.com/fr/voyage/ouarzazate-zagora-tinghir"
     }
-   ]
+   ],
+   "selection": true,
+   "selEtape": "J3 Ouarzazate",
+   "selWhy": "Kasbah à l’ouest de la ville, sur l’approche depuis Aït Ben Haddou."
   },
   {
-   "id": "P129",
+   "id": "P130",
    "name": "Atlas Studios Ouarzazate",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -4222,10 +4283,13 @@
      "label": "ONMT Ouarzazate–Tinghir",
      "url": "https://www.visitmorocco.com/fr/voyage/ouarzazate-zagora-tinghir"
     }
-   ]
+   ],
+   "selection": true,
+   "selEtape": "J3 Ouarzazate",
+   "selWhy": "Décors de cinéma à l’ouest ; visite guidée à confirmer."
   },
   {
-   "id": "P130",
+   "id": "P131",
    "name": "CLA Studios Cinématographiques de Ouarzazate",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -4254,7 +4318,7 @@
    ]
   },
   {
-   "id": "P131",
+   "id": "P132",
    "name": "Kasbah Taourirt",
    "category": "kasbah",
    "categoryLabel": "Kasbah / ksar",
@@ -4284,10 +4348,13 @@
      "label": "ONMT Route des kasbahs",
      "url": "https://visitmorocco.com/en/suggested-tours/road-kasbahs"
     }
-   ]
+   ],
+   "selection": true,
+   "selEtape": "J3 Ouarzazate",
+   "selWhy": "Façades de terre et intérieur sous réserve d’ouverture."
   },
   {
-   "id": "P132",
+   "id": "P133",
    "name": "Musée du Cinéma",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -4313,10 +4380,85 @@
      "label": "ONMT Ouarzazate–Tinghir",
      "url": "https://www.visitmorocco.com/fr/voyage/ouarzazate-zagora-tinghir"
     }
-   ]
+   ],
+   "selection": true,
+   "selEtape": "J3 Ouarzazate",
+   "selWhy": "Décors et objets en face de Taourirt ; horaire à confirmer."
   },
   {
-   "id": "P133",
+   "id": "P134",
+   "name": "Place Almowahidin",
+   "category": "nature",
+   "categoryLabel": "Nature",
+   "emoji": "🌲",
+   "theme": "Place et vie locale",
+   "region": "Ouarzazate, nuit J3",
+   "days": [
+    3
+   ],
+   "interest": 3,
+   "desc": "Promenade en centre-ville, à proximité du marché central ; autre secteur que la kasbah Taourirt.",
+   "duree": "15–30 min",
+   "detour": "Très petit détour local estimé : 5–15 min depuis l’axe de la ville",
+   "acces": "À pied",
+   "info": "Nouvelle fiche. Orthographe du repère OSM « Place Almowahidin » ; ne pas confondre avec Taourirt ni promettre un événement ou un souk.",
+   "lat": 30.9213,
+   "lon": -6.91379,
+   "coordPrecision": "precise",
+   "mapsQuery": "Place Almowahidin",
+   "mapsUrl": "https://www.google.com/maps?q=30.92130,-6.91379",
+   "sources": [
+    {
+     "label": "OpenStreetMap via Mapcarta — place et coordonnées",
+     "url": "https://mapcarta.com/fr/W431446330"
+    },
+    {
+     "label": "Récit de visite local de la place",
+     "url": "https://en.kosupatravel.com/entry/2024/11/21/experience-a-local-moroccan-holiday-at-al-mouahidine-square-discover-the-deep-maghreb-culture-in-ouarzazate-the-gateway-to-the-desert-morocco-travel"
+    }
+   ],
+   "selection": true,
+   "selEtape": "J3 Ouarzazate",
+   "selWhy": "Promenade de centre-ville, secteur distinct de Taourirt."
+  },
+  {
+   "id": "P135",
+   "name": "Marché central d’Ouarzazate",
+   "category": "souk",
+   "categoryLabel": "Souk / marché",
+   "emoji": "🛍️",
+   "theme": "Marché urbain",
+   "region": "Ouarzazate, nuit J3",
+   "days": [
+    3
+   ],
+   "interest": 3,
+   "desc": "Un marché du centre, à côté de la place Almowahidin ; découverte de produits et de la vie locale.",
+   "duree": "20–40 min",
+   "detour": "Même petit détour local que la place, non cumulable",
+   "acces": "À pied",
+   "info": "Nouvelle fiche. Le repère OSM est « Marché central ». Jours et heures des étals non publiés : privilégier la matinée et confirmer sur place. Ce n’est pas le souk hebdomadaire du dimanche.",
+   "lat": 30.92119,
+   "lon": -6.91539,
+   "coordPrecision": "precise",
+   "mapsQuery": "Marché central d’Ouarzazate",
+   "mapsUrl": "https://www.google.com/maps?q=30.92119,-6.91539",
+   "sources": [
+    {
+     "label": "OpenStreetMap via Mapcarta — emprise du marché et coordonnées",
+     "url": "https://mapcarta.com/fr/W191607426"
+    },
+    {
+     "label": "Récit du souk hebdomadaire, distinct du marché central",
+     "url": "https://awaywiththesteiners.com/ouarzazate-souk/"
+    }
+   ],
+   "selection": true,
+   "selEtape": "J3 Ouarzazate",
+   "selWhy": "Marché urbain ; à essayer le lendemain matin."
+  },
+  {
+   "id": "P136",
    "name": "Belvédère Oasis de Fint",
    "category": "panorama",
    "categoryLabel": "Panorama / belvédère",
@@ -4349,7 +4491,7 @@
    ]
   },
   {
-   "id": "P134",
+   "id": "P137",
    "name": "Fint",
    "category": "oasis",
    "categoryLabel": "Oasis / palmeraie",
@@ -4375,10 +4517,13 @@
      "label": "Rome2Rio accès Fint",
      "url": "https://www.rome2rio.com/fr/s/Ouarzazate/Auberge-Restaurant-TISSILI-Oasis-de-Fint"
     }
-   ]
+   ],
+   "selection": true,
+   "selEtape": "J3 Ouarzazate",
+   "selWhy": "Excursion à part vers l’oasis ; ne pas la caser dans un début de soirée."
   },
   {
-   "id": "P135",
+   "id": "P138",
    "name": "Oasis de Fint la Terrasse des Délices",
    "category": "restaurant",
    "categoryLabel": "Restaurant",
@@ -4407,7 +4552,7 @@
    ]
   },
   {
-   "id": "P136",
+   "id": "P139",
    "name": "Kasbah de Tamdaght",
    "category": "kasbah",
    "categoryLabel": "Kasbah / ksar",
@@ -4444,7 +4589,7 @@
    ]
   },
   {
-   "id": "P137",
+   "id": "P140",
    "name": "Barrage Mansour Eddahbi",
    "category": "panorama",
    "categoryLabel": "Panorama / belvédère",
@@ -4473,7 +4618,7 @@
    ]
   },
   {
-   "id": "P138",
+   "id": "P141",
    "name": "Afriquia BD MOHAMED V OUARZAZATE",
    "category": "station",
    "categoryLabel": "Station-service",
@@ -4502,7 +4647,7 @@
    ]
   },
   {
-   "id": "P139",
+   "id": "P142",
    "name": "Agence Ouarzazate — CIH BANK",
    "category": "distributeur",
    "categoryLabel": "Distributeur / banque",
@@ -4531,7 +4676,7 @@
    ]
   },
   {
-   "id": "P140",
+   "id": "P143",
    "name": "Tichka (point de vue au nord du col)",
    "category": "panorama",
    "categoryLabel": "Panorama / belvédère",
@@ -4564,7 +4709,7 @@
    ]
   },
   {
-   "id": "P141",
+   "id": "P144",
    "name": "View point (sud d’Aït Ben Haddou)",
    "category": "panorama",
    "categoryLabel": "Panorama / belvédère",
@@ -4597,7 +4742,7 @@
    ]
   },
   {
-   "id": "P142",
+   "id": "P145",
    "name": "Kasbah Amridil",
    "category": "kasbah",
    "categoryLabel": "Kasbah / ksar",
@@ -4631,7 +4776,7 @@
    ]
   },
   {
-   "id": "P143",
+   "id": "P146",
    "name": "Kasbah Ait Ben Moro",
    "category": "kasbah",
    "categoryLabel": "Kasbah / ksar",
@@ -4661,7 +4806,7 @@
    ]
   },
   {
-   "id": "P144",
+   "id": "P147",
    "name": "Palmeraie de Skoura",
    "category": "oasis",
    "categoryLabel": "Oasis / palmeraie",
@@ -4691,7 +4836,7 @@
    ]
   },
   {
-   "id": "P145",
+   "id": "P148",
    "name": "Vall. des roses",
    "category": "panorama",
    "categoryLabel": "Panorama / belvédère",
@@ -4725,7 +4870,7 @@
    ]
   },
   {
-   "id": "P146",
+   "id": "P149",
    "name": "Kasbah Itran",
    "category": "kasbah",
    "categoryLabel": "Kasbah / ksar",
@@ -4759,7 +4904,7 @@
    ]
   },
   {
-   "id": "P147",
+   "id": "P150",
    "name": "ⵜⵉⵖⵔⵎⵜ ⵏ ⴰⵙⴰⴼⴰⵔ - Kasbah Assafar",
    "category": "restaurant",
    "categoryLabel": "Restaurant",
@@ -4793,7 +4938,7 @@
    ]
   },
   {
-   "id": "P148",
+   "id": "P151",
    "name": "Vue Panoramique de Boumalne Dades",
    "category": "panorama",
    "categoryLabel": "Panorama / belvédère",
@@ -4823,7 +4968,7 @@
    ]
   },
   {
-   "id": "P149",
+   "id": "P152",
    "name": "Gorges du Dadès",
    "category": "gorge",
    "categoryLabel": "Gorge / canyon",
@@ -4853,7 +4998,7 @@
    ]
   },
   {
-   "id": "P150",
+   "id": "P153",
    "name": "Kasbah la Famille Berbère",
    "category": "restaurant",
    "categoryLabel": "Restaurant",
@@ -4883,7 +5028,7 @@
    ]
   },
   {
-   "id": "P151",
+   "id": "P154",
    "name": "Ait Ouglif",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -4917,7 +5062,7 @@
    ]
   },
   {
-   "id": "P152",
+   "id": "P155",
    "name": "Point topographique : Doigts des singes",
    "category": "randonnee",
    "categoryLabel": "Randonnée",
@@ -4948,10 +5093,13 @@
      "label": "Wikiloc, trace Doigts des singes",
      "url": "https://www.wikiloc.com/hiking-trails/gorges-du-dades-doigts-des-singes-93676318"
     }
-   ]
+   ],
+   "selection": true,
+   "selEtape": "J4 Tamellalt",
+   "selWhy": "Formations rocheuses ; arrêt et courte marche prudente."
   },
   {
-   "id": "P153",
+   "id": "P156",
    "name": "Hôtel restaurant TIMZZILLITE",
    "category": "restaurant",
    "categoryLabel": "Restaurant",
@@ -4978,10 +5126,13 @@
      "label": "ONMT Ouarzazate–Tinghir",
      "url": "https://www.visitmorocco.com/fr/voyage/ouarzazate-zagora-tinghir"
     }
-   ]
+   ],
+   "selection": true,
+   "selEtape": "J4 Tamellalt",
+   "selWhy": "Terrasse connue pour la vue sur la route en épingles ; service à confirmer."
   },
   {
-   "id": "P154",
+   "id": "P157",
    "name": "Point topographique : lacets du Dadès",
    "category": "panorama",
    "categoryLabel": "Panorama / belvédère",
@@ -5012,10 +5163,50 @@
      "label": "ONMT Ouarzazate–Tinghir",
      "url": "https://www.visitmorocco.com/fr/voyage/ouarzazate-zagora-tinghir"
     }
-   ]
+   ],
+   "selection": true,
+   "selEtape": "J4 Tamellalt",
+   "selWhy": "Autre belvédère un peu plus au nord, distinct du Serpent."
   },
   {
-   "id": "P155",
+   "id": "P158",
+   "name": "Serpent du Dadès — vue sur les lacets",
+   "category": "panorama",
+   "categoryLabel": "Panorama / belvédère",
+   "emoji": "🌄",
+   "theme": "Belvédère",
+   "region": "Tamellalt et Dadès, nuit J4",
+   "days": [
+    4,
+    5
+   ],
+   "interest": 5,
+   "desc": "Vue rapprochée sur les épingles, au-dessus de Timzzillite ; c’est le point à viser pour la photo des lacets.",
+   "duree": "15–25 min",
+   "detour": "Sur la branche déjà empruntée ; 0–5 min de trajet supplémentaire, hors arrêt",
+   "acces": "Voiture, puis arrêt prudent",
+   "info": "Nouvelle fiche. Point OSM distinct du belvédère déjà présent à 31.53510, -5.92267, et du point GPX 31.567, -5.876 situé plus au nord. Aucun parking garanti sur cette épingle.",
+   "lat": 31.52965,
+   "lon": -5.92545,
+   "coordPrecision": "precise",
+   "mapsQuery": "Serpent du Dadès — vue sur les lacets",
+   "mapsUrl": "https://www.google.com/maps?q=31.52965,-5.92545",
+   "sources": [
+    {
+     "label": "OpenStreetMap via Mapcarta — Serpent du Dadès et coordonnées",
+     "url": "https://mapcarta.com/fr/N6017315768"
+    },
+    {
+     "label": "ONMT — vallée du Dadès",
+     "url": "https://www.visitmorocco.com/fr/voyage/ouarzazate-zagora-tinghir"
+    }
+   ],
+   "selection": true,
+   "selEtape": "J4 Tamellalt",
+   "selWhy": "Repère précis de la vue sur les épingles."
+  },
+  {
+   "id": "P159",
    "name": "Palmeraie de Tinghir",
    "category": "oasis",
    "categoryLabel": "Oasis / palmeraie",
@@ -5046,10 +5237,13 @@
      "label": "ONMT Ouarzazate–Tinghir",
      "url": "https://www.visitmorocco.com/fr/voyage/ouarzazate-zagora-tinghir"
     }
-   ]
+   ],
+   "selection": true,
+   "selEtape": "J5 Todra",
+   "selWhy": "Jardins et palmiers avant la gorge."
   },
   {
-   "id": "P156",
+   "id": "P160",
    "name": "Hôtel Tomboctou",
    "category": "restaurant",
    "categoryLabel": "Restaurant",
@@ -5087,7 +5281,7 @@
    ]
   },
   {
-   "id": "P157",
+   "id": "P161",
    "name": "Mosquée d’Ikallalne — مسجد إقلالن القديم",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -5125,7 +5319,7 @@
    ]
   },
   {
-   "id": "P158",
+   "id": "P162",
    "name": "Kasbah Petit Nomade",
    "category": "restaurant",
    "categoryLabel": "Restaurant",
@@ -5159,7 +5353,7 @@
    ]
   },
   {
-   "id": "P159",
+   "id": "P163",
    "name": "Viewpoint gorge todra",
    "category": "panorama",
    "categoryLabel": "Panorama / belvédère",
@@ -5189,7 +5383,7 @@
    ]
   },
   {
-   "id": "P160",
+   "id": "P164",
    "name": "Kasbah El Glaoui Tinghir",
    "category": "kasbah",
    "categoryLabel": "Kasbah / ksar",
@@ -5219,7 +5413,7 @@
    ]
   },
   {
-   "id": "P161",
+   "id": "P165",
    "name": "Ancien Quartier Juif Mellah",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -5246,10 +5440,13 @@
      "label": "ONMT, patrimoine du Sud",
      "url": "https://visitmorocco.com/fr/voyage/ouarzazate-zagora-tinghir/medina"
     }
-   ]
+   ],
+   "selection": true,
+   "selEtape": "J5 Todra",
+   "selWhy": "Quartier ancien de Tinghir, sur le trajet vers Todra."
   },
   {
-   "id": "P162",
+   "id": "P166",
    "name": "explore todra",
    "category": "escalade",
    "categoryLabel": "Escalade",
@@ -5280,10 +5477,13 @@
      "label": "Explore Todra",
      "url": "https://exploretodra.com/"
     }
-   ]
+   ],
+   "selection": true,
+   "selEtape": "J5 Todra",
+   "selWhy": "Via ferrata ou escalade avec opérateur ; rendez-vous à confirmer."
   },
   {
-   "id": "P163",
+   "id": "P167",
    "name": "Point topographique : canyon du Todra",
    "category": "gorge",
    "categoryLabel": "Gorge / canyon",
@@ -5314,10 +5514,13 @@
      "label": "Explore Todra",
      "url": "https://exploretodra.com/"
     }
-   ]
+   ],
+   "selection": true,
+   "selEtape": "J5 Todra",
+   "selWhy": "Passage étroit du canyon ; GPS du site, pas du parking."
   },
   {
-   "id": "P164",
+   "id": "P168",
    "name": "Tamtetoucht",
    "category": "panorama",
    "categoryLabel": "Panorama / belvédère",
@@ -5348,10 +5551,13 @@
      "label": "Guide local Tamtetoucht, juillet 2026",
      "url": "https://citytoursmorocco.com/tamtetoucht-village-guide"
     }
-   ]
+   ],
+   "selection": true,
+   "selEtape": "J5 Todra",
+   "selWhy": "Prolongement vers le nord pour les paysages."
   },
   {
-   "id": "P165",
+   "id": "P169",
    "name": "AUBERGE CAMPING BADDOU",
    "category": "restaurant",
    "categoryLabel": "Restaurant",
@@ -5385,7 +5591,7 @@
    ]
   },
   {
-   "id": "P166",
+   "id": "P170",
    "name": "Source des Poissons Sacrés — café Cher Abdell",
    "category": "restaurant",
    "categoryLabel": "Restaurant",
@@ -5415,7 +5621,7 @@
    ]
   },
   {
-   "id": "P167",
+   "id": "P171",
    "name": "Location Tinghir \\| Location de Motos, Scooters et Quads",
    "category": "aventure",
    "categoryLabel": "Quad / Buggy / 4×4",
@@ -5445,7 +5651,7 @@
    ]
   },
   {
-   "id": "P168",
+   "id": "P172",
    "name": "Afriquia TINGHIR 2",
    "category": "station",
    "categoryLabel": "Station-service",
@@ -5475,7 +5681,7 @@
    ]
   },
   {
-   "id": "P169",
+   "id": "P173",
    "name": "Weekly Market (Aït Ouassif)",
    "category": "souk",
    "categoryLabel": "Souk / marché",
@@ -5505,7 +5711,7 @@
    ]
   },
   {
-   "id": "P170",
+   "id": "P174",
    "name": "Musée des sources de Lalla Mimouna",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -5543,7 +5749,7 @@
    ]
   },
   {
-   "id": "P171",
+   "id": "P175",
    "name": "Musée des Oasis",
    "category": "kasbah",
    "categoryLabel": "Kasbah / ksar",
@@ -5573,7 +5779,7 @@
    ]
   },
   {
-   "id": "P172",
+   "id": "P176",
    "name": "Jorf khettaras",
    "category": "bonus",
    "categoryLabel": "Lieu insolite / bonus",
@@ -5603,7 +5809,7 @@
    ]
   },
   {
-   "id": "P173",
+   "id": "P177",
    "name": "Marché Central Rissani",
    "category": "souk",
    "categoryLabel": "Souk / marché",
@@ -5637,7 +5843,7 @@
    ]
   },
   {
-   "id": "P174",
+   "id": "P178",
    "name": "Restaurant Panorama Rissani",
    "category": "restaurant",
    "categoryLabel": "Restaurant",
@@ -5671,7 +5877,7 @@
    ]
   },
   {
-   "id": "P175",
+   "id": "P179",
    "name": "Restaurant Chez Omar",
    "category": "restaurant",
    "categoryLabel": "Restaurant",
@@ -5705,7 +5911,7 @@
    ]
   },
   {
-   "id": "P176",
+   "id": "P180",
    "name": "Mosquée & Mausolée Moulay Ali cherif",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -5735,7 +5941,7 @@
    ]
   },
   {
-   "id": "P177",
+   "id": "P181",
    "name": "Ksar Abbar",
    "category": "kasbah",
    "categoryLabel": "Kasbah / ksar",
@@ -5765,7 +5971,7 @@
    ]
   },
   {
-   "id": "P178",
+   "id": "P182",
    "name": "Sijilmassa - Archeological site",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -5795,7 +6001,7 @@
    ]
   },
   {
-   "id": "P179",
+   "id": "P183",
    "name": "Macro Fossiles Kasbah",
    "category": "artisanat",
    "categoryLabel": "Artisanat / coopérative",
@@ -5829,7 +6035,7 @@
    ]
   },
   {
-   "id": "P180",
+   "id": "P184",
    "name": "Hassilabied",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -5856,10 +6062,13 @@
      "label": "ONMT Errachidia–Merzouga",
      "url": "https://www.visitmorocco.com/fr/voyage/errachidia-midelt-merzouga"
     }
-   ]
+   ],
+   "selection": true,
+   "selEtape": "J6–J7 Merzouga",
+   "selWhy": "Village, vue sur le bord nord de l’erg."
   },
   {
-   "id": "P181",
+   "id": "P185",
    "name": "Ristorant Café Fatima",
    "category": "restaurant",
    "categoryLabel": "Restaurant",
@@ -5893,7 +6102,7 @@
    ]
   },
   {
-   "id": "P182",
+   "id": "P186",
    "name": "Restaurant La Grotte Dunes",
    "category": "restaurant",
    "categoryLabel": "Restaurant",
@@ -5927,7 +6136,7 @@
    ]
   },
   {
-   "id": "P183",
+   "id": "P187",
    "name": "Station Afriquia Merzouga",
    "category": "station",
    "categoryLabel": "Station-service",
@@ -5957,7 +6166,7 @@
    ]
   },
   {
-   "id": "P184",
+   "id": "P188",
    "name": "Lac Dayet Srij",
    "category": "nature",
    "categoryLabel": "Nature",
@@ -5984,10 +6193,87 @@
      "label": "ONMT Errachidia–Merzouga",
      "url": "https://www.visitmorocco.com/fr/voyage/errachidia-midelt-merzouga"
     }
-   ]
+   ],
+   "selection": true,
+   "selEtape": "J6–J7 Merzouga",
+   "selWhy": "Lac saisonnier ; parfois totalement sec, piste finale à vérifier."
   },
   {
-   "id": "P185",
+   "id": "P189",
+   "name": "La grande dune d’Hassi-Labied — boucle Visorando",
+   "category": "desert",
+   "categoryLabel": "Désert / dunes",
+   "emoji": "🏜️",
+   "theme": "Randonnée désert",
+   "region": "Merzouga, nuit J6/J7",
+   "days": [
+    6,
+    7
+   ],
+   "interest": 4,
+   "desc": "Longue marche jusqu’à une dune panoramique au nord de Merzouga, distincte du court arrêt au village.",
+   "duree": "15,90 km ; 4 h 55 publiées ; +130 m ; niveau moyen",
+   "detour": "Départ proche de Merzouga ; temps local en voiture selon hébergement, non mesuré",
+   "acces": "À pied ; suivre la trace publiée",
+   "info": "Nouvelle fiche. Le GPS est le départ publié par Visorando, pas le sommet de dune ni un parking officiellement contrôlé. Marche dans le sable, chaleur et orientation à considérer.",
+   "lat": 31.091077,
+   "lon": -4.005298,
+   "coordPrecision": "precise",
+   "mapsQuery": "La grande dune d’Hassi-Labied — boucle Visorando",
+   "mapsUrl": "https://www.google.com/maps?q=31.091077,-4.005298",
+   "sources": [
+    {
+     "label": "Visorando — trace, départ, distance et difficulté",
+     "url": "https://www.visorando.com/randonnee-la-grande-dune-d-hassi-labied/"
+    },
+    {
+     "label": "ONMT — nature de Merzouga",
+     "url": "https://www.visitmorocco.com/fr/voyage/errachidia-midelt-merzouga/nature"
+    }
+   ],
+   "selection": true,
+   "selEtape": "J6–J7 Merzouga",
+   "selWhy": "Randonnée à choisir à la place d’une journée motorisée."
+  },
+  {
+   "id": "P190",
+   "name": "Tour de l’Erg Chebbi par le sud et Grande Dune — Visorando",
+   "category": "desert",
+   "categoryLabel": "Désert / dunes",
+   "emoji": "🏜️",
+   "theme": "Randonnée désert",
+   "region": "Merzouga, nuit J6/J7",
+   "days": [
+    6,
+    7
+   ],
+   "interest": 4,
+   "desc": "Boucle engagée par les dunes, autre choix de journée que la randonnée d’Hassi-Labied.",
+   "duree": "17,81 km ; 5 h 45 publiées ; +232 m ; difficile",
+   "detour": "Départ proche de Merzouga ; temps local en voiture selon hébergement, non mesuré",
+   "acces": "À pied ; trace recommandée, idéalement accompagné si peu habitué au désert",
+   "info": "Nouvelle fiche. GPS du DÉPART publié, pas du sommet. Visorando signale le sable éprouvant, la pente et la nécessité de se repérer.",
+   "lat": 31.090079,
+   "lon": -4.004843,
+   "coordPrecision": "precise",
+   "mapsQuery": "Tour de l’Erg Chebbi par le sud et Grande Dune — Visorando",
+   "mapsUrl": "https://www.google.com/maps?q=31.090079,-4.004843",
+   "sources": [
+    {
+     "label": "Visorando — trace, parking, distance, dénivelé et précautions",
+     "url": "https://www.visorando.com/randonnee-tour-de-l-erg-chebbi-par-le-sud-et-ascen/"
+    },
+    {
+     "label": "ONMT — désert et activités",
+     "url": "https://www.visitmorocco.com/fr/voyage/errachidia-midelt-merzouga/sport"
+    }
+   ],
+   "selection": true,
+   "selEtape": "J6–J7 Merzouga",
+   "selWhy": "Randonnée difficile, alternative à la précédente."
+  },
+  {
+   "id": "P191",
    "name": "Morocco National 4x4 Auto Museum",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -6014,10 +6300,13 @@
      "label": "El País, musée 4×4",
      "url": "https://elpais.com/elviajero/viajes/2024-06-03/el-desierto-de-merzouga-como-descubrir-uno-de-los-enclaves-mas-fascinantes-de-marruecos.html"
     }
-   ]
+   ],
+   "selection": true,
+   "selEtape": "J6–J7 Merzouga",
+   "selWhy": "Collection automobile dans les environs ; ouverture à confirmer."
   },
   {
-   "id": "P186",
+   "id": "P192",
    "name": "Khamlia",
    "category": "musique",
    "categoryLabel": "Culture / musique",
@@ -6048,10 +6337,13 @@
      "label": "ONMT Errachidia–Merzouga",
      "url": "https://www.visitmorocco.com/fr/voyage/errachidia-midelt-merzouga"
     }
-   ]
+   ],
+   "selection": true,
+   "selEtape": "J6–J7 Merzouga",
+   "selWhy": "Village au sud de Merzouga."
   },
   {
-   "id": "P187",
+   "id": "P193",
    "name": "Dar Gnaoua Bambara",
    "category": "musique",
    "categoryLabel": "Culture / musique",
@@ -6078,10 +6370,13 @@
      "label": "Guide local Khamlia",
      "url": "https://visitagafaydesert.com/2026/06/30/khamlia-village-merzouga/"
     }
-   ]
+   ],
+   "selection": true,
+   "selEtape": "J6–J7 Merzouga",
+   "selWhy": "Musique gnawa à Khamlia ; accueil et prix à convenir."
   },
   {
-   "id": "P188",
+   "id": "P194",
    "name": "Restaurant Nora",
    "category": "restaurant",
    "categoryLabel": "Restaurant",
@@ -6111,7 +6406,7 @@
    ]
   },
   {
-   "id": "P189",
+   "id": "P195",
    "name": "Taouz",
    "category": "aventure",
    "categoryLabel": "Quad / Buggy / 4×4",
@@ -6138,10 +6433,13 @@
      "label": "Petit Futé, goudron vers Taouz",
      "url": "https://www.petitfute.com/v46243-merzouga-52202/c1173-visites-points-d-interet/c976-archeologie-artisanat-science-et-technique/382684-piste-taouz-tagounite.html"
     }
-   ]
+   ],
+   "selection": true,
+   "selEtape": "J6–J7 Merzouga",
+   "selWhy": "Extension sur route au sud, hors petite boucle de J7."
   },
   {
-   "id": "P190",
+   "id": "P196",
    "name": "Ksar Al Fida",
    "category": "kasbah",
    "categoryLabel": "Kasbah / ksar",
@@ -6179,7 +6477,7 @@
    ]
   },
   {
-   "id": "P191",
+   "id": "P197",
    "name": "Ksar Maadid",
    "category": "kasbah",
    "categoryLabel": "Kasbah / ksar",
@@ -6213,7 +6511,7 @@
    ]
   },
   {
-   "id": "P192",
+   "id": "P198",
    "name": "Restaurant des Dunes Erfoud",
    "category": "restaurant",
    "categoryLabel": "Restaurant",
@@ -6243,7 +6541,7 @@
    ]
   },
   {
-   "id": "P193",
+   "id": "P199",
    "name": "Petrom Gas station",
    "category": "station",
    "categoryLabel": "Station-service",
@@ -6273,7 +6571,7 @@
    ]
   },
   {
-   "id": "P194",
+   "id": "P200",
    "name": "Afriquia TINJDAD",
    "category": "station",
    "categoryLabel": "Station-service",
@@ -6303,7 +6601,7 @@
    ]
   },
   {
-   "id": "P195",
+   "id": "P201",
    "name": "Afriquia ARFOUD 2",
    "category": "station",
    "categoryLabel": "Station-service",
@@ -6333,7 +6631,7 @@
    ]
   },
   {
-   "id": "P196",
+   "id": "P202",
    "name": "Souq Al Had (Tinejdad)",
    "category": "souk",
    "categoryLabel": "Souk / marché",
@@ -6363,7 +6661,7 @@
    ]
   },
   {
-   "id": "P197",
+   "id": "P203",
    "name": "Vue Panoramique Oued Ziz",
    "category": "panorama",
    "categoryLabel": "Panorama / belvédère",
@@ -6396,7 +6694,7 @@
    ]
   },
   {
-   "id": "P198",
+   "id": "P204",
    "name": "Source Bleue",
    "category": "oasis",
    "categoryLabel": "Oasis / palmeraie",
@@ -6429,7 +6727,7 @@
    ]
   },
   {
-   "id": "P199",
+   "id": "P205",
    "name": "Ksar Meski",
    "category": "kasbah",
    "categoryLabel": "Kasbah / ksar",
@@ -6462,7 +6760,7 @@
    ]
   },
   {
-   "id": "P200",
+   "id": "P206",
    "name": "Barrage Al-Hassan Addakhil",
    "category": "panorama",
    "categoryLabel": "Panorama / belvédère",
@@ -6491,7 +6789,7 @@
    ]
   },
   {
-   "id": "P201",
+   "id": "P207",
    "name": "Tunnel Zaabal",
    "category": "bonus",
    "categoryLabel": "Lieu insolite / bonus",
@@ -6520,7 +6818,7 @@
    ]
   },
   {
-   "id": "P202",
+   "id": "P208",
    "name": "Tizi n'Talghamt - تيزي نتلغمت - ⵜⵉⵣⵉ ⵏ ⵜⴰⵍⵖⴰⵎⵜ",
    "category": "panorama",
    "categoryLabel": "Panorama / belvédère",
@@ -6549,7 +6847,7 @@
    ]
   },
   {
-   "id": "P203",
+   "id": "P209",
    "name": "Monastère Notre Dame de l'Atlas",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -6575,10 +6873,13 @@
      "label": "Communauté Notre-Dame de l’Atlas",
      "url": "https://www.moines-tibhirine.org/notre-dame-de-l-atlas/la-communaute-de-l-atlas-a-midelt"
     }
-   ]
+   ],
+   "selection": true,
+   "selEtape": "J8 Midelt",
+   "selWhy": "Monastère vivant ; accès et créneau à demander à la communauté."
   },
   {
-   "id": "P204",
+   "id": "P210",
    "name": "Coopérative Andaz Nouska d'Artisanat Féminine.",
    "category": "artisanat",
    "categoryLabel": "Artisanat / coopérative",
@@ -6608,10 +6909,13 @@
      "label": "Conseil régional du tourisme Drâa-Tafilalet",
      "url": "https://visitdraatafilalet.preview.ctd.ma/en/destinations/notre-dame-of-the-atlas-our-lady-of-the-atlas/"
     }
-   ]
+   ],
+   "selection": true,
+   "selEtape": "J8 Midelt",
+   "selWhy": "Tissage local, horaires et showroom à confirmer."
   },
   {
-   "id": "P205",
+   "id": "P211",
    "name": "Afriquia ERRACHIDIA 3",
    "category": "station",
    "categoryLabel": "Station-service",
@@ -6640,7 +6944,7 @@
    ]
   },
   {
-   "id": "P206",
+   "id": "P212",
    "name": "Afriquia RICHE",
    "category": "station",
    "categoryLabel": "Station-service",
@@ -6669,7 +6973,7 @@
    ]
   },
   {
-   "id": "P207",
+   "id": "P213",
    "name": "Afriquia MIDELT",
    "category": "station",
    "categoryLabel": "Station-service",
@@ -6698,7 +7002,7 @@
    ]
   },
   {
-   "id": "P208",
+   "id": "P214",
    "name": "GAB ARRAWAJ MIDELT — CIH BANK",
    "category": "distributeur",
    "categoryLabel": "Distributeur / banque",
@@ -6727,7 +7031,7 @@
    ]
   },
   {
-   "id": "P209",
+   "id": "P215",
    "name": "Souq Al Had (secteur de Midelt)",
    "category": "souk",
    "categoryLabel": "Souk / marché",
@@ -6756,7 +7060,7 @@
    ]
   },
   {
-   "id": "P210",
+   "id": "P216",
    "name": "Aguelmame Tifounassine",
    "category": "nature",
    "categoryLabel": "Nature",
@@ -6794,7 +7098,7 @@
    ]
   },
   {
-   "id": "P211",
+   "id": "P217",
    "name": "Cèdre Gouraud",
    "category": "nature",
    "categoryLabel": "Nature",
@@ -6828,7 +7132,7 @@
    ]
   },
   {
-   "id": "P212",
+   "id": "P218",
    "name": "Station de Pisciculture Ras El Ma",
    "category": "oasis",
    "categoryLabel": "Oasis / palmeraie",
@@ -6866,7 +7170,7 @@
    ]
   },
   {
-   "id": "P213",
+   "id": "P219",
    "name": "Ain khadam",
    "category": "oasis",
    "categoryLabel": "Oasis / palmeraie",
@@ -6896,7 +7200,7 @@
    ]
   },
   {
-   "id": "P214",
+   "id": "P220",
    "name": "Kasba",
    "category": "kasbah",
    "categoryLabel": "Kasbah / ksar",
@@ -6926,7 +7230,7 @@
    ]
   },
   {
-   "id": "P215",
+   "id": "P221",
    "name": "Médina",
    "category": "medina",
    "categoryLabel": "Médina / mosquée / quartier",
@@ -6960,7 +7264,7 @@
    ]
   },
   {
-   "id": "P216",
+   "id": "P222",
    "name": "El hedime Square",
    "category": "nature",
    "categoryLabel": "Nature",
@@ -6991,10 +7295,13 @@
      "label": "UNESCO Meknès",
      "url": "https://whc.unesco.org/en/list/793"
     }
-   ]
+   ],
+   "selection": true,
+   "selEtape": "J9 Meknès",
+   "selWhy": "Place de la médina ; promenade après l’arrivée."
   },
   {
-   "id": "P217",
+   "id": "P223",
    "name": "Bab El Mansour Laalej",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -7025,10 +7332,87 @@
      "label": "ONMT Meknès",
      "url": "https://www.visitmorocco.com/fr/voyage/meknes"
     }
-   ]
+   ],
+   "selection": true,
+   "selEtape": "J9 Meknès",
+   "selWhy": "Grande porte impériale, vue extérieure."
   },
   {
-   "id": "P218",
+   "id": "P224",
+   "name": "Place Lalla Aouda",
+   "category": "patrimoine",
+   "categoryLabel": "Monument / patrimoine",
+   "emoji": "🏛️",
+   "theme": "Esplanade impériale",
+   "region": "Meknès, nuit J9",
+   "days": [
+    9,
+    10
+   ],
+   "interest": 4,
+   "desc": "Esplanade piétonne derrière Bab Mansour, vers le mausolée de Moulay Ismaïl.",
+   "duree": "15–25 min",
+   "detour": "Même arrêt en centre historique ; 0–5 min ajoutés en voiture",
+   "acces": "À pied",
+   "info": "Nouvelle fiche. Repère OSM « Place Lalla Aouda ساحة لالةعودة » ; la place n’est pas la place El Hedim.",
+   "lat": 33.89305,
+   "lon": -5.5628,
+   "coordPrecision": "precise",
+   "mapsQuery": "Place Lalla Aouda",
+   "mapsUrl": "https://www.google.com/maps?q=33.89305,-5.56280",
+   "sources": [
+    {
+     "label": "OpenStreetMap via Mapcarta — place et coordonnées",
+     "url": "https://mapcarta.com/fr/W1494619123"
+    },
+    {
+     "label": "UNESCO — cité historique de Meknès",
+     "url": "https://whc.unesco.org/en/list/793/"
+    }
+   ],
+   "selection": true,
+   "selEtape": "J9 Meknès",
+   "selWhy": "Esplanade derrière la porte, différente d’El Hedim."
+  },
+  {
+   "id": "P225",
+   "name": "Lahboul Historical Garden",
+   "category": "oasis",
+   "categoryLabel": "Oasis / palmeraie",
+   "emoji": "🌴",
+   "theme": "Jardin public",
+   "region": "Meknès, nuit J9",
+   "days": [
+    9,
+    10
+   ],
+   "interest": 4,
+   "desc": "Parc historique en terrasses sur la vallée du Boufekrane, restauré et inauguré en 2024.",
+   "duree": "30–60 min",
+   "detour": "Petit crochet urbain, à faire à pied ; conduite locale non mesurée",
+   "acces": "À pied",
+   "info": "Nouvelle fiche. Repère cartographique « Lahboul Historical Garden » ; horaires précis non publiés par la fondation, privilégier le jour.",
+   "lat": 33.89758,
+   "lon": -5.56184,
+   "coordPrecision": "precise",
+   "mapsQuery": "Lahboul Historical Garden",
+   "mapsUrl": "https://www.google.com/maps?q=33.89758,-5.56184",
+   "sources": [
+    {
+     "label": "Fondation Mohammed VI pour l’environnement — réouverture et description",
+     "url": "https://fm6e.org/evenement/son-altesse-royale-la-princesse-lalla-hasnaa-inaugure-le-parc-historique-lahboul-a-meknes/"
+    },
+    {
+     "label": "OpenStreetMap via Mapcarta — parc et coordonnées",
+     "url": "https://mapcarta.com/fr/W803593996"
+    }
+   ],
+   "selection": true,
+   "selEtape": "J9 Meknès",
+   "selWhy": "Parc restauré en terrasses, environ 600 m de Bab Mansour."
+  },
+  {
+   "id": "P226",
    "name": "Mausolée de Moulay Ismaïl",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -7059,10 +7443,13 @@
      "label": "UNESCO Meknès",
      "url": "https://whc.unesco.org/en/list/793"
     }
-   ]
+   ],
+   "selection": true,
+   "selEtape": "J9 Meknès",
+   "selWhy": "Monument proche de la place ; conditions d’accès à vérifier."
   },
   {
-   "id": "P219",
+   "id": "P227",
    "name": "Hri Souani",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -7089,10 +7476,13 @@
      "label": "UNESCO Meknès",
      "url": "https://whc.unesco.org/en/list/793"
     }
-   ]
+   ],
+   "selection": true,
+   "selEtape": "J9 Meknès",
+   "selWhy": "Greniers et écuries impériales, plus loin du centre piéton."
   },
   {
-   "id": "P220",
+   "id": "P228",
    "name": "صهريج السواني - Le bassin D'agdal ou Sahrij souani",
    "category": "panorama",
    "categoryLabel": "Panorama / belvédère",
@@ -7122,7 +7512,7 @@
    ]
   },
   {
-   "id": "P221",
+   "id": "P229",
    "name": "Musée Dar Eljamîi",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -7138,7 +7528,7 @@
    "duree": "45–60 min",
    "detour": "Petit détour : 15–30 min (estim.)",
    "acces": "À pied",
-   "info": "FNM : 10 h–18 h, fermé mardi; billet adulte 30 DH.",
+   "info": "Nom officiel actuel : « Dar Jamaï, Musée National de la Musique ». FNM : 10 h–18 h, fermé mardi ; le nom Maps de la colonne de repère est historique.",
    "lat": 33.8937409,
    "lon": -5.5665809,
    "coordPrecision": "precise",
@@ -7149,10 +7539,13 @@
      "label": "FNM, Dar Jamaï",
      "url": "https://fnm.ma/museums/37"
     }
-   ]
+   ],
+   "selection": true,
+   "selEtape": "J9 Meknès",
+   "selWhy": "Nom officiel : Dar Jamaï, Musée national de la musique."
   },
   {
-   "id": "P222",
+   "id": "P230",
    "name": "Bab El Khemis",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -7182,7 +7575,7 @@
    ]
   },
   {
-   "id": "P223",
+   "id": "P231",
    "name": "Medersa Bou Inania de Meknès",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -7212,7 +7605,7 @@
    ]
   },
   {
-   "id": "P224",
+   "id": "P232",
    "name": "Bab Berdaine",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -7242,7 +7635,7 @@
    ]
   },
   {
-   "id": "P225",
+   "id": "P233",
    "name": "Bab Rih",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -7272,7 +7665,7 @@
    ]
   },
   {
-   "id": "P226",
+   "id": "P234",
    "name": "VCRP+926 pavillon des ambassadeurs",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -7302,7 +7695,7 @@
    ]
   },
   {
-   "id": "P227",
+   "id": "P235",
    "name": "Medersa Filalia",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -7332,7 +7725,7 @@
    ]
   },
   {
-   "id": "P228",
+   "id": "P236",
    "name": "Great Mosque of Meknes",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -7362,7 +7755,7 @@
    ]
   },
   {
-   "id": "P229",
+   "id": "P237",
    "name": "Restaurant Zitouna",
    "category": "restaurant",
    "categoryLabel": "Restaurant",
@@ -7392,7 +7785,7 @@
    ]
   },
   {
-   "id": "P230",
+   "id": "P238",
    "name": "Afriquia ZAIDA",
    "category": "station",
    "categoryLabel": "Station-service",
@@ -7422,7 +7815,7 @@
    ]
   },
   {
-   "id": "P231",
+   "id": "P239",
    "name": "Afriquia AZROU VILLE",
    "category": "station",
    "categoryLabel": "Station-service",
@@ -7452,7 +7845,7 @@
    ]
   },
   {
-   "id": "P232",
+   "id": "P240",
    "name": "Afriquia MARJANE MEKNES",
    "category": "station",
    "categoryLabel": "Station-service",
@@ -7482,7 +7875,7 @@
    ]
   },
   {
-   "id": "P233",
+   "id": "P241",
    "name": "Afriquia KHMISSET 1",
    "category": "station",
    "categoryLabel": "Station-service",
@@ -7512,7 +7905,7 @@
    ]
   },
   {
-   "id": "P234",
+   "id": "P242",
    "name": "GAB MEKNES IBN KHALDOUNE — CIH BANK",
    "category": "distributeur",
    "categoryLabel": "Distributeur / banque",
@@ -7542,7 +7935,7 @@
    ]
   },
   {
-   "id": "P235",
+   "id": "P243",
    "name": "Michlifen",
    "category": "panorama",
    "categoryLabel": "Panorama / belvédère",
@@ -7577,7 +7970,7 @@
    ]
   },
   {
-   "id": "P236",
+   "id": "P244",
    "name": "Le Lion d'ifrane",
    "category": "bonus",
    "categoryLabel": "Lieu insolite / bonus",
@@ -7608,7 +8001,7 @@
    ]
   },
   {
-   "id": "P237",
+   "id": "P245",
    "name": "Parc La Prairie",
    "category": "oasis",
    "categoryLabel": "Oasis / palmeraie",
@@ -7639,7 +8032,7 @@
    ]
   },
   {
-   "id": "P238",
+   "id": "P246",
    "name": "Ain Vittel",
    "category": "nature",
    "categoryLabel": "Nature",
@@ -7674,7 +8067,7 @@
    ]
   },
   {
-   "id": "P239",
+   "id": "P247",
    "name": "Lac Hachlaf — Dayet Hachlaf",
    "category": "nature",
    "categoryLabel": "Nature",
@@ -7713,7 +8106,7 @@
    ]
   },
   {
-   "id": "P240",
+   "id": "P248",
    "name": "Daït Aoua",
    "category": "nature",
    "categoryLabel": "Nature",
@@ -7748,7 +8141,7 @@
    ]
   },
   {
-   "id": "P241",
+   "id": "P249",
    "name": "Bab Boujloud",
    "category": "medina",
    "categoryLabel": "Médina / mosquée / quartier",
@@ -7780,10 +8173,13 @@
      "label": "UNESCO Fès",
      "url": "https://whc.unesco.org/en/list/170"
     }
-   ]
+   ],
+   "selection": true,
+   "selEtape": "J8–J9 Fès B",
+   "selWhy": "Porte d’entrée pratique dans Fès el-Bali."
   },
   {
-   "id": "P242",
+   "id": "P250",
    "name": "Jnan Sbil",
    "category": "oasis",
    "categoryLabel": "Oasis / palmeraie",
@@ -7811,10 +8207,13 @@
      "label": "ONMT Fès",
      "url": "https://www.visitmorocco.com/fr/voyage/fes"
     }
-   ]
+   ],
+   "selection": true,
+   "selEtape": "J8–J9 Fès B",
+   "selWhy": "Jardin public près de Bab Boujloud."
   },
   {
-   "id": "P243",
+   "id": "P251",
    "name": "Rue Talaa Kebira",
    "category": "medina",
    "categoryLabel": "Médina / mosquée / quartier",
@@ -7845,7 +8244,7 @@
    ]
   },
   {
-   "id": "P244",
+   "id": "P252",
    "name": "Cafe Clock",
    "category": "restaurant",
    "categoryLabel": "Restaurant",
@@ -7876,7 +8275,7 @@
    ]
   },
   {
-   "id": "P245",
+   "id": "P253",
    "name": "Bab Mahrouk",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -7907,7 +8306,7 @@
    ]
   },
   {
-   "id": "P246",
+   "id": "P254",
    "name": "Médersa Bou Inania de Fès",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -7939,10 +8338,13 @@
      "label": "UNESCO Fès",
      "url": "https://whc.unesco.org/en/list/170"
     }
-   ]
+   ],
+   "selection": true,
+   "selEtape": "J8–J9 Fès B",
+   "selWhy": "Médersa et cour décorée."
   },
   {
-   "id": "P247",
+   "id": "P255",
    "name": "Sahrij Madrasa",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -7973,7 +8375,7 @@
    ]
   },
   {
-   "id": "P248",
+   "id": "P256",
    "name": "Médersa Attarine",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -8001,10 +8403,13 @@
      "label": "UNESCO Fès",
      "url": "https://whc.unesco.org/en/list/170"
     }
-   ]
+   ],
+   "selection": true,
+   "selEtape": "J8–J9 Fès B",
+   "selWhy": "Médersa à proximité de la place Seffarine."
   },
   {
-   "id": "P249",
+   "id": "P257",
    "name": "Mosquée et Université Karaouiyne",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -8039,7 +8444,7 @@
    ]
   },
   {
-   "id": "P250",
+   "id": "P258",
    "name": "Place Seffarine",
    "category": "artisanat",
    "categoryLabel": "Artisanat / coopérative",
@@ -8067,10 +8472,13 @@
      "label": "UNESCO Fès",
      "url": "https://whc.unesco.org/en/list/170"
     }
-   ]
+   ],
+   "selection": true,
+   "selEtape": "J8–J9 Fès B",
+   "selWhy": "Artisans du cuivre."
   },
   {
-   "id": "P251",
+   "id": "P259",
    "name": "Tannery Sidi Moussa",
    "category": "artisanat",
    "categoryLabel": "Artisanat / coopérative",
@@ -8101,7 +8509,7 @@
    ]
   },
   {
-   "id": "P252",
+   "id": "P260",
    "name": "Tannerie Chouara",
    "category": "artisanat",
    "categoryLabel": "Artisanat / coopérative",
@@ -8133,10 +8541,13 @@
      "label": "UNESCO Fès",
      "url": "https://whc.unesco.org/en/list/170"
     }
-   ]
+   ],
+   "selection": true,
+   "selEtape": "J8–J9 Fès B",
+   "selWhy": "Vue depuis terrasse accessible avec accord du commerce ; pin de la tannerie."
   },
   {
-   "id": "P253",
+   "id": "P261",
    "name": "Dar Adiyel",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -8167,7 +8578,7 @@
    ]
   },
   {
-   "id": "P254",
+   "id": "P262",
    "name": "Fondouk Nejjarine",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -8199,10 +8610,13 @@
      "label": "UNESCO Fès",
      "url": "https://whc.unesco.org/en/list/170"
     }
-   ]
+   ],
+   "selection": true,
+   "selEtape": "J8–J9 Fès B",
+   "selWhy": "Fondouk et musée du bois."
   },
   {
-   "id": "P255",
+   "id": "P263",
    "name": "Musée batha",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -8219,7 +8633,7 @@
    "duree": "45–75 min",
    "detour": "Très petit détour : 5–15 min (estim.)",
    "acces": "À pied",
-   "info": "FNM : rouvert en février 2025; 10 h–18 h, fermé mardi. Vérifier avant visite.",
+   "info": "Nom officiel actuel : « Musée Al Batha des arts de l’Islam ». La FNM annonce la réouverture en février 2025, 10 h–18 h, fermé mardi ; Maps conserve un libellé ancien.",
    "lat": 34.0601798,
    "lon": -4.9830669,
    "coordPrecision": "precise",
@@ -8234,10 +8648,13 @@
      "label": "ONMT Fès",
      "url": "https://www.visitmorocco.com/fr/voyage/fes"
     }
-   ]
+   ],
+   "selection": true,
+   "selEtape": "J8–J9 Fès B",
+   "selWhy": "Nom officiel : Musée Al Batha des arts de l’Islam."
   },
   {
-   "id": "P256",
+   "id": "P264",
    "name": "Mellah",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -8268,7 +8685,7 @@
    ]
   },
   {
-   "id": "P257",
+   "id": "P265",
    "name": "Bab el-Semmarine باب السمارين",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -8299,7 +8716,7 @@
    ]
   },
   {
-   "id": "P258",
+   "id": "P266",
    "name": "synagogue Aben Danan",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -8330,7 +8747,7 @@
    ]
   },
   {
-   "id": "P259",
+   "id": "P267",
    "name": "Synagogue Al Fassiyine",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -8365,7 +8782,7 @@
    ]
   },
   {
-   "id": "P260",
+   "id": "P268",
    "name": "Palais Royal",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -8396,7 +8813,7 @@
    ]
   },
   {
-   "id": "P261",
+   "id": "P269",
    "name": "Borj Nord",
    "category": "panorama",
    "categoryLabel": "Panorama / belvédère",
@@ -8427,7 +8844,7 @@
    ]
   },
   {
-   "id": "P262",
+   "id": "P270",
    "name": "Bab Guissa",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -8458,7 +8875,7 @@
    ]
   },
   {
-   "id": "P263",
+   "id": "P271",
    "name": "Borj Sud",
    "category": "panorama",
    "categoryLabel": "Panorama / belvédère",
@@ -8489,7 +8906,7 @@
    ]
   },
   {
-   "id": "P264",
+   "id": "P272",
    "name": "Tombeaux Mérinides",
    "category": "panorama",
    "categoryLabel": "Panorama / belvédère",
@@ -8517,10 +8934,13 @@
      "label": "ONMT Fès",
      "url": "https://www.visitmorocco.com/fr/voyage/fes"
     }
-   ]
+   ],
+   "selection": true,
+   "selEtape": "J8–J9 Fès B",
+   "selWhy": "Vue haute sur Fès ; arrivée par route plutôt qu’au cœur de la médina."
   },
   {
-   "id": "P265",
+   "id": "P273",
    "name": "Bab Dekkakin",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -8551,7 +8971,7 @@
    ]
   },
   {
-   "id": "P266",
+   "id": "P274",
    "name": "Rue Talaa Sghira",
    "category": "souk",
    "categoryLabel": "Souk / marché",
@@ -8582,7 +9002,7 @@
    ]
   },
   {
-   "id": "P267",
+   "id": "P275",
    "name": "Dar al-Magana (Water Clock)",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -8613,7 +9033,7 @@
    ]
   },
   {
-   "id": "P268",
+   "id": "P276",
    "name": "Cherratine Medersa",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -8644,7 +9064,7 @@
    ]
   },
   {
-   "id": "P269",
+   "id": "P277",
    "name": "Palais El Glaoui",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -8675,7 +9095,7 @@
    ]
   },
   {
-   "id": "P270",
+   "id": "P278",
    "name": "Place Rcif",
    "category": "nature",
    "categoryLabel": "Nature",
@@ -8706,7 +9126,7 @@
    ]
   },
   {
-   "id": "P271",
+   "id": "P279",
    "name": "Mosquée des Andalous",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -8737,7 +9157,7 @@
    ]
   },
   {
-   "id": "P272",
+   "id": "P280",
    "name": "Mausolée de Moulay Idriss II",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -8768,7 +9188,7 @@
    ]
   },
   {
-   "id": "P273",
+   "id": "P281",
    "name": "Souk henné et de poterie",
    "category": "souk",
    "categoryLabel": "Souk / marché",
@@ -8799,7 +9219,7 @@
    ]
   },
   {
-   "id": "P274",
+   "id": "P282",
    "name": "Le jardin en ruin",
    "category": "restaurant",
    "categoryLabel": "Restaurant",
@@ -8830,7 +9250,7 @@
    ]
   },
   {
-   "id": "P275",
+   "id": "P283",
    "name": "Restaurant Dar Hatim",
    "category": "restaurant",
    "categoryLabel": "Restaurant",
@@ -8861,7 +9281,7 @@
    ]
   },
   {
-   "id": "P276",
+   "id": "P284",
    "name": "Afriquia MARJANE FES",
    "category": "station",
    "categoryLabel": "Station-service",
@@ -8892,7 +9312,7 @@
    ]
   },
   {
-   "id": "P277",
+   "id": "P285",
    "name": "GAB FES SAISS — CIH BANK",
    "category": "distributeur",
    "categoryLabel": "Distributeur / banque",
@@ -8923,7 +9343,7 @@
    ]
   },
   {
-   "id": "P278",
+   "id": "P286",
    "name": "Site archéologique de Volubilis du Maroc",
    "category": "patrimoine",
    "categoryLabel": "Monument / patrimoine",
@@ -8931,9 +9351,7 @@
    "theme": "Archéologie",
    "region": "Meknès → Zerhoun",
    "days": [
-    108,
-    109,
-    110
+    9
    ],
    "interest": 5,
    "desc": "Ville antique et mosaïques in situ classées par l’UNESCO, visite à ciel ouvert.",
@@ -8958,7 +9376,7 @@
    ]
   },
   {
-   "id": "P279",
+   "id": "P287",
    "name": "Anima (André Heller Garden)",
    "category": "oasis",
    "categoryLabel": "Oasis / palmeraie",
@@ -8966,9 +9384,8 @@
    "theme": "Jardin/Art",
    "region": "Marrakech et départ vers le Haut Atlas",
    "days": [
-    108,
-    109,
-    110
+    1,
+    2
    ],
    "interest": 5,
    "desc": "Jardin artistique de l’Ourika aux sculptures et plantations imaginées par André Heller.",
@@ -8989,7 +9406,7 @@
    ]
   },
   {
-   "id": "P280",
+   "id": "P288",
    "name": "Randonnée : Ksar d’Aït Ben Haddou",
    "category": "randonnee",
    "categoryLabel": "Randonnée",
@@ -8997,15 +9414,13 @@
    "theme": "Randonnée",
    "region": "Ksar d’Aït Ben Haddou",
    "days": [
-    108,
-    109,
-    110
+    3
    ],
    "interest": 4,
    "desc": "Trace enregistrée en décembre 2025; pont = accès général au ksar, point initial de la trace non démontré.",
    "duree": "1 h 24",
    "detour": "",
-   "depart": "Ait Benhaddou Bridge (Main Entrance)",
+   "depart": "Ksar d’Aït Ben Haddou",
    "distance": "1,68 km",
    "duree_rando": "1 h 24",
    "denivele": "+8 m",
@@ -9030,7 +9445,7 @@
    ]
   },
   {
-   "id": "P281",
+   "id": "P289",
    "name": "Randonnée : Oasis de Fint",
    "category": "randonnee",
    "categoryLabel": "Randonnée",
@@ -9038,15 +9453,13 @@
    "theme": "Randonnée",
    "region": "Oasis de Fint",
    "days": [
-    108,
-    109,
-    110
+    3
    ],
    "interest": 4,
    "desc": "Départ annoncé « près de Taharbilt » par Wikiloc : vérifier la trace, eau, chaleur et route d’approche; ce n’est pas une petite marche dans l’oasis.",
    "duree": "7 h 14",
    "detour": "",
-   "depart": "Fint",
+   "depart": "Oasis de Fint",
    "distance": "17,87 km",
    "duree_rando": "7 h 14",
    "denivele": "+204 m",
@@ -9071,7 +9484,7 @@
    ]
   },
   {
-   "id": "P282",
+   "id": "P290",
    "name": "Randonnée : Doigts des singes, Dadès",
    "category": "randonnee",
    "categoryLabel": "Randonnée",
@@ -9086,7 +9499,7 @@
    "desc": "Distincte de l’aller simple de 6,45 km du tableau; bonnes chaussures, éviter après pluie; panorama ≠ départ.",
    "duree": "2 h 26",
    "detour": "",
-   "depart": "Panorama OSM",
+   "depart": "Doigts des singes, Dadès",
    "distance": "6,55 km",
    "duree_rando": "2 h 26",
    "denivele": "+171 m",
@@ -9111,7 +9524,7 @@
    ]
   },
   {
-   "id": "P283",
+   "id": "P291",
    "name": "Randonnée : Haut des gorges du Todra",
    "category": "randonnee",
    "categoryLabel": "Randonnée",
@@ -9119,15 +9532,14 @@
    "theme": "Randonnée",
    "region": "Haut des gorges du Todra",
    "days": [
-    108,
-    109,
-    110
+    4,
+    5
    ],
    "interest": 4,
    "desc": "Auteur : se garer après l’étroit défilé, départ sur des marches visibles; emplacement exact du parking non publié, s’assurer d’un arrêt autorisé.",
    "duree": "3 h 38",
    "detour": "",
-   "depart": "Point dans le canyon",
+   "depart": "Haut des gorges du Todra",
    "distance": "9,64 km",
    "duree_rando": "3 h 38",
    "denivele": "+513 m",
@@ -9152,7 +9564,7 @@
    ]
   },
   {
-   "id": "P284",
+   "id": "P292",
    "name": "Randonnée : Grande dune de Merzouga",
    "category": "randonnee",
    "categoryLabel": "Randonnée",
@@ -9160,15 +9572,14 @@
    "theme": "Randonnée",
    "region": "Grande dune de Merzouga",
    "days": [
-    108,
-    109,
-    110
+    6,
+    7
    ],
    "interest": 4,
    "desc": "Marche sur sable : itinéraire variable avec le vent, chaleur et orientation; ne pas extrapoler le parking du sommet au pied des dunes.",
    "duree": "2 h 36",
    "detour": "",
-   "depart": "Erg Chebbi",
+   "depart": "Grande dune de Merzouga",
    "distance": "5,96 km",
    "duree_rando": "2 h 36",
    "denivele": "+118 m",
@@ -9193,7 +9604,7 @@
    ]
   },
   {
-   "id": "P285",
+   "id": "P293",
    "name": "Randonnée : Cédraie d’Azrou",
    "category": "randonnee",
    "categoryLabel": "Randonnée",
@@ -9201,15 +9612,13 @@
    "theme": "Randonnée",
    "region": "Cédraie d’Azrou",
    "days": [
-    108,
-    109,
-    110
+    9
    ],
    "interest": 4,
    "desc": "Le [parc national d’Ifrane](https://ifrane.pnm.ma/especes/les-circuits-nature-2/) confirme des circuits vers Cèdre Gouraud, sans attribuer ce départ exact à la trace Wikiloc.",
    "duree": "4 h 25",
    "detour": "",
-   "depart": "Cèdre Gouraud",
+   "depart": "Cédraie d’Azrou",
    "distance": "11,62 km",
    "duree_rando": "4 h 25",
    "denivele": "+334 m",
