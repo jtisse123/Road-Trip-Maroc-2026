@@ -1,15 +1,13 @@
 ROAD TRIP MAROC — dossier complet (a jour)
 ==========================================
-CORRECTIONS de cette version :
-- Lieux mal places recadres sur le centre de leur ville (Tamellalt, Ait
-  Baha, Skoura, Merzouga, Sale...) ; cols/routes/randos laisses a leur place.
-- Entrees generiques non trouvables (Echoppes de X, Petites tables,
-  Cultures de X, Epiceries...) MASQUEES : la carte n'affiche plus que des
-  lieux reels (350 lieux). Tout ce qui est verifie sur Google est conserve.
-- "Tizgui Todra" et "Touama" : ne pointent plus vers un commerce du meme
-  nom ; ouvrent une recherche du village.
-- Timeline cliquable + recherche qui amene sur la carte (deja en place).
-- Mise a jour automatique (cache v10).
+NOUVEAU : tous les reperes ont ete remplaces par les 254 fiches de ton
+fichier (adresses Google verifiees). Meme presentation, meme format de fiche.
+- Clic sur un repere -> fiche identique (interet, temps, detour, acces,
+  infos, journees).
+- "Voir le repere" ouvre la FICHE GOOGLE EXACTE du fichier.
+- "Sources :" affiche tous les liens sources en bas de la fiche.
+- Recherche + timeline cliquables : inchanges.
+- Mise a jour automatique (cache v11).
 
 METTRE EN LIGNE (GitHub) : Add file > Upload files > deposez TOUT le
 contenu du dossier > Commit. Puis Ctrl+Maj+R.

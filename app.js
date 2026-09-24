@@ -47,7 +47,7 @@ let geoCtrl = null;           // contrôle de géolocalisation MapLibre
 let pendingPos = null;        // callback en attente de position
 let addMode = false;
 let popup = null;
-const KEY_ROUTES = "rtm_routes_geo_v2";  // v2 : recalcul des tracés après changement des jours 2/3/4
+const KEY_ROUTES = "rtm_routes_geo_v3";  // v2 : recalcul des tracés après changement des jours 2/3/4
 let routeGeoCache = LS.get(KEY_ROUTES, {});  // { dayNum: [[lon,lat],…] } vraies routes
 let ROUTE_WAYPOINTS = {};                    // points d'origine (corridors) par jour
 
@@ -412,6 +412,8 @@ function openCard(id, fromList) {
   if (p.rating) facts += fact("🌟 Note Google", `${p.rating}/5`);
   facts += fact("⏱️ Temps", esc(p.duree));
   facts += fact("🚗 Détour", esc(p.detour));
+  facts += fact("🚶 Accès", esc(p.acces));
+  facts += fact("ℹ️ Infos", esc(p.info));
   if (p.category === "restaurant") {
     facts += fact("🍴 Type", esc(p.restoType));
     facts += fact("💰 Budget", esc(p.budget));
@@ -432,19 +434,21 @@ function openCard(id, fromList) {
   if (!/maroc|morocco/i.test(baseq)) baseq += " Maroc";
   const q = encodeURIComponent(baseq);
   let gmaps, nav;
-  if (p.placeId) {
-    // repère officiel exact (identifiant Google du lieu)
+  if (p.mapsUrl) {
+    // fiche Google exacte issue du fichier (repère officiel observé)
+    gmaps = p.mapsUrl;
+  } else if (p.placeId) {
     gmaps = `https://www.google.com/maps/search/?api=1&query=${q}&query_place_id=${p.placeId}`;
-    nav = `https://www.google.com/maps/dir/?api=1&destination=${q}&destination_place_id=${p.placeId}`;
-  } else if (p.userAdded && p.lat != null) {
-    // lieu ajouté par l'utilisateur : on utilise son point exact
-    gmaps = `https://www.google.com/maps/search/?api=1&query=${p.lat},${p.lon}`;
-    nav = `https://www.google.com/maps/dir/?api=1&destination=${p.lat},${p.lon}`;
   } else {
-    // recherche par NOM -> Google ouvre le lieu officiel (pas une épingle brute)
     gmaps = `https://www.google.com/maps/search/?api=1&query=${q}`;
-    nav = `https://www.google.com/maps/dir/?api=1&destination=${q}`;
   }
+  // navigation : vers le point exact quand on l'a, sinon par nom
+  if (p.lat != null) nav = `https://www.google.com/maps/dir/?api=1&destination=${p.lat},${p.lon}`;
+  else nav = `https://www.google.com/maps/dir/?api=1&destination=${q}`;
+  // sources (liens cliquables)
+  const srcHtml = (p.sources && p.sources.length)
+    ? p.sources.map(s => `<a class="btn ghost small" href="${esc(s.url)}" target="_blank" rel="noopener">🔗 ${esc(s.label)}</a>`).join("")
+    : (p.sourceUrl ? `<a class="btn ghost small" href="${esc(p.sourceUrl)}" target="_blank" rel="noopener">🔗 Source</a>` : "");
   const userEditable = String(id).startsWith("U");
   $("#cardBody").innerHTML =
     `<div class="card-hero">
@@ -468,10 +472,9 @@ function openCard(id, fromList) {
        <div class="card-actions">
          <a class="btn primary" href="${nav}" target="_blank" rel="noopener">🧭 Naviguer avec Google Maps</a>
          <a class="btn" href="${gmaps}" target="_blank" rel="noopener">🗺️ Voir le repère</a>
-         ${p.sourceUrl ? `<a class="btn ghost small" href="${esc(p.sourceUrl)}" target="_blank" rel="noopener">🔗 Source</a>` : ""}
-         ${(p.mapsUrl && p.category === "randonnee") ? `<a class="btn ghost small" href="${esc(p.mapsUrl)}" target="_blank" rel="noopener">🥾 Départ rando</a>` : ""}
          ${userEditable ? `<button class="btn small" id="editPlace">✏️ Modifier</button><button class="btn small" id="delPlace">🗑️ Supprimer</button>` : ""}
        </div>
+       ${srcHtml ? `<div class="card-sources"><span class="cs-label">Sources :</span>${srcHtml}</div>` : ""}
      </div>`;
   $$("#cardBody .status-row button").forEach(b => b.addEventListener("click", () => setStatus(id, b.dataset.st)));
   if (userEditable) {
@@ -980,6 +983,7 @@ function closeModal() { $("#modal").hidden = true; }
    (Jour 2 = Marrakech ; Jour 3 = Marrakech → Tichka → Aït-Ben-Haddou → Ouarzazate ;
     Imlil retiré). Centralisé ici pour qu'une simple mise à jour de app.js suffise. */
 function applyItineraryTweaks(D) {
+  return; // désormais intégré directement dans les données (roadtrip.json)
   if (!D || !D.days) return;
   const days = {}; D.days.forEach(x => days[x.num] = x);
   if (days[2]) Object.assign(days[2], { label: "Marrakech — journée libre (médina, souks, jardins)", start: "Marrakech", end: "Marrakech", night: "Marrakech", km: 0, drive: "sur place", intensity: "🟢" });
